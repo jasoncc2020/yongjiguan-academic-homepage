@@ -28,7 +28,7 @@ logo = ""
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
@@ -52,7 +52,7 @@ time_format = "15:04"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "yongji.guan@outlook.com"
 phone = "+44-7579904711"
-address = " 80 Wood Lane, Imperial College London, London, W12 0BZ, United Kingdom"
+address = " 80 Wood Lane, Molecular Science Research Hub, Imperial College London, London, W12 0BZ, United Kingdom"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Weekday 09:00 to 12:00<br>
@@ -65,14 +65,12 @@ appointment_url = "https://calendly.com/yongji-guan"
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:live:guanyj15"},
-  {icon = "qq", icon_pack = "fab", name = "Chat on QQ", link = "skype:live:guanyj15"},
-  {icon = "weibo", icon_pack = "fab", name = "Chat on Weibo", link = "skype:live:guanyj15"},
-  {icon = "weixin", icon_pack = "fab", name = "Chat on Weixin", link = "skype:live:guanyj15"},
+  {icon = "weibo", icon_pack = "fab", name = "Chat on Weibo", link = "https://weibo.com/2075115211/profile?topnav=1&wvr=6&is_all=1"},
+  {icon = "zhihu", icon_pack = "fab", name = "Discuss on Zhihu", link = "https://www.zhihu.com/people/Yongji_Guan"},
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/GuanYongji"},
-  {icon = "whatsapp", icon_pack = "fab", name = "Chat on Whatsapp", link = "https://keybase.io/"},
-  {icon = "facebook", icon_pack = "fab", name = "Chat on Facebook", link = "https://keybase.io/"},
+  {icon = "facebook", icon_pack = "fab", name = "Chat on Facebook", link = "https://www.facebook.com/yongji.guan.397"},
+  {icon = "linkedin", icon_pack = "fab",name = "Discuss on Linkedin", link = "https://www.linkedin.com/in/yongji-guan-09434b195"},
   {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
 # Display a map.
@@ -91,7 +89,7 @@ contact_links = [
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
 map = 2
-map_api_key = "AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_api_key = "AIzaSyCUylLMJ3rMjUNR36XDbJlkMXzeqQUZDl4" # AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
 latitude = "51.516254" # "36.04915"
 longitude = "-0.224417" #"103.85614"
 zoom = 15
@@ -103,7 +101,7 @@ zoom = 15
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
+plugins_css = ["custom"]
 plugins_js  = []
 
 ############################
