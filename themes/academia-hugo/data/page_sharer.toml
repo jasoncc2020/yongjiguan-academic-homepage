@@ -2,6 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/docs/customization/#page-sharer
 
 [[buttons]]
+  id = "email"
+  url = "mailto:?subject={title}&body={url}"
+  title = "Email"
+  icon_pack = "fas"
+  icon = "envelope"
+  enable = true
+
+[[buttons]]
   id = "twitter"
   url = "https://twitter.com/intent/tweet?url={url}&text={title}"
   title = "Twitter"
@@ -18,11 +26,35 @@
   enable = true
 
 [[buttons]]
-  id = "email"
-  url = "mailto:?subject={title}&body={url}"
-  title = "Email"
-  icon_pack = "fas"
-  icon = "envelope"
+  id = "weixin"
+  url = "https://wx.qq.com/share?url={url}&title={title}"
+  title = "Weixin"
+  icon_pack = "fab"
+  icon = "weixin"
+  enable = true
+
+[[buttons]]
+  id = "qq"
+  url = "https://connect.qq.com/widget/shareqq/index.html?url={url}&title={title}"
+  title = "QQ"
+  icon_pack = "fab"
+  icon = "qq"
+  enable = true
+
+[[buttons]]
+  id = "weibo"
+  url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
+  title = "Weibo"
+  icon_pack = "fab"
+  icon = "weibo"
+  enable = true
+
+[[buttons]]
+  id = "renren"
+  url = "http://widget.renren.com/dialog/share?url={url}&title={title}"
+  title = "Renren"
+  icon_pack = "fab"
+  icon = "renren"
   enable = true
 
 [[buttons]]
@@ -39,14 +71,6 @@
   title = "WhatsApp"
   icon_pack = "fab"
   icon = "whatsapp"
-  enable = true
-
-[[buttons]]
-  id = "weibo"
-  url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
-  title = "Weibo"
-  icon_pack = "fab"
-  icon = "weibo"
   enable = true
 
 [[buttons]]
