@@ -45,9 +45,15 @@ subtitle = "每一项技能能将给予一种力量"
   parcent = "75%"
 
 [[feature]]
+  icon = "quora"
+  icon_pack = "fab"
+  name = "量子化学"
+  parcent = "50%"
+  
+[[feature]]
   icon = "dochub"
   icon_pack = "fab"
-  name = "密度泛函理论"
+  name = "DL_POLY计算"
   parcent = "50%"
   
 [[feature]]
@@ -73,4 +79,5 @@ subtitle = "每一项技能能将给予一种力量"
   icon_pack = "fas"
   name = "摄影爱好"
   parcent = "50%"
+  
 +++

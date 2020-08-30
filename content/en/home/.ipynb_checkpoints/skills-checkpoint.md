@@ -45,9 +45,15 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   parcent = "75%"
 
 [[feature]]
+  icon = "quora"
+  icon_pack = "fab"
+  name = "Quantum Chemistry"
+  parcent = "50%"
+  
+[[feature]]
   icon = "dochub"
   icon_pack = "fab"
-  name = "Density Functional Theory"
+  name = "DL_POLY"
   parcent = "50%"
   
 [[feature]]
