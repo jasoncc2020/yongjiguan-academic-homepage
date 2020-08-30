@@ -54,7 +54,7 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   icon = "dochub"
   icon_pack = "fab"
   name = "DL_POLY"
-  parcent = "50%"
+  parcent = "80%"
   
 [[feature]]
   icon = "python"

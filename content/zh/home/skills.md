@@ -54,7 +54,7 @@ subtitle = "每一项技能能将给予一种力量"
   icon = "dochub"
   icon_pack = "fab"
   name = "DL_POLY计算"
-  parcent = "50%"
+  parcent = "80%"
   
 [[feature]]
   icon = "python"
