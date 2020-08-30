@@ -42,7 +42,7 @@ subtitle = "每一项技能能将给予一种力量"
   icon = "medium-m"
   icon_pack = "fab"
   name = "分子动力学"
-  parcent = "75%"
+  parcent = "80%"
 
 [[feature]]
   icon = "quora"

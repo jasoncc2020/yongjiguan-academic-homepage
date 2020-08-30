@@ -42,7 +42,7 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   icon = "medium-m"
   icon_pack = "fab"
   name = "Molecular Dynamics"
-  parcent = "75%"
+  parcent = "80%"
 
 [[feature]]
   icon = "quora"
