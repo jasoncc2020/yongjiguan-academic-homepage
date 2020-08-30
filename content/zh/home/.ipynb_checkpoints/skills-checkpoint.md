@@ -40,13 +40,13 @@ subtitle = "每一项技能能将给予一种力量"
 
 [[feature]]
   icon = "medium-m"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "分子动力学"
   parcent = "75%"
 
 [[feature]]
   icon = "dochub"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "密度泛函理论"
   parcent = "50%"
   

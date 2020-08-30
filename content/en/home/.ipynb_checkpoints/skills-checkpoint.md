@@ -40,13 +40,13 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 
 [[feature]]
   icon = "medium-m"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Molecular Dynamics"
   parcent = "75%"
 
 [[feature]]
   icon = "dochub"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Density Functional Theory"
   parcent = "50%"
   
