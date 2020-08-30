@@ -39,10 +39,16 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   parcent = "80%"
 
 [[feature]]
-  icon = "camera-retro"
+  icon = "medium-m"
   icon_pack = "fas"
-  name = "Photography"
-  parcent = "60%"
+  name = "Molecular Dynamics"
+  parcent = "75%"
+
+[[feature]]
+  icon = "dochub"
+  icon_pack = "fas"
+  name = "Density Functional Theory"
+  parcent = "50%"
   
 [[feature]]
   icon = "python"
@@ -62,4 +68,10 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   name = "Java"
   parcent = "50%" 
 
+[[feature]]
+  icon = "camera-retro"
+  icon_pack = "fas"
+  name = "Photography"
+  parcent = "50%"
+  
 +++

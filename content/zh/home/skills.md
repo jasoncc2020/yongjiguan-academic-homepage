@@ -39,10 +39,16 @@ subtitle = "每一项技能能将给予一种力量"
   parcent = "80%"
 
 [[feature]]
-  icon = "camera-retro"
+  icon = "medium-m"
   icon_pack = "fas"
-  name = "摄影爱好"
-  parcent = "60%"
+  name = "分子动力学"
+  parcent = "75%"
+
+[[feature]]
+  icon = "dochub"
+  icon_pack = "fas"
+  name = "密度泛函理论"
+  parcent = "50%"
   
 [[feature]]
   icon = "python"
@@ -62,4 +68,9 @@ subtitle = "每一项技能能将给予一种力量"
   name = "Java编程"
   parcent = "50%"
 
+[[feature]]
+  icon = "camera-retro"
+  icon_pack = "fas"
+  name = "摄影爱好"
+  parcent = "50%"
 +++
