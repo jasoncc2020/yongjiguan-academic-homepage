@@ -75,6 +75,12 @@ subtitle = "每一项技能能将给予一种力量"
   parcent = "50%"
 
 [[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux系统"
+  parcent = "50%"
+  
+[[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
   name = "摄影爱好"
