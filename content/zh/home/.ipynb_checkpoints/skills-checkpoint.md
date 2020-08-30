@@ -51,7 +51,7 @@ subtitle = "每一项技能能将给予一种力量"
   parcent = "50%"
   
 [[feature]]
-  icon = "cuttlefishn"
+  icon = "cuttlefish"
   icon_pack = "fab"
   name = "C语言"
   parcent = "50%"  

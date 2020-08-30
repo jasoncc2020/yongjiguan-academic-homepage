@@ -51,7 +51,7 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   parcent = "50%"
   
 [[feature]]
-  icon = "cuttlefishn"
+  icon = "cuttlefish"
   icon_pack = "fab"
   name = "C"
   parcent = "50%"  
