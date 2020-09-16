@@ -1,5 +1,5 @@
 ---
-title: "4. Dynamic Three-Dimensional Nanowetting Behavior of Imidazolium-Based Ionic Liquids Probed by Molecular Dynamics Simulation (Times cited = 21)"
+title: "4. Dynamic Three-Dimensional Nanowetting Behavior of Imidazolium-Based Ionic Liquids Probed by Molecular Dynamics Simulation (Times cited = 22)"
 authors:
 - admin
 - Qunfeng Shao, Wenqiong Chen, Shimin Liu, Xiaoping Zhang, Youquan Deng
