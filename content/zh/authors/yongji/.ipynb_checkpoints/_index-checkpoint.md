@@ -57,7 +57,7 @@ social:
   link: 'mailto:yongji.guan@outlook.com'  #contact # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?hl=en&user=0rV6OnYAAAAJ
+  link: https://scholar.google.com/citations?user=hxul4AUAAAAJ&hl=en&authuser=1
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Yongji_Guan
