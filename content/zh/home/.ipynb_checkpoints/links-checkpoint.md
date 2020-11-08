@@ -157,6 +157,7 @@ date_format = "Jan 2006"
   * [The Padua Group - École Normale Supérieure de Lyon](http://perso.ens-lyon.fr/agilio.padua/)
   * [The Schroder Group - University of Giessen](https://www.mdy.univie.ac.at/people/schroeder/schroeder.html)
   * [The Canongia Lopes Group - Universidade de Lisboa](http://web.tecnico.ulisboa.pt/~jnlopes/ZNHP/)
+  * [The Kashyap Group - Indian Institute of Technology Delhi](http://web.iitd.ac.in/~hkashyap/index.html/)
   """
 
 +++

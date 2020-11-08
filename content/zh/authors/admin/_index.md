@@ -8,7 +8,7 @@ authors:
 # resume download button
 btn:
 - url : "files/cv.pdf"
-  label : "Download CV"
+  label : "个人简历下载"
 # Is this the primary user of the site?
 superuser: true
 
