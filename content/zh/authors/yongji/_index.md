@@ -7,7 +7,7 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "zh/files/cv.pdf"
+- url : "files/cv.pdf"
   label : "个人简历下载"
 
 # Is this the primary user of the site?
