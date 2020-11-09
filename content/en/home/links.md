@@ -148,7 +148,7 @@ date_format = "Jan 2006"
   * [The Welton Group - Imperial College London](https://www.imperial.ac.uk/people/t.welton)
   * [The Hunt Group - Imperial College London](http://www.huntresearchgroup.org.uk/)
   * [The Schatz Group - Northwestern University](https://sites.northwestern.edu/schatz/)
-  * [The Atkin Group - The University of Western Australia](http://chemlabs.princeton.edu/scholes/)
+  * [The Atkin Group - The University of Western Australia](https://research-repository.uwa.edu.au/en/persons/rob-atkin)
   * [The Maginn Group - University of Notre Dame](http://sites.nd.edu/maginn-group/edward-maginn/)
   * [The Yamaguchi Group - Osaka University](http://www-gcom.mech.eng.osaka-u.ac.jp/index-e.html)
   * [The Margulis Group - University of Iowa](https://chem.uiowa.edu/the-margulis-group)
