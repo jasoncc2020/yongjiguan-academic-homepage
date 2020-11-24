@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Accomplishments"
-subtitle = "PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
+title = "个人荣誉"
+subtitle = "每一项荣誉都是对过去的肯定和未来的鞭策"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,43 +19,43 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Lanzhou University"
+  organization = "兰州大学"
   organization_url = "https://www.lzu.edu.cn"
-  title = "International Postdoctoral Scholarship"
+  title = "国际师资博士后"
   url = ""
   certificate_url = ""
   date_start = "2019-05-18"
   date_end = ""
-  description = "The Lanzhou University International Postdoctoral Fellowships"
+  description = "兰州大学国际师资博士后奖学金"
 
 [[item]]
-  organization = "Lanzhou University"
+  organization = "兰州大学"
   organization_url = "https://www.lzu.edu.cn"
-  title = "Liu Bing Alumni Scholarship"
+  title = "刘冰奖学金"
   url = ""
   certificate_url = ""
   date_start = "2018-12-01"
   date_end = ""
-  description = "Liu Bing Alumni Scholarship"
+  description = "刘冰校友奖学金"
 
 [[item]]
   organization = "Lanzhou University"
   organization_url = "https://www.lzu.edu.cn"
-  title = "First Prize Scholarship"
+  title = "一等学业奖学金"
   url = ""
   certificate_url = ""
   date_start = "2018-10-01"
   date_end = ""
-  description = "The First Prize Scholarship of Lanzhou University"
+  description = "兰州大学一等学业奖学金"
   
 [[item]]
   organization = "Lanzhou University"
   organization_url = "https://www.lzu.edu.cn"
-  title = "The Title of Merit Postgraduate of Lanzhou University"
+  title = "兰州大学三好研究生"
   url = ""
   certificate_url = ""
   date_start = "2017-12-01"
   date_end = ""
-  description = "The Title of Merit Postgraduate of Lanzhou University"
+  description = "兰州大学三好研究生"
 
 +++

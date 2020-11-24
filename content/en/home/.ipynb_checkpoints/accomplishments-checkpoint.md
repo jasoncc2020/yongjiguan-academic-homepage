@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2019-05-18"
   date_end = ""
-  description = "The International Postdoctoral Scholarship Fund of Lanzhou University"
+  description = "The Lanzhou University International Postdoctoral Fellowships"
 
 [[item]]
   organization = "Lanzhou University"
