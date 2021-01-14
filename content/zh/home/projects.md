@@ -27,19 +27,19 @@ subtitle = "所有事情在变容易之前总是困难的"
 
   [[content.filter_button]]
     name = "纳米润湿"
-    tag = "Nano Wetting"
+    tag = "纳米润湿"
 
   [[content.filter_button]]
     name = "能量收集"
-    tag = "Energy Harvesting"
+    tag = "能量收集"
 
   [[content.filter_button]]
     name = "振动光谱"
-    tag = "Vibrational Spectrum"
+    tag = "振动光谱"
 
   [[content.filter_button]]
     name = "其他课题"
-    tag = "Demo"
+    tag = "其他课题"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
