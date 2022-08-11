@@ -27,12 +27,10 @@ bio: Cancheng Li is currently a PhD candidate of biomedical engineering who spec
 display_education: true
 
 interests:
-- Molecular Dynamics
-- Ionic Liquids
-- Nano Confinement
-- Nano Wetting
-- Energy Harvesting
-- Vibrational Spectrum
+- computational neuroscience
+- neural modeling
+- inverse problems and brain network analysis
+- Machine Learning and pattern recognition
 
 education:
   courses:
