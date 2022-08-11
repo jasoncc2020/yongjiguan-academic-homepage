@@ -46,6 +46,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   * [UAIS(Lanzhou University)](http://www.moltemplate.org/)
+  * [SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
   """
 
 +++
