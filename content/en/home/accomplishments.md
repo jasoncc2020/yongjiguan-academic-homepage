@@ -21,41 +21,22 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Lanzhou University"
   organization_url = "https://www.lzu.edu.cn"
-  title = "International Postdoctoral Scholarship"
+  title = "Third Prize of the 13th China Graduate Electronic Design Competition"
   url = ""
   certificate_url = ""
-  date_start = "2019-05-18"
+  date_start = "2018-06-18"
   date_end = ""
-  description = "The Lanzhou University International Postdoctoral Fellowships"
+  description = ""
 
 [[item]]
   organization = "Lanzhou University"
   organization_url = "https://www.lzu.edu.cn"
-  title = "Liu Bing Alumni Scholarship"
+  title = "Second Prize of the 12th Academic Annual Conference of Lanzhou University"
   url = ""
   certificate_url = ""
-  date_start = "2018-12-01"
+  date_start = "2020-01-01"
   date_end = ""
-  description = "Liu Bing Alumni Scholarship"
+  description = ""
 
-[[item]]
-  organization = "Lanzhou University"
-  organization_url = "https://www.lzu.edu.cn"
-  title = "First Prize Scholarship"
-  url = ""
-  certificate_url = ""
-  date_start = "2018-10-01"
-  date_end = ""
-  description = "The First Prize Scholarship of Lanzhou University"
-  
-[[item]]
-  organization = "Lanzhou University"
-  organization_url = "https://www.lzu.edu.cn"
-  title = "The Title of Merit Postgraduate of Lanzhou University"
-  url = ""
-  certificate_url = ""
-  date_start = "2017-12-01"
-  date_end = ""
-  description = "The Title of Merit Postgraduate of Lanzhou University"
 
 +++
