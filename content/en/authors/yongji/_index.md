@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Yongji Guan
+name: Cancheng Li
 avatar_image: "/hero/GYJ-full-2.jpg"
 # Username (this should match the folder name)
 authors:
-- yongji
+- Cancheng
 # resume download button
 btn:
 - url : "files/cv.pdf"
@@ -13,15 +13,15 @@ btn:
 superuser: true
 
 # Role/position
-role: Postdoc Research Fellow
+role: PhD. candidata
 
 # Organizations/Affiliations
 organizations:
 - name: Imperial College London
-  url: "https://www.imperial.ac.uk/"
+  url: "https://www.buaa.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Yongji Guan is currently a postdoc research fellow of Physical chemistry who specializes in the theoretical caculation of ionic liquids.
+bio: Cancheng Li is currently a PhD candidate of biomedical engineering who specializes in the computational neuroscience.
 
 # Should the user's education and interests be displayed?
 display_education: true
