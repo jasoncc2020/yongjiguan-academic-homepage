@@ -17,7 +17,7 @@ role: PhD. candidata
 
 # Organizations/Affiliations
 organizations:
-- name: Imperial College London
+- name: Beihang University
   url: "https://www.buaa.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -37,15 +37,16 @@ interests:
 education:
   courses:
   - course: Ph.D. in Biomedical engingneering
-    institution: Lanzhou University
+    institution: Beihang University
     year: 2019
-  - course: M.Sc. in Radio Physics
+  - course: MEng in electronic and communication engineering
     institution: Lanzhou University
-    year: 2016
-  - course: B.Eng. in Communication Engineering
-    institution: Lanzhou University
-    year: 2014
-
+    year: 2017
+  - course: B.Eng. in electronic information engineering
+    institution: Wuyi University
+    year: 2017
+   
+       
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
