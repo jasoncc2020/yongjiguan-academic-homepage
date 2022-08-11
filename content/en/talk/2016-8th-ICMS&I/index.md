@@ -1,10 +1,10 @@
 ---
-title: Nano-Wettability of Hydrophilic and Hydrophobic Ionic Liquids
+title: BIBM2022
 event: Academic Conference
-event_url: http://icmsi.neotrident.com/
+event_url: http://ieeebibm.org/BIBM2022/
 location: Grand Mercure Teda Hotel, Dalian, China
-summary: Talking about the effect of droplet size, intrinsic viscosity and simulated temperature on Nano-Wettability of Hydrophilic and Hydrophobic Ionic Liquids.
-abstract: "In the present work a series of hydrophilic and hydrophobic 1-ethyl-3-methylimidazolium room temperature ionic liquids (RTILs) have been employed to probe the wettability in nano-scale using molecular dynamics (MD) simulation. The simulation results confirm droplet size, intrinsic viscosity and simulated temperature play the dominant role in the wettability of ionic liquids (ILs) in nano-scale."
+summary: Talking about the functional connectivity on anxiety diagnosis.
+abstract: "Incoming."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -15,7 +15,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2016-09-26T09:30:00Z"
 
-authors: [Yongji Guan, Qunfeng Shao, Xiaoping Zhang]
+authors: [Cancheng Li, Tao Liu, Lijuan Shi, Chang Lei, Jicong Zhang]
 tags: [Academic Talks]
 
 # Is this a featured talk? (true/false)
