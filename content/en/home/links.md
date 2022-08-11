@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   """
 
 [[item]]
-  organization = "Lab"
+  organization = ""
   organization_url = ""
   title = "Lab Link"
   url = ""
