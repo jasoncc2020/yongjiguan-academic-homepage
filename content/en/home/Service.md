@@ -27,17 +27,8 @@ date_format = "Jan 2006"
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [Langmuir](https://pubs.acs.org/journal/langd5/)
-  * [Plasmonics](https://www.springer.com/journal/11468)
-  * [Nano Energy](https://www.sciencedirect.com/journal/nano-energy)
-  * [Chinese Physics B](http://cpb.iphy.ac.cn/EN/volumn/home.shtml)
-  * [Current Nanoscience](https://www.currentnanoscience.com/)
-  * [Micro and Nano systems](https://benthamscience.com/journals/micro-and-nanosystems/)
-  * [Energy Storage Materials](https://www.sciencedirect.com/journal/energy-storage-materials)
-  * [Optics and Laser Technology](https://www.sciencedirect.com/journal/optics-and-laser-technology)
-  * [Journal of Molecular Liquids](https://www.sciencedirect.com/journal/journal-of-molecular-liquids)
-  * [The Journal of Physical Chemistry C](https://pubs.acs.org/journal/jpccck/)
-  * [Journal of The Electrochemical Society](https://iopscience.iop.org/journal/1945-7111)  
+  * [IAS Transactions](https://pubs.acs.org/journal/langd5/)
+  * [IEEE ACCESS](https://www.springer.com/journal/11468)
   """
 
 [[item]]
