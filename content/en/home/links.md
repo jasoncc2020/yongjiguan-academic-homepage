@@ -29,10 +29,11 @@ date_format = "Jan 2006"
   description = """
   * [Qi Chang(BUAA)](http://www.moltemplate.org/)
   * [Lijiuan Shi(BUAA)](https://zenodo.org/record/545655)
-  * [Chang Lei (Tsinghua University)](https://zenodo.org/record/545655)
-  * [Hong Peng (Lanzhou University)](https://zenodo.org/record/545655)
-  * [Bin Hu (Lanzhou University)](https://zenodo.org/record/545655)
-  * [Tao Wang (TianJin University)](https://zenodo.org/record/545655)
+  * [Chang Lei (Tsinghua University)](https://www.researchgate.net/profile/Chang-Lei-5)
+  * [Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
+  * [Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
+  * [Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211)
+  * [Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
   """
 
 [[item]]
