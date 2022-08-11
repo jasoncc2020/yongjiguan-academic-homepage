@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Recent Publications"
-subtitle = "**Numbers: 15 | Citations: 64 | h-index: 5 | i10-index: 2**"
+subtitle = "**Numbers: 150| Citations: 67 | h-index: 4 | i10-index: 3**"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
