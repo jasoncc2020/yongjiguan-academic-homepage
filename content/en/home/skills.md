@@ -20,12 +20,7 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   name = "Search"
   parcent = "95%"
   
-[[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Analysis"
-  parcent = "90%"
- 
+
 [[feature]]
   icon = "users"
   icon_pack = "fas"
@@ -39,35 +34,12 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   parcent = "80%"
 
 [[feature]]
-  icon = "medium-m"
-  icon_pack = "fab"
-  name = "Molecular Dynamics"
-  parcent = "80%"
-
-[[feature]]
-  icon = "quora"
-  icon_pack = "fab"
-  name = "Quantum Chemistry"
-  parcent = "50%"
-  
-[[feature]]
-  icon = "dochub"
-  icon_pack = "fab"
-  name = "DL_POLY"
-  parcent = "80%"
-  
-[[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
   parcent = "50%"
   
-[[feature]]
-  icon = "cuttlefish"
-  icon_pack = "fab"
-  name = "C"
-  parcent = "50%"  
-  
+
 [[feature]]
   icon = "java"
   icon_pack = "fab"
