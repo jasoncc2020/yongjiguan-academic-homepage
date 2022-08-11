@@ -74,9 +74,6 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Cancheng_Li
-- icon: weibo
-  icon_pack: fab
-  link: https://weibo.com/u/1706073874/home?wvr=5
 - icon: facebook
   icon_pack: fab
   link: https://m.facebook.com/
