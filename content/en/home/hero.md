@@ -43,6 +43,6 @@ hero_media = "/hero/GYJ-full-1.jpg"
 
 +++
 
-# Welcome to Yongji Guan's Academic Hompage!
+# Welcome to Cancheng Li's Academic Hompage!
 
-## My name is **Yongji Guan** and I'm working currently as a **Postdoc Research Fellow** specializing in **dynamic properies of ionic liquids** using computational calculation at Molecular Science Research Hub in Imperial College London.
+## My name is **Cancheng Li** and I'm pursuit my **PhD degree** specializing in **anxiety and depression** using computational neuroscience techniques in Beiahng University.
