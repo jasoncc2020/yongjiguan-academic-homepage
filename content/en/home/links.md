@@ -36,11 +36,11 @@ date_format = "Jan 2006"
   """
 
 [[item]]
-  organization = ""
+  organization = "Lab"
   organization_url = ""
   title = "Lab Link"
   url = ""
-  certificate_url = ""
+  certificate_url = "2020"
   date_start = ""
   date_end = ""
   description = """
