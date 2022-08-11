@@ -3,7 +3,7 @@ title: 'The 4th Journal Article'
 subtitle: ''
 summary: The 4th Journal paper Flow-Induced Voltage Generation by Driving Imidazolium-Based Ionic Liquids Over a Graphene Nano-Channel is accepted by J Mater Chem A.
 authors:
-- admin
+- yongji
 tags:
 - Academic News
 categories: []
