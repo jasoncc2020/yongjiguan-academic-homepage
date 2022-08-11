@@ -18,7 +18,7 @@ description = ""
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = "GuanYongji"
+twitter = "Cancheng Li"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -50,16 +50,16 @@ time_format = "15:04"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "yongji.guan@imperial.ac.uk"
-phone = "+44-757****711"
-address = " 80 Wood Lane, Molecular Science Research Hub, Imperial College London, London, W12 0BZ, United Kingdom"
+email = "canchengli@buaa.edu.cn"
+phone = "+86 18800133440"
+address = "37 Xueyuan Road, Haidian District, Beijing, P.R. China, 100191"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Weekday 09:00 to 12:00<br>
-                  and 14:00 to 18:00"""
+                  and 14:00 to 22:00"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com/yongji-guan"
+appointment_url = "https://calendly.com/canchengli"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -90,8 +90,8 @@ contact_links = [
 #   3: OpenStreetMap (Mapbox)
 map = 2
 map_api_key = "AIzaSyCUylLMJ3rMjUNR36XDbJlkMXzeqQUZDl4" # AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
-latitude = "51.516254" # "36.04915"
-longitude = "-0.224417" #"103.85614"
+latitude = "51.516254" # "39.985"
+longitude = "-0.224417" #"116.3486"
 zoom = 15
 
 ############################
