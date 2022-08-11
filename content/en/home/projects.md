@@ -26,16 +26,9 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
     tag = "*"
 
   [[content.filter_button]]
-    name = "Nano Wetting"
-    tag = "Nano Wetting"
-
-  [[content.filter_button]]
-    name = "Energy Harvesting"
-    tag = "Energy Harvesting"
-	
-  [[content.filter_button]]
-    name = "Vibrational Spectrum"
-    tag = "Vibrational Spectrum"
+    name = "Psychiatry Brain Connectivity"
+    tag = "Psychiatry Brain Connectivity"
+   
   
   [[content.filter_button]]
     name = "Others"
