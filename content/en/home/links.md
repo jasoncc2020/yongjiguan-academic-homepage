@@ -35,14 +35,14 @@ date_format = "Jan 2006"
   * [Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211)
   * [Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
   """
-
+  
 [[item]]
   organization = "Lab"
   organization_url = ""
   title = "Lab Link"
   url = ""
   certificate_url = ""
-  date_start = "2020"
+  date_start = "2020-07-03"
   date_end = ""
   description = """
   * [UAIS(Lanzhou University)](http://www.moltemplate.org/)
