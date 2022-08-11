@@ -29,6 +29,10 @@ date_format = "Jan 2006"
   description = """
   * [Qi Chang(BUAA)](http://www.moltemplate.org/)
   * [Lijiuan Shi(BUAA)](https://zenodo.org/record/545655)
+  * [Chang Lei (Tsinghua University)](https://zenodo.org/record/545655)
+  * [Hong Peng (Lanzhou University)](https://zenodo.org/record/545655)
+  * [Bin Hu (Lanzhou University)](https://zenodo.org/record/545655)
+  * [Tao Wang (TianJin University)](https://zenodo.org/record/545655)
   """
 
 
