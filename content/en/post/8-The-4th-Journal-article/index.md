@@ -1,7 +1,7 @@
 ---
-title: 'The 4th Journal Article'
+title: 'Paper accept: Journal of Neural Eng.'
 subtitle: ''
-summary: The 4th Journal paper Flow-Induced Voltage Generation by Driving Imidazolium-Based Ionic Liquids Over a Graphene Nano-Channel is accepted by J Mater Chem A.
+summary: Our paper on ["Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia"](https://iopscience.iop.org/article/10.1088/1741-2552/ac5266/meta) got accepted to JNE 
 authors:
 - yongji
 tags:
