@@ -21,35 +21,16 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Computational Calculations"
   organization_url = ""
-  title = "Molecular Builders"
+  title = "college"
   url = ""
   certificate_url = ""
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [Moltemplate](http://www.moltemplate.org/)
-  * [VMD TopoTools](https://zenodo.org/record/545655)
-  * [Packmol](http://m3g.iqm.unicamp.br/packmol/home.shtml)
-  * [Avogadro](http://avogadro.cc/)
-  * [fftool](https://github.com/agiliopadua/fftool)
-  * [Others](https://lammps.sandia.gov/prepost.html)
+  * [Qi Chang(BUAA)](http://www.moltemplate.org/)
+  * [Lijiuan Shi(BUAA)](https://zenodo.org/record/545655)
   """
 
-[[item]]
-  organization = "Computational Calculations"
-  organization_url = ""
-  title = "Visual Software"
-  url = ""
-  certificate_url = ""
-  date_start = "2020-07-07"
-  date_end = ""
-  description = """
-  * [VMD](https://www.ks.uiuc.edu/Research/vmd/)
-  * [Pymol](https://pymol.org/2/)
-  * [Ovito](https://www.ovito.org/)
-  * [UCSF Chimera](http://www.cgl.ucsf.edu/chimera/)
-  * [AIMAll](http://aim.tkgristmill.com/index.html)
-  * [Others](https://lammps.sandia.gov/prepost.html)
-  """
+
 
 +++
