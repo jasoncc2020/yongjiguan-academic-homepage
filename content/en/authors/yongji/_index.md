@@ -54,31 +54,41 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:yongji.guan@outlook.com'  #contact # For a direct email link, use "mailto:test@example.org".
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=hxul4AUAAAAJ&hl=en&authuser=1
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Yongji_Guan
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0001-9210-3530
+  link: '/#contact'
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/A0rD7rjImBxyn7e
 - icon: publons
   icon_pack: ai
-  link: https://publons.com/researcher/1467632/yongji-guan/  
-- icon: academia
-  icon_pack: ai
-  link: https://independent.academia.edu/YongjiGuan
-- icon: mendeley
-  icon_pack: ai
-  link: https://www.mendeley.com/profiles/yongji-guan2/
+  link: https://publons.com/researcher/3078077/cancheng-li/ 
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: fas
+  link: https://scholar.google.com/citations?user=N1NI_k0AAAAJ&hl=en&oi=ao
 - icon: github
   icon_pack: fab
-  link: https://github.com/yongjiguan
-- icon: gitlab
+  link: https://github.com/jasoncc2020/
+- icon: linkedin
   icon_pack: fab
-  link: https://gitlab.com/yongjiguan
+  link: https://www.linkedin.com/in/cancheng-li-8935921b2/
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-1952-4547
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Cancheng_Li
+- icon: weibo
+  icon_pack: fab
+  link: https://weibo.com/u/1706073874/home?wvr=5
+- icon: facebook
+  icon_pack: fab
+  link: https://m.facebook.com/
+- icon: info-circle
+  icon_pack: fas
+  link: https://www.semanticscholar.org/author/Cancheng-Li/95251781  
+  
+  
+  
+  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
