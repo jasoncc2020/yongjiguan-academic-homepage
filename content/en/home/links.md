@@ -27,13 +27,18 @@ date_format = "Jan 2006"
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [Qi Chang(BUAA)](http://www.moltemplate.org/)
-  * [Lijiuan Shi(BUAA)](https://zenodo.org/record/545655)
-  * [Chang Lei (Tsinghua University)](https://www.researchgate.net/profile/Chang-Lei-5)
-  * [Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
-  * [Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
-  * [Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211)
-  * [Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
+  * [Prof. Jicong Zhang(Beihang University)](http://www.moltemplate.org/)
+  * [Prof. Chuanyue Wang(Anding Hospital, Capital medical University)](https://zenodo.org/record/545655)
+  * [Prof. Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
+  * [Prof. Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
+  * [Prof. Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
+  * [Prof. Chuanbo Qin(Wuyi University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
+  * [Dr. Qi Chang(Beihang University)](http://www.moltemplate.org/)
+  * [Dr. Lijiuan Shi(Beihang University)](https://zenodo.org/record/545655)
+  * [Dr. Yanchao Yuan(Beihang University)](https://zenodo.org/record/545655)
+  * [Postdoc. Jing Fang(SIAT)](https://zenodo.org/record/545655)
+  * [Dr. Chang Lei (Tsinghua University)](https://www.researchgate.net/profile/Chang-Lei-5) 
+  * [Dr. Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211) 
   """
   
 [[item]]
