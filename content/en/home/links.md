@@ -38,7 +38,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Lab"
   organization_url = ""
-  title = "college"
+  title = "Lab Link"
   url = ""
   certificate_url = ""
   date_start = "2020-07-08"
