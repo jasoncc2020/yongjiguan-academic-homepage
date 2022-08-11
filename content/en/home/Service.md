@@ -27,8 +27,10 @@ date_format = "Jan 2006"
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [IAS Transactions](https://pubs.acs.org/journal/langd5/)
-  * [IEEE ACCESS](https://www.springer.com/journal/11468)
+  * [IAS Transactions](https://www.sciencedirect.com/journal/isa-transactions)
+  * [IEEE ACCESS](https://iopscience.iop.org/journal/1741-2552)
+  * [IEEE Sensors Journal](https://iopscience.iop.org/journal/1741-2552)
+  * [Neuroscience](https://iopscience.iop.org/journal/1741-2552)
   """
 
 [[item]]
@@ -40,7 +42,7 @@ date_format = "Jan 2006"
   date_start = "2020-07-07"
   date_end = ""
   description = """
-  * [8th ICAMEM2019](http://www.icamem.org/)
+  * [BIBE](http://www.icamem.org/)
   """
 
 +++
