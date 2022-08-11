@@ -1,7 +1,7 @@
 ---
 title: 'The summer research work'
 subtitle: ''
-summary:  Recently, I have completed two papers with Liu Tao from Imperial College London, and are going to submit them to the BIBM2022 and the journal Human brain mapping. we have submitted several works on Medical Image Segmentation (CONTRAST MEDIA MOL I, CMB) and Computational Neuroscience (CNS Neurosci Ther), both of which are currently under peer review! We look forward to getting satisfactory results!
+summary:  Recently, I have completed many work with Liu Tao from Imperial College London, papre submit to BIBM2022 and Human brain mapping. Furthermore, we have submitted several works on Medical Image Segmentation (CONTRAST MEDIA MOL I, CMB) with Yanchao and Computational Neuroscience (CNS Neurosci Ther) with Lijuan!
 authors:
 - yongji
 tags:
