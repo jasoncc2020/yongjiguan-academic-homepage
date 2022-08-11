@@ -3,7 +3,7 @@ title: 'Master Degree'
 subtitle: ''
 summary: I complet my master dissertation defense and then receive my master in School of Information Science and Engineering, Lanzhou University, China.
 authors:
-- admin
+- yongji
 tags:
 - Academic News
 categories: []
