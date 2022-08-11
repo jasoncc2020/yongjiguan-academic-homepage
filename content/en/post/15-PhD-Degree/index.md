@@ -1,14 +1,14 @@
 ---
-title: 'Ph.D. Degree'
+title: 'Master Degree'
 subtitle: ''
-summary: I complet my PhD dissertation defense and then receive my PhD in School of Information Science and Engineering, Lanzhou University, China.
+summary: I complet my master dissertation defense and then receive my master in School of Information Science and Engineering, Lanzhou University, China.
 authors:
 - admin
 tags:
 - Academic News
 categories: []
-date: "2019-05-18"
-lastmod: "2019-05-18"
+date: "2017-05-18"
+lastmod: "2020-05-18"
 featured: false
 draft: false
 
