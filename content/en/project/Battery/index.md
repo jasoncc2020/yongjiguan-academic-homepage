@@ -1,14 +1,14 @@
 ---
-title: Battery
-summary: Efficient and Non-Precious Metal for the Li-SOCl$_{2}$ Battery Using Nitrogen Doped Carbon Supported Cu Nanoparticles.
+title: Anxiety EEG and T1 MRI functional connectivity
+summary: Efficient tool to explore the anxiety disorder
 tags:
-- Other Projects
+- Psychiatry Brain Connectivity
 date: "2019-03-01"
 
 # Optional external URL for project (replaces project detail page).
 external_link: 
 
 image:
-  caption: # Photo by Yongji Guan
+  caption: # Photo by Cancheng Li
   focal_point: Smart
 ---
