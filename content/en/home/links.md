@@ -57,13 +57,28 @@ date_format = "Jan 2006"
   [[item]]
   organization = "Master"
   organization_url = ""
-  title = "Computational tool"
+  title = "Computational Neuroscience tool"
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
   date_end = ""
   description = """
   * [EEGLAB](http://www.moltemplate.org/)
+  """
+  
+  [[item]]
+  organization = "Master"
+  organization_url = ""
+  title = "Computation Neuroscience Journal and Conference"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-07-03"
+  date_end = ""
+  description = """
+  * [Nature Neuroscience](http://www.moltemplate.org/)
+  * [Nature Medicine](http://www.moltemplate.org/)
+  * [Nature Biotechnology](http://www.moltemplate.org/)
+  * [Nature Human Behavior](http://www.moltemplate.org/)
   """
   
 
