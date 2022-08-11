@@ -41,7 +41,7 @@ date_format = "Jan 2006"
   title = "Lab Link"
   url = ""
   certificate_url = ""
-  date_start = "2020-07-08"
+  date_start = ""
   date_end = ""
   description = """
   * [UAIS(Lanzhou University)](http://www.moltemplate.org/)
