@@ -36,7 +36,7 @@ interests:
 
 education:
   courses:
-  - course: Ph.D. in Radio Physics
+  - course: Ph.D. in Biomedical engingneering
     institution: Lanzhou University
     year: 2019
   - course: M.Sc. in Radio Physics
@@ -94,4 +94,7 @@ user_groups:
 - Visitors
 ---
 
-Yongji Guan was born in 1991 in Gansu, China. He graduated with a B.S. degree from [Lanzhou University](http://www.lzu.edu.cn) in 2014. In 2019, he received his Ph.D. degree (supervised by Prof. Xiaoping Zhang and Prof. Youquan Deng) on the nanowetting and energy harvesting of ionic liquids using computational calculations from school of Information Science and Engineering, Lanzhou University. He is working currently as a postdoctoral research fellow at department of chemistry in [Imperial College London](http://www.imperial.ac.uk), advised by Prof. Tom Welton. His current research interest include the nanowetting behaviour of ionic liquids, dynamic behaviour of ionic liquids in external field, vibrational spectrum change of ionic liquids through computational calculations.
+Hi, I am currently a PhD candidate in the [Beihang University]( https://www.buaa.edu.cn/ ), supervised by [Prof. Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm). I received the masters Degree (2017-2020) from the [ubiquitous awareness and intelligence solutions lab (UAIS Lab)]( http://uais.lzu.edu.cn/ ), school of information science and engineering, Lanzhou University, China, supervised by [Prof. Hong Peng]( http://uais.lzu.edu.cn/en/?p=902 ) and [Prof. Bin Hu]( http://uais.lzu.edu.cn/en/?p=959 ). From 12/2019-09/2018, I am a guest student at the the [shenzhen institute of advanced technology, chinese academy of sciences]( http://www.siat.ac.cn/ ), china.
+
+
+
