@@ -27,6 +27,15 @@ date_format = "Jan, 2006"
   date_end = "2019-12-01"
   description = """ """
 
+[[experience]]
+  title = "Research Assoicate"
+  company = "ubiquitous Awareness and Intelligent Solutions Lab"
+  company_url = "http://www.siat.cas.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/"
+  location = "Lanzhou, China"
+  date_start = "2017-07-01"
+  date_end = "2020-08-13"
+  description = """ """
+
 
 # [[experience]]
   # title = "CEO"
