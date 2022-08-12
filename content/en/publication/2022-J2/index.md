@@ -3,11 +3,11 @@ title: "HRU-Net: A Transfer Learning Method for Vulnerable Plaque Segmentation i
 Arteries Ultrasound Images"
 authors:
 - Y. Yuan, C. Li, J. Zhang.
-date: 2022-02-07
-doi: "10.1016/j.neucom.2019.12.010"
+date: 2021-12-07
+doi: "10.1016"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-12-13"
+publishDate: "2021-12-07"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
