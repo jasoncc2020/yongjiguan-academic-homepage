@@ -7,8 +7,8 @@ authors:
 tags:
 - Academic News
 categories: []
-date: "2018-05-24"
-lastmod: "2018-05-24"
+date: "2022-02-17"
+lastmod: "2022-02-17"
 featured: false
 draft: false
 
@@ -37,11 +37,10 @@ gallery_item:
   image: 2014-2.png
 ---
 
-The 4th Journal paper **Flow-Induced Voltage Generation by Driving Imidazolium-Based Ionic Liquids Over a Graphene Nano-Channel** is accepted by **J Mater Chem A**.
 
 {{< gallery >}}
 
 ## License
 
-Copyright 2014-2020 Yongji Guan
+Copyright 2014-2020 Cancheng Li
 
