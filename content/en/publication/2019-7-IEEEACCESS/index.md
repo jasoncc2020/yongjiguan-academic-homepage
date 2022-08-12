@@ -1,13 +1,13 @@
 ---
-title: "Depression Prevalence in Postgraduate Students and Its Association With Gait Abnormality  (Times cited = 19)"
+title: "Depression Prevalence in Postgraduate Students and Its Association With Gait Abnormality"
 authors:
 - J. Fang, T. Wang, C. Li, X. Hu, E. Ngai, B. Seet, J. Cheng, Y. Guo, X. Jiang
-- IEEE ACCESS, 2021, 21 (3), 3260-3270
-date: "2019-12-02"
+- IEEE ACCESS, 2019, 21 (3), 3260-3270
+date: "2019-09-02"
 doi: "10.1109/ACCESS.2019.2957179"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-12-02"
+publishDate: "2019-12-09"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,7 +19,7 @@ publication_types: ["2"]
 publication: "IEEE ACCESS, 2019, 12(2)"
 publication_short: "IEEE ACCESS, "
 
-abstract: In recent years, an increasing number of university students are found to be at high risk of depression. Through a large scale depression screening, this paper finds that around 6.5\% of the university postgraduate students in China experience depression. We then investigate whether the gait patterns of these individuals have already changed as depression is suggested to associate with gait abnormality. Significant differences are found in several spatiotemporal, kinematic and postural gait parameters such as walking speed, stride length, head movement, vertical head posture, arm swing, and body sway, between the depressed and non-depressed groups. Applying these features to classifiers with different machine learning algorithms, we examine whether natural gait analysis may serve as a convenient and objective tool to assist in depression recognition. The results show that when using a random forest classifier, the two groups can be classified automatically with a maximum accuracy of 91.58\%. Furthermore, a reasonable accuracy can already be achieved by using parameters from the upper body alone, indicating that upper body postures and movements can effectively contribute to depression analysis.
+abstract: 
 
 tags:
 - Journal and Conference Articles
@@ -28,7 +28,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://yongjiguan.github.io/files/2019-2.pdf
+url_pdf: 
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
