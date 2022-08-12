@@ -1,12 +1,12 @@
 ---
-title: "Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network (Times cited = 5)"
+title: "Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network"
 authors:
 - Chang, Q., Li, C., Tian, Q., Bo, Q., Zhang, J., Xiong, Y.,  Wang, C.
-date: 2021-06-07
+date: 2021-07-16
 doi: "10.1016/j.neucom.2019.12.010"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-12-13"
+publishDate: "2021-07-16"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
