@@ -2,7 +2,7 @@
 title: "A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation (Times cited = 22)"
 authors:
 - Peng, H., Li, C., Chao, J., Wang, T., Zhao, C., Huo, X., Hu, B
-date: 2022-02-07
+date: 2019-12-07
 doi: "10.1016/j.neucom.2019.12.010"
 
 # Schedule page publish date (NOT publication's date).
