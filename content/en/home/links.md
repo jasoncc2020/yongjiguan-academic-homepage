@@ -27,46 +27,36 @@ date_format = "Jan 2006"
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [Prof. Jicong Zhang(Beihang University)](http://www.moltemplate.org/)
-  * [Prof. Chuanyue Wang(Anding Hospital, Capital medical University)](https://zenodo.org/record/545655)
+  * [Prof. Jicong Zhang(Beihang University)]([http://www.moltemplate.org/](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm))
+  * [Prof. Chuanyue Wang(Anding Hospital, Capital medical University)](https://www.bjad.com.cn/Html/Doctors/Main/Index_193.html)
   * [Prof. Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Prof. Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Prof. Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
-  * [Prof. Chuanbo Qin(Wuyi University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
+  * [Prof. Chuanbo Qin(Wuyi University)](https://www.wyu.edu.cn/znzzxb/info/1408/8273.htm)
   * [Dr. Qi Chang(Beihang University)](http://www.moltemplate.org/)
   * [Dr. Lijiuan Shi(Beihang University)](https://zenodo.org/record/545655)
   * [Dr. Yanchao Yuan(Beihang University)](https://zenodo.org/record/545655)
-  * [Postdoc. Jing Fang(SIAT)](https://zenodo.org/record/545655)
+  * [Postdoc. Jing Fang(SIAT)](https://www.siat.ac.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/)
   * [Dr. Chang Lei (Tsinghua University)](https://www.researchgate.net/profile/Chang-Lei-5) 
   * [Dr. Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211) 
   """
   
-[[item]]
-  organization = "Lab"
-  organization_url = ""
-  title = "Lab Link"
-  url = ""
-  certificate_url = ""
-  date_start = "2020-07-03"
-  date_end = ""
-  description = """
-  * [UAIS(Lanzhou University)](http://www.moltemplate.org/)
-  * [SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
-  """
-
   [[item]]
   organization = "Master"
   organization_url = ""
-  title = "Computation Neuroscience Journal and Conference"
+  title = "Computation Neuroscience Journal and lab"
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
   date_end = ""
   description = """
-  * [Nature Neuroscience](http://www.moltemplate.org/)
-  * [Nature Medicine](http://www.moltemplate.org/)
-  * [Nature Biotechnology](http://www.moltemplate.org/)
+  * [Nature Neuroscience](https://www.nature.com/neuro/)
+  * [Nature Medicine](https://www.nature.com/nm/)
+  * [Nature Biotechnology](https://www.nature.com/nbt/)
+  * [Nature Biomedical Engineering](https://www.nature.com/natbiomedeng/)
   * [Nature Human Behavior](http://www.moltemplate.org/)
+  * [UAIS(Lanzhou University)](http://www.moltemplate.org/)
+  * [SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
   """
   
 
