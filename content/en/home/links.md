@@ -34,11 +34,11 @@ date_format = "Jan 2006"
   * [Prof. Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
   * [Prof. Chuanbo Qin(Wuyi University)](https://www.wyu.edu.cn/znzzxb/info/1408/8273.htm)
   * [Dr. Tao Liu(Imperial College London)](https://www.researchgate.net/scientific-contributions/Tao-Liu-2196996849)
-  * [Dr. Qi Chang(Beihang University)](https://www.researchgate.net/scientific-contributions/Qi-Chang-2154906657)
-  * [Dr. Lijiuan Shi(Beihang University)](https://www.researchgate.net/scientific-contributions/Lijuan-Shi-2194914486)
+  * [Dr. Qi Chang(Beihang University)](https://www.semanticscholar.org/author/Qi-Chang/2054389837)
+  * [Dr. Lijiuan Shi(Beihang University)](https://www.semanticscholar.org/author/Lijuan-Shi/2152999717)
   * [Dr. Yanchao Yuan(Beihang University)](https://www.researchgate.net)
   * [Postdoc. Jing Fang(SIAT)](https://www.siat.ac.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/)
-  * [Dr. Chang Lei (Tsinghua University)](https://www.researchgate.net/profile/Chang-Lei-5) 
+  * [Dr. Chang Lei (Tsinghua University)](https://www.ymhlab.com/%E7%A9%BA%E7%99%BD%E9%A0%81-4) 
   * [Dr. Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211) 
   """
   
