@@ -71,6 +71,7 @@ contact_links = [
   {icon = "facebook", icon_pack = "fab", name = "Chat on Facebook", link = "https://www.facebook.com/yongji.guan.397"},
   {icon = "linkedin", icon_pack = "fab",name = "Discuss on Linkedin", link = "https://www.linkedin.com/in/yongji-guan-09434b195"},
   {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  {icon = "youtube", icon_pack = "fab", name = "Youtube", link = "https://discourse.gohugo.io"},
   ]
 
 # Display a map.
