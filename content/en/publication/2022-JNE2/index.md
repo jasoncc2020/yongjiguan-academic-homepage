@@ -1,12 +1,12 @@
 ---
-title: "Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia (Times cited = 0)"
+title: "Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia"
 authors:
 - Chang, Q., Li, C., Zhang, J. and Wang, C.
 date: 2022-02-07
 doi: "10.1016/j.neucom.2019.12.010"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-12-13"
+publishDate: "2022-02-07"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,7 +30,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://yongjiguan.github.io/files/2017-1.pdf
+url_pdf: https://files/2017-1.pdf
 # url_code: 'https://pubs.acs.org/doi/10.1021/acs.jpcc.7b07474'
 # url_dataset: 'https://pubs.acs.org/doi/10.1021/acs.jpcc.7b07474'
 # url_poster: 'https://pubs.acs.org/doi/10.1021/acs.jpcc.7b07474'
