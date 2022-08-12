@@ -15,7 +15,7 @@ subtitle = "Everything in this world is temporary and eternal"
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 3
+  count = 6
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -36,7 +36,7 @@ subtitle = "Everything in this world is temporary and eternal"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 1
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
