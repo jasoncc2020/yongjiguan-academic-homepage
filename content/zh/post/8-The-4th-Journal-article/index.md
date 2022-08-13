@@ -1,7 +1,7 @@
 ---
-title: 'Paper accept: Journal of Neural Eng.'
+title: '5th期刊论文接收: 神经工程(Journal of Neural Eng.)'
 subtitle: ''
-summary: Our paper on ["Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia"](https://iopscience.iop.org/article/10.1088/1741-2552/ac5266/meta) got accepted to JNE 
+summary: 我们的论文["Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia"](https://iopscience.iop.org/article/10.1088/1741-2552/ac5266/meta)已经被神经工程期刊接收！
 authors:
 - yongji
 tags:
@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-The 5st Journal Paper **Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia** is accepted by **Journal of Neural Engineering**. 
+第五篇论文**Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia**已经在**Journal of Neural Engineering**期刊接收. 
 
 
 {{< gallery >}}
