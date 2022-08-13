@@ -38,10 +38,10 @@ education:
   courses:
   - course: 工学博士，生物医学工程
     institution: 北京航空航天大学大学
-    year: 2019
+    year: 2024
   - course: 工程硕士，电子与通信工程
     institution: 兰州大学
-    year: 2016
+    year: 2020
   - course: 工学学士，电子通信工程
     institution: 五邑大学
     year: 2017
