@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
 title = "科研课题"
-subtitle = "所有事情在变容易之前总是困难的"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
@@ -26,16 +26,21 @@ subtitle = "所有事情在变容易之前总是困难的"
     tag = "*"
 
   [[content.filter_button]]
-    name = "纳米润湿"
-    tag = "纳米润湿"
+    name = "精神脑功能连接"
+    tag = "精神脑功能连接"
 
   [[content.filter_button]]
-    name = "能量收集"
-    tag = "能量收集"
+    name = "精神障碍诊断"
+    tag = "精神障碍诊断"
+  
+  [[content.filter_button]]
+    name = "深度学习分割任务"
+    tag = "深度学习分割任务"
 
   [[content.filter_button]]
-    name = "振动光谱"
-    tag = "振动光谱"
+    name = "癫痫自动检测"
+    tag = "癫痫自动检测"
+    
 
   [[content.filter_button]]
     name = "其他课题"
