@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "学术经历"
-subtitle = "过往所有的经历都将是人生宝贵的财富"
+subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,22 +19,23 @@ date_format = "Jan, 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "博士后研究员"
-  company = "伦敦帝国理工学院分子科学研究中心"
-  company_url = "https://www.imperial.ac.uk/"
-  location = "英国伦敦市白城区"
-  date_start = "2019-10-01"
-  date_end = ""
-  description = """目前作为一名博士后研究员在伦敦帝国理工学院分子科学研究中心开展研究工作，合作导师是Tom Welton教授。"""
+  title = "客座学生"
+  company = "中国科学院深圳先进技术研究院人机控制中心"
+  company_url = "http://www.siat.cas.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/"
+  location = "中国深圳"
+  date_start = "2018-10-01"
+  date_end = "2019-12-01"
+  description = """ """
 
 [[experience]]
-  title = "国际师资博士后研究员"
-  company = "兰州大学信息科学与工程学院"
-  company_url = "http://www.lzu.edu.cn/"
-  location = "中国甘肃省兰州市"
-  date_start = "2019-10-01"
-  date_end = ""
-  description = """目前作为一名国际师资博士后研究员在伦敦帝国理工学院分子科学研究中心开展研究工作，合作导师是张晓萍教授。"""
+  title = "研究助理"
+  company = "甘肃省可穿戴装备重点实验室"
+  company_url = "http://www.siat.cas.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/"
+  location = "中国兰州"
+  date_start = "2017-07-01"
+  date_end = "2020-08-13"
+  description = """ """
+
 
 # [[experience]]
   # title = "CEO"
