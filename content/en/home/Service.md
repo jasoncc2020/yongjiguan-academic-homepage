@@ -24,13 +24,14 @@ date_format = "Jan 2006"
   title = "Journal Review"
   url = ""
   certificate_url = ""
-  date_start = "2020-07-08"
+  date_start = "2018-01-01"
   date_end = ""
   description = """
-  * [IAS Transactions](https://www.sciencedirect.com/journal/isa-transactions)
+  * [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
   * [IEEE ACCESS](https://iopscience.iop.org/journal/1741-2552)
   * [IEEE Sensors Journal](https://iopscience.iop.org/journal/1741-2552)
   * [Neuroscience](https://iopscience.iop.org/journal/1741-2552)
+  * [IEEE Transactions on Computational Social System](https://iopscience.iop.org/journal/1741-2552)
   """
 
 [[item]]
@@ -39,7 +40,7 @@ date_format = "Jan 2006"
   title = "Conference Review"
   url = ""
   certificate_url = ""
-  date_start = "2020-07-07"
+  date_start = "2018-01-01"
   date_end = ""
   description = """
   * [BIBE](http://www.icamem.org/)
