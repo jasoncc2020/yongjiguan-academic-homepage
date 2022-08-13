@@ -21,41 +21,21 @@ date_format = "Jan 2006"
 [[item]]
   organization = "兰州大学"
   organization_url = "https://www.lzu.edu.cn"
-  title = "国际师资博士后"
+  title = "第十二届研究生优秀学术论文二等奖"
   url = ""
   certificate_url = ""
-  date_start = "2019-05-18"
+  date_start = "2020-01-01"
   date_end = ""
-  description = "兰州大学国际师资博士后奖学金"
+  description = ""
 
 [[item]]
-  organization = "兰州大学"
+  organization = "中国电子学会"
   organization_url = "https://www.lzu.edu.cn"
-  title = "刘冰奖学金"
+  title = "第十三届中国研究生电子设计竞赛西北赛区三等奖"
   url = ""
   certificate_url = ""
-  date_start = "2018-12-01"
+  date_start = "2018-05-01"
   date_end = ""
-  description = "刘冰校友奖学金"
-
-[[item]]
-  organization = "Lanzhou University"
-  organization_url = "https://www.lzu.edu.cn"
-  title = "一等学业奖学金"
-  url = ""
-  certificate_url = ""
-  date_start = "2018-10-01"
-  date_end = ""
-  description = "兰州大学一等学业奖学金"
-  
-[[item]]
-  organization = "Lanzhou University"
-  organization_url = "https://www.lzu.edu.cn"
-  title = "兰州大学三好研究生"
-  url = ""
-  certificate_url = ""
-  date_start = "2017-12-01"
-  date_end = ""
-  description = "兰州大学三好研究生"
+  description = ""
 
 +++
