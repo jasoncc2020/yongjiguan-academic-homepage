@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "教学课程"
-subtitle = "教学相长，教是为了更好地学"
+title = "本科生助教"
+subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,43 +19,39 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "兰州大学信息科学与工程学院"
-  organization_url = "http://xxxy.lzu.edu.cn/"
-  title = "助教 - 通信原理"
-  url = ""
-  certificate_url = ""
-  date_start = "2014-09-01"
-  date_end = "2015-01-15"
-  description = "硕士一年级期间第一次作为**通信原理**课程的助教，主要工作是帮助学习该课程的学生批改作业和解答习题。"
-
-[[item]]
-  organization = "兰州大学信息科学与工程学院"
+  organization = "兰州大学信息科学与工程学院 (2017 秋季本科生课程 彭宏教授)"
   organization_url = "http://xxxy.lzu.edu.cn/"
   title = "助教 - 数学物理方法"
   url = ""
   certificate_url = ""
-  date_start = "2014-09-01"
-  date_end = "2015-01-15"
+  date_start = "2017-09-01"
+  date_end = "2018-01-15"
   description = "硕士一年级期间第二次作为**数学物理方法**课程的助教，主要工作是帮助学习该课程的学生批改作业和解答习题。"
   
 [[item]]
   organization = "兰州大学信息科学与工程学院"
   organization_url = "http://xxxy.lzu.edu.cn/"
-  title = "助教 - 光纤通信"
+  title = "助教 - 通信原理 (2017 秋季本科生课程 彭宏教授)"
   url = ""
   certificate_url = ""
-  date_start = "2015-03-01"
-  date_end = "2015-07-15"
-  description = "硕士一年级期间第三次作为**光纤通信**课程的助教，主要工作是帮助学习该课程的学生批改作业和解答习题。"
-  
+  date_start = "2017-09-01"
+  date_end = "2018-01-15"
+  description = ""
+
 [[item]]
   organization = "兰州大学信息科学与工程学院"
   organization_url = "http://xxxy.lzu.edu.cn/"
-  title = "助教 - 微波原理与技术"
+  title = "助教 - 信号与系统 (2018 春季本科生课程 田勇副教授)"
   url = ""
   certificate_url = ""
-  date_start = "2015-09-01"
-  date_end = "2016-01-15"
-  description = "硕士二年级期间第四次作为**微波原理与技术**课程的助教，主要工作是帮助学习该课程的学生批改作业和解答习题。"
+  date_start = "2018-03-01"
+  date_end = "2018-06-30"
+  description = ""
+
+
+
+
+
+
 
 +++
