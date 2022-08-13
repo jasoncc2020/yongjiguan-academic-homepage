@@ -40,9 +40,9 @@ gallery_item:
   image: 2019-3.png
 ---
 
-Today, I complet my PhD dissertation defense and then receive my PhD in [School of Information Science and Engineering, Lanzhou University](http://www.lzu.edu.cn/), China.
+Today, I completed the defense of my master's thesis and then obtained my master's degree in China [School of Information Science and Engineering, Lanzhou University] (http://www.lzu.edu.cn/).
 
-In this happy day, I want to thank the advisors (Prof. Xiaoping Zhang and Prof. Youquan Deng) who answered my questions, the family who silently supported me, and all the friends and classmates who helped me.
+On this happy day, I would like to thank my supervisors (Professor Peng Hong and Professor Hu Bin) who answered my questions and Associate Researcher Hu Xiping from Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, my family who silently supported me, and all who helped me friends and classmates.
 
 ## Graduation Photoes
 
@@ -52,5 +52,5 @@ The related graduation photoes are shown as following:
 
 ## License
 
-Copyright 2014-2020 Yongji Guan
+Copyright 2017-2022 Cancheng Li
 
