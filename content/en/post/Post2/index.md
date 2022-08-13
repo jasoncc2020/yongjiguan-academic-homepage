@@ -43,5 +43,5 @@ The 4th Journal paper **Flow-Induced Voltage Generation by Driving Imidazolium-B
 
 ## License
 
-Copyright 2014-2020 Yongji Guan
+Copyright 2017-2022 Cancheng Li
 
