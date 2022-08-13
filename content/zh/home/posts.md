@@ -5,10 +5,10 @@
 widget = "posts"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 120  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "学术新闻"
-subtitle = "世界上的一切是永恒的，也是暂时的"
+title = "学术动态"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
