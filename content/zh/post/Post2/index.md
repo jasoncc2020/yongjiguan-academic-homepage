@@ -1,7 +1,7 @@
 ---
-title: 'Paper accept: IEEE TNSRE'
+title: '4th期刊论文接收: IEEE TNSRE'
 subtitle: ''
-summary:  Our paper on [Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network”](https://ieeexplore.ieee.org/abstract/document/9515994) got accepted to IEEE TNSRE 
+summary:  我们的论文[Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network”](https://ieeexplore.ieee.org/abstract/document/9515994) 在 IEEE TNSRE期刊上接收！
 authors:
 - yongji
 tags:
@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-The 4st Journal Paper **Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network** is accepted by **IEEE tNSRE**. 
+第四篇期刊论文 **Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network** 已经被 **IEEE tNSRE** 接收！. 
 
 
 {{< gallery >}}
