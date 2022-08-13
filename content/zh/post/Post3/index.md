@@ -1,7 +1,7 @@
 ---
-title: 'The summer research work'
+title: '2022暑期研究进展'
 subtitle: ''
-summary:  Recently, I have completed many work with Liu Tao from Imperial College London, papre submit to BIBM2022 and Human brain mapping. Furthermore, we have submitted several works on Medical Image Segmentation (CONTRAST MEDIA MOL I, CMB) with Yanchao and Computational Neuroscience (CNS Neurosci Ther) with Lijuan!
+summary:  最近，我和伦敦帝国理工学院的刘韬完成了关于青少年焦虑生物标志物的两个研究，已经提交给 BIBM2022国际会议和 Human Brain Mapping国际期刊。 此外，我们还提交了与袁延超博士合作的医学图像分割 (CONTRAST MEDIA MOL I, CMB) 和史丽娟博士的计算神经科学 (CNS Neurosci Ther) 的研究论文！
 authors:
 - yongji
 tags:
