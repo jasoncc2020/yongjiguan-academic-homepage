@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-The 4th Journal paper **Flow-Induced Voltage Generation by Driving Imidazolium-Based Ionic Liquids Over a Graphene Nano-Channel** is accepted by **J Mater Chem A**.
+Our paper on Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network accept on IEEE tNSRE
 
 {{< gallery >}}
 
