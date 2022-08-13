@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2017-09-01"
   date_end = "2018-01-15"
-  description = "硕士一年级期间第二次作为**数学物理方法**课程的助教，主要工作是帮助学习该课程的学生批改作业和解答习题。"
+  description = ""
   
 [[item]]
   organization = "兰州大学信息科学与工程学院"
