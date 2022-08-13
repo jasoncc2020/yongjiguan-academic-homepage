@@ -1,7 +1,7 @@
 ---
-title: 'Paper accept: IEEE TNSRE'
+title: 'Paper accept: Neurocomputing'
 subtitle: ''
-summary:  Our paper on [A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation”](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to IEEE TNSRE 
+summary:  Our paper on [A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Neurocomputing
 authors:
 - yongji
 tags:
@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-The 4th Journal paper **Flow-Induced Voltage Generation by Driving Imidazolium-Based Ionic Liquids Over a Graphene Nano-Channel** is accepted by **J Mater Chem A**.
+The 3st Journal Paper **A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation** is accepted by **Neurocomputing**. 
 
 {{< gallery >}}
 
