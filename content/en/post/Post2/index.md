@@ -7,8 +7,8 @@ authors:
 tags:
 - Academic News
 categories: []
-date: "2022-02-07"
-lastmod: "2022-02-07"
+date: "2021-07-01"
+lastmod: "2021-07-01"
 featured: false
 draft: false
 
@@ -37,7 +37,8 @@ gallery_item:
   image: 2014-2.png
 ---
 
-Our paper on Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network accept on IEEE tNSRE
+The 4st Journal Paper **Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network** is accepted by **IEEE tNSRE**. 
+
 
 {{< gallery >}}
 
