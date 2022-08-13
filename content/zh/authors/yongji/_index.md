@@ -1,6 +1,6 @@
 ---
 # Display name
-name: 关永吉
+name: 李灿城
 avatar_image: "/hero/GYJ-full-2.jpg"
 # Username (this should match the folder name)
 authors:
@@ -14,38 +14,37 @@ btn:
 superuser: true
 
 # Role/position
-role: 博士后研究员
+role: 博士候选人
 
 # Organizations/Affiliations
 organizations:
-- name: 伦敦帝国理工学院
+- name: 北京航空航天大学
   url: "https://www.imperial.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 关永吉目前为物理化学方向的博士后研究员，他的主要研究方向为离子液体的理论计算。
+bio: 李灿城目前为计算精神病学方向的博士生，他的主要研究方向为计算神经科学。
 
 # Should the user's education and interests be displayed?
 display_education: true
 
 interests:
-- 分子动力学
-- 离子液体
-- 纳米限域
-- 纳米润湿
-- 能量收集
-- 振动光谱
+- 计算神经科学
+- 生物信号处理与分析
+- 脑功能连接与逆问题求解
+- 机器学习与模式识别
+
 
 education:
   courses:
-  - course: 理学博士，无线电物理
-    institution: 兰州大学
+  - course: 工学博士，生物医学工程
+    institution: 北京航空航天大学大学
     year: 2019
-  - course: 理学硕士，无线电物理
+  - course: 工程硕士，电子与通信工程
     institution: 兰州大学
     year: 2016
-  - course: 工学学士，通信工程
-    institution: 兰州大学
-    year: 2014
+  - course: 工学学士，电子通信工程
+    institution: 五邑大学
+    year: 2017
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -54,31 +53,34 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:yongji.guan@outlook.com'  #contact # For a direct email link, use "mailto:test@example.org".
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=hxul4AUAAAAJ&hl=en&authuser=1
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Yongji_Guan
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0001-9210-3530
+  link: '/#contact'
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/A0rD7rjImBxyn7e
 - icon: publons
   icon_pack: ai
-  link: https://publons.com/researcher/1467632/yongji-guan/  
-- icon: academia
-  icon_pack: ai
-  link: https://independent.academia.edu/YongjiGuan
-- icon: mendeley
-  icon_pack: ai
-  link: https://www.mendeley.com/profiles/yongji-guan2/
+  link: https://publons.com/researcher/3078077/cancheng-li/ 
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: fas
+  link: https://scholar.google.com/citations?user=N1NI_k0AAAAJ&hl=en&oi=ao
 - icon: github
   icon_pack: fab
-  link: https://github.com/yongjiguan
-- icon: gitlab
+  link: https://github.com/jasoncc2020/
+- icon: linkedin
   icon_pack: fab
-  link: https://gitlab.com/yongjiguan
+  link: https://www.linkedin.com/in/cancheng-li-8935921b2/
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-1952-4547
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Cancheng_Li
+- icon: facebook
+  icon_pack: fab
+  link: https://m.facebook.com/
+- icon: info-circle
+  icon_pack: fas
+  link: https://www.semanticscholar.org/author/Cancheng-Li/95251781  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -95,4 +97,6 @@ user_groups:
 - Visitors
 ---
 
-关永吉于1991年生于甘肃省白银市，2014年本科毕业于兰州大学信息科学与工程学院，获得通信工程专业工学学士学位并推荐免试继续攻读无线电物理专业理学硕士学位（导师：张晓萍教授、邵群峰博士）。2019年在[兰州大学](http://www.lzu.edu.cn)获得无线电物理专业理学博士学位（导师：张晓萍教授、邓友全研究员），主要研究方向为纳米限域离子液体的润湿行为及流动能量收集。目前在[伦敦帝国理工学院](http://www.imperial.ac.uk)作为博士后研究员（合作导师：张晓萍教授、Tom Welton教授）开展研究工作，主要研究内容为离子液体的纳米润湿行为、外场作用下离子液体的性质以及特定条件下离子液体的振动光谱特征。
+
+大家好，我现在是北京航空航天大学的在读博士，导师是张冀聪教授。2017-202我在中国兰州大学信息科学与工程学院[普适计算与智能感知实验室（UAIS Lab）](http://www.uais.edu.com)获得硕士学位,导师是彭宏教授和胡斌教授。曾作为客座学生在中国科学院深圳先进技术研究院访学。主要研究内容为计算神经科学、脑连接逆问题求解、机器学习与模式识别。
+
