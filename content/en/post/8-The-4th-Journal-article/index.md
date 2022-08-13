@@ -37,10 +37,12 @@ gallery_item:
   image: 2014-2.png
 ---
 
+The 5st Journal Paper **Dynamic brain functional network based on EEG microstate during sensory gating in schizophrenia** is accepted by **Journal of Neural Engineering**. 
+
 
 {{< gallery >}}
 
 ## License
 
-Copyright 2014-2020 Cancheng Li
+Copyright 2017-2000 Cancheng Li
 
