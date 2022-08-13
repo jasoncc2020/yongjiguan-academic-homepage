@@ -28,36 +28,37 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   * [张冀聪教授(北京航空航天大学)]([http://www.moltemplate.org/](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm))
-  * [Prof. Chuanyue Wang(首都医科大学安定医院)](https://www.bjad.com.cn/Html/Doctors/Main/Index_193.html)
-  * [Prof. Hong Peng (兰州大学)](http://uais.lzu.edu.cn/?p=902)
-  * [Prof. Bin Hu (兰州大学)](http://uais.lzu.edu.cn/?p=902)
-  * [Prof. Xiping Hu(中山大学)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
-  * [Prof. Chuanbo Qin(五邑大学)](https://www.wyu.edu.cn/znzzxb/info/1408/8273.htm)
-  * [Dr. Tao Liu(帝国理工学院)](https://www.researchgate.net/scientific-contributions/Tao-Liu-2196996849)
-  * [Dr. Qi Chang(北京航空航天大学)](https://www.semanticscholar.org/author/Qi-Chang/2054389837)
-  * [Dr. Lijiuan Shi(北京航空航天大学)](https://www.semanticscholar.org/author/Lijuan-Shi/2152999717)
-  * [Dr. Yanchao Yuan(北京航空航天大学)](https://www.researchgate.net)
-  * [Postdoc. Jing Fang(中国科学院深圳先进技术研究院)](https://www.siat.ac.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/)
-  * [Dr. Chang Lei (清华大学)](https://www.ymhlab.com/%E7%A9%BA%E7%99%BD%E9%A0%81-4) 
-  * [Dr. Tao Wang (天津大学)](https://www.researchgate.net/profile/Tao-Wang-211) 
+  * [王传跃主任医生(首都医科大学安定医院)](https://www.bjad.com.cn/Html/Doctors/Main/Index_193.html)
+  * [彭宏教授(兰州大学)](http://uais.lzu.edu.cn/?p=902)
+  * [胡斌教授(兰州大学)](http://uais.lzu.edu.cn/?p=902)
+  * [胡希平(中山大学)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
+  * [秦传波副教授(五邑大学)](https://www.wyu.edu.cn/znzzxb/info/1408/8273.htm)
+  * [刘韬(帝国理工学院)](https://www.researchgate.net/scientific-contributions/Tao-Liu-2196996849)
+  * [罗煜博士后(约翰霍普金斯大学医学院)](https://www.researchgate.net/scientific-contributions/Tao-Liu-2196996849)
+  * [常琪博士(北京航空航天大学)](https://www.semanticscholar.org/author/Qi-Chang/2054389837)
+  * [史丽娟博士(北京航空航天大学)](https://www.semanticscholar.org/author/Lijuan-Shi/2152999717)
+  * [袁延超博士(北京航空航天大学)](https://www.researchgate.net)
+  * [方静博士后(中国科学院深圳先进技术研究院)](https://www.siat.ac.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/)
+  * [雷畅博士(清华大学)](https://www.ymhlab.com/%E7%A9%BA%E7%99%BD%E9%A0%81-4) 
+  * [王韬博士(天津大学)](https://www.researchgate.net/profile/Tao-Wang-211) 
   """
   
   [[item]]
-  organization = "Master"
+  organization = "友情链接"
   organization_url = ""
-  title = "Computation Neuroscience Journal and lab"
+  title = "计算神经科学期刊与实验室"
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
   date_end = ""
   description = """
-  * [Nature Neuroscience](https://www.nature.com/neuro/)
-  * [Nature Medicine](https://www.nature.com/nm/)
-  * [Nature Biotechnology](https://www.nature.com/nbt/)
-  * [Nature Biomedical Engineering](https://www.nature.com/natbiomedeng/)
-  * [Nature Human Behavior](https://www.nature.com/nathumbehav/)
-  * [UAIS(Lanzhou University)](http://uais.lzu.edu.cn/))
-  * [SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
+  * [自然神经科学 Nature Neuroscience](https://www.nature.com/neuro/)
+  * [自然医学 Nature Medicine](https://www.nature.com/nm/)
+  * [自然生物科学 Nature Biotechnology](https://www.nature.com/nbt/)
+  * [自然生物医学工程 Nature Biomedical Engineering](https://www.nature.com/natbiomedeng/)
+  * [自然人类行为 Nature Human Behavior](https://www.nature.com/nathumbehav/)
+  * [普适计算与机器智能实验室 UAIS(Lanzhou University)](http://uais.lzu.edu.cn/))
+  * [中国科学院深圳先进技术研究院 SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
   """
 
 +++
