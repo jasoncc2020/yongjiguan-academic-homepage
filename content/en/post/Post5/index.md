@@ -1,7 +1,7 @@
 ---
-title: '3rd期刊论文接收: IEEE 传感器期刊 (IEEE Sensors Journal)'
+title: 'Paper accept: IEEE Sensors Journal'
 subtitle: ''
-summary:  第三篇期刊论文[A gait assessment framework for depression detection using kinect sensors](https://ieeexplore.ieee.org/abstract/document/9187648)已经在IEEE传感器期刊上接收！
+summary:  Our paper on [A gait assessment framework for depression detection using kinect sensors](https://ieeexplore.ieee.org/abstract/document/9187648) got accepted to IEEE Sennsor Journal!
 authors:
 - yongji
 tags:
