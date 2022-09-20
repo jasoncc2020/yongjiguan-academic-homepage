@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-The 3st Journal Paper **A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation** is accepted by **Neurocomputing**. 
+The 6 th Journal Paper **computer in biology and medicine** is accepted by **computer in biology and medicine**. 
 
 {{< gallery >}}
 
