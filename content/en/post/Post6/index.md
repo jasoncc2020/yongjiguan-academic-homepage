@@ -1,7 +1,7 @@
 ---
 title: 'Paper accept: computer in biology and medicine'
 subtitle: ''
-summary:  Our paper on [CSM-Net: Automatic Joint Segmentation of Intima-Media Complex and Lumen in Carotid Artery Ultrasound Images](https://ieeexplore.ieee.org/abstract/document/9187648) got accepted to IEEE Sennsor Journal!
+summary:  Our paper on [CSM-Net: Automatic Joint Segmentation of Intima-Media Complex and Lumen in Carotid Artery Ultrasound Images(https://ieeexplore.ieee.org/abstract/document/9187648) got accepted to computer in biology and medicine!
 authors:
 - yongji
 tags:
