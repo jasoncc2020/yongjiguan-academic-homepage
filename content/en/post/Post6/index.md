@@ -1,14 +1,14 @@
 ---
 title: 'Paper accept: computer in biology and medicine'
 subtitle: ''
-summary:  Our paper on [CSM-Net: Automatic Joint Segmentation of Intima-Media Complex and Lumen in Carotid Artery Ultrasound Images(https://ieeexplore.ieee.org/abstract/document/9187648) got accepted to computer in biology and medicine!
+summary:  Our paper on [CSM-Net: Automatic Joint Segmentation of Intima-Media Complex and Lumen in Carotid Artery Ultrasound Images](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to computer in biology and medicine
 authors:
 - yongji
 tags:
 - Academic News
 categories: []
 date: "2022-09-20"
-lastmod: "2020-09-20"
+lastmod: "2022-09-20"
 featured: false
 draft: false
 
@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-第六篇期刊论文 **CSM-Net: Automatic Joint Segmentation of Intima-Media Complex and Lumen in Carotid Artery Ultrasound Images** 已经被**computer in biology and medicine**期刊接收！ 
+The 3st Journal Paper **A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation** is accepted by **Neurocomputing**. 
 
 {{< gallery >}}
 
