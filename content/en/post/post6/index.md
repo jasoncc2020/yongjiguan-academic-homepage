@@ -1,14 +1,14 @@
 ---
 title: 'Paper accept: Neurocomputing'
 subtitle: ''
-summary:  Our paper on [CSM-net: Automatic joint segmentation of and lumen in carotid artery ultrasound images](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Neurocomputing
+summary:  Our paper on [A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Neurocomputing
 authors:
 - yongji
 tags:
 - Academic News
 categories: []
-date: "2019-12-07"
-lastmod: "2019-12-07"
+date: "2022-09-07"
+lastmod: "2022-09-07"
 featured: false
 draft: false
 
