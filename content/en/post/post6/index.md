@@ -1,14 +1,14 @@
 ---
-title: 'Paper accept: Computers in Biology and Medicine'
+title: 'Paper accept: Neurocomputing'
 subtitle: ''
-summary:  Our paper on [CSMnet: Automatic joint segmentation of and lumen in carotid artery ultrasound images](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Computers in Biology and Medicine
+summary:  Our paper on [CSM-net: Automatic joint segmentation of and lumen in carotid artery ultrasound images](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Neurocomputing
 authors:
 - yongji
 tags:
 - Academic News
 categories: []
-date: "2022-08-26"
-lastmod: "2022-08-26"
+date: "2019-12-07"
+lastmod: "2019-12-07"
 featured: false
 draft: false
 
@@ -44,6 +44,4 @@ The 3st Journal Paper **A novel automatic classification detection for epileptic
 ## License
 
 Copyright 2017-2022 Cancheng Li
-
-
 
