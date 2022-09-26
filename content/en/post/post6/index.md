@@ -1,7 +1,7 @@
 ---
 title: 'Paper accept: Computers in Biology and Medicine'
 subtitle: ''
-summary:  Our paper on [A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Neurocomputing
+summary:  Our paper on [A novel automatic classification detection for epileptic seizure based on dictionary learning and sparse representation](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Computers in Biology and Medicine
 authors:
 - yongji
 tags:
