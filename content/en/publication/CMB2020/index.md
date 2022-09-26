@@ -1,9 +1,9 @@
 ---
 title: "CSM-net: Automatic joint segmentation of and lumen in carotid artery ultrasound images"
 authors:
-- J. Fang, T. Wang, C. Li, X. Hu, E. Ngai, B. Seet, J. Cheng, Y. Guo, X. Jiang
-- IEEE ACCESS, 2019, 21 (3), 3260-3270
-date: "2019-09-02"
+- Y. Yuan, C. Li, L. Xu, S. Zhu, Y. Hua, J. Zhang
+- Computers in Biology and Medicine, 2022
+date: "2022-09-26"
 doi: "10.1109/ACCESS.2019.2957179"
 
 # Schedule page publish date (NOT publication's date).
