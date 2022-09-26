@@ -1,7 +1,7 @@
 ---
 title: 'Paper accept: Computers in Biology and Medicine'
 subtitle: ''
-summary:  Our paper on [CSM-net: Automatic joint segmentation of and lumen in carotid artery ultrasound images](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Computers in Biology and Medicine
+summary:  Our paper on [CSMnet: Automatic joint segmentation of and lumen in carotid artery ultrasound images](https://www.sciencedirect.com/science/article/abs/pii/S0925231219317114) got accepted to Computers in Biology and Medicine
 authors:
 - yongji
 tags:
