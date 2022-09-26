@@ -4,7 +4,7 @@ authors:
 - Y. Yuan, C. Li, L. Xu, S. Zhu, Y. Hua, J. Zhang
 - Computers in Biology and Medicine, 2022
 date: "2022-09-26"
-doi: "10.1109/ACCESS.2019.2957179"
+doi: "10.1016/j.compbiomed.2022.106119"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-09-26"
