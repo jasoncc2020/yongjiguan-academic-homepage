@@ -1,7 +1,7 @@
 ---
 title: 'Recent research work'
 subtitle: ''
-summary:  Recently, I completed a review on Chinese medicine and neuroscience with chaojie from Heilongjiang University of Traditional Chinese Medicine and professors from Shanghai University of Traditional Chinese Medicine. I submitted it to a special issue of front. Neurosci. Successful completion of this job!
+summary:  Recently, I as a corresponding author completing a review on Chinese medicine and neuroscience with chaojie from Heilongjiang University of Traditional Chinese Medicine and professors from Shanghai University of Traditional Chinese Medicine. I submitted it to a special issue of front. Neurosci. Successful completion of this job!
 authors:
 - yongji
 tags:
