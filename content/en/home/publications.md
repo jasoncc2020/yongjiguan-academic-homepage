@@ -36,7 +36,7 @@ subtitle = "**Numbers: 12| Citations: 101 | h-index: 5 | i10-index: 4**"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 1
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.
