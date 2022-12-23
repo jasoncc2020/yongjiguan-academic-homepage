@@ -1,8 +1,8 @@
 ---
-title: "HRU-Net: A Transfer Learning Method for Vulnerable Plaque Segmentation in Carotid 
-Arteries Ultrasound Images"
+title: "HRU-Net: A Transfer Learning Method for Vulnerable Plaque Segmentation in Carotid Arteries Ultrasound Images"
 authors:
 - Y. Yuan, C. Li, J. Zhang.
+- Diagnostics 2022, 12 (11), 2852
 date: 2021-12-07
 doi: "10.1016"
 
