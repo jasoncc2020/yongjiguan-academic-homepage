@@ -1,7 +1,8 @@
 ---
 title: "Classification of first-episode schizophrenia, chronic schizophrenia and healthy control based on brain network of mismatch negativity by graph neural network"
 authors:
-- Chang, Q., Li, C., Tian, Q., Bo, Q., Zhang, J., Xiong, Y.,  Wang, C.
+- Q. Chang, C. Li, Q. Tian, Q. Bo, J.  Zhang, Y. Xiong and Wang, C.
+- IEEE Trans. Neural Sys. Rehe. Eng. 2021, 29, 1784-1794
 date: 2021-07-16
 doi: "10.1016/j.neucom.2019.12.010"
 
