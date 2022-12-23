@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Service"
-  url = "#teaching"
+  url = "#Service"
   weight = 40
   
 [[main]]
@@ -30,7 +30,7 @@
   
 [[main]]
   name = "Publicagtions"
-  url = "#projects"
+  url = "#publicagtions"
   weight = 60
 
 [[main]]
