@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_start = "2018-01-01"
   date_end = ""
   description = """
-  * [Pattern Recognition](https://www.sciencedirect.com/journal/pattern recognition)
+  * [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition)
   * [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
   * [IEEE ACCESS](https://iopscience.iop.org/journal/1741-2552)
   * [IEEE Sensors Journal](https://iopscience.iop.org/journal/1741-2552)
