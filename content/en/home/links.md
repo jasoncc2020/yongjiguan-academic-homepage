@@ -42,9 +42,9 @@ date_format = "Jan 2006"
   """
   
   [[item]]
-  organization = "Master"
+  organization = "(previously and currently working)"
   organization_url = ""
-  title = "Laboratories that used to work and "
+  title = "Laboratory"
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
