@@ -1,5 +1,5 @@
 ---
-title: The second prize of the 12th Postgraduate Academic Annual Conference
+title: The second prize of the 12th postgraduate academic annual conference (LZU)
 event: Academic Conference
 event_url: http://ieeebibm.org/BIBM2022/
 location: Feiyun building, Lanzhou University, China
