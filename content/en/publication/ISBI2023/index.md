@@ -1,5 +1,5 @@
 ---
-title: "Fusing Joint Features of EEG Brain Functional Connectivity Networks for  Anxiety Recognition"
+title: "Fusing Joint Features of EEG Brain Functional Connectivity Networks for Anxiety Recognition"
 authors:
 - C. Li, T. Liu, L. Shi, Y. Yuan, C. Lei, and J. Zhang
 - ISBI 2023.
