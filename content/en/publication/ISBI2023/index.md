@@ -2,8 +2,8 @@
 title: "Fusing Joint Features of EEG Brain Functional Connectivity Networks for  Anxiety Recognition"
 authors:
 - C. Li, T. Liu, L. Shi, Y. Yuan, C. Lei, and J. Zhang
-- 2022 IEEE International Conference on 20th IEEE International Symposium on Biomedical Imaging (ISBI 2023)
-date: "2023-01-01
+- 2022 IEEE International Conference on 20th IEEE International Symposium on Biomedical Imaging (ISBI 2023).
+date: 2023-01-01
 doi: "10.1016/j.compbiomed.2022.106119"
 
 # Schedule page publish date (NOT publication's date).
