@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   [[item]]
   organization = "Master"
   organization_url = ""
-  title = "Computation Neuroscience Journal and lab"
+  title = "Laboratories that used to work and "
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
