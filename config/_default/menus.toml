@@ -9,7 +9,7 @@
   weight = 10
   
 [[main]]
-  name = "Academic News"
+  name = "News"
   url = "#posts"
   weight = 20
 
@@ -24,7 +24,7 @@
   weight = 40   
   
 [[main]]
-  name = "Service"
+  name = "Academic Service"
   url = "#Service"
   weight = 50
     
@@ -34,7 +34,7 @@
   weight = 60
   
 [[main]]
-  name = "projects"
+  name = "Projects"
   url = "#projects"
   weight = 70 
 
