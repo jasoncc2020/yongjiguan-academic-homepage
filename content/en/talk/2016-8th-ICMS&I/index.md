@@ -2,7 +2,7 @@
 title: BIBM2022
 event: Academic Conference
 event_url: http://ieeebibm.org/BIBM2022/
-location: Grand Mercure Teda Hotel, Dalian, China
+location: Changsha, Hunan, China
 summary: Talking about the functional connectivity on anxiety diagnosis.
 abstract: "Incoming."
 
