@@ -3,7 +3,7 @@ title: "HRU-Net: A Transfer Learning Method for Vulnerable Plaque Segmentation i
 authors:
 - Y. Yuan, C. Li, K. Zhang, Y. Hua and J. Zhang
 - Diagnostics 2022, 12 (11), 2852
-date: 2021-12-07
+date: 2022-11-20
 doi: "10.1016"
 
 # Schedule page publish date (NOT publication's date).
