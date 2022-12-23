@@ -3,11 +3,11 @@ title: "A Gait Assessment Framework for Depression Detection Using Kinect Sensor
 authors:
 - T. Wang, C. Li, C. Wu, C. Zhao, J. Sun, H. Peng, X. Hu, B. Hu
 - IEEE Sensors Journal, 2021, 21 (3), 3260-3270
-date: "2021-02-01"
+date: "2020-07-01"
 doi: "10.1109/JSEN.2020.3022374"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-03-01"
+publishDate: "2020-07-01"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
