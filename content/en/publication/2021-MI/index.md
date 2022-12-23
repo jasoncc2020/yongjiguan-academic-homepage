@@ -1,8 +1,9 @@
 ---
-title: "Motor-imagery classification model for brain-computer interface: a sparse group filter bank representation model (Times cited = 1)"
+title: "Motor-imagery classification model for brain-computer interface: a sparse group filter bank representation model"
 authors:
 - Li, C., Qin, C. and Fang, J.
-date: 2022-02-07
+- arXiv preprint arXiv:2108.12295	
+date: 2021-08-30
 doi: "10.1016/j.neucom.2019.12.010"
 
 # Schedule page publish date (NOT publication's date).
