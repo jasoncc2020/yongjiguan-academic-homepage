@@ -1,5 +1,5 @@
 ---
-title: The second prize of the LZU UAIS LAB Academic Annual Conference was awarded by Professor Hu Bin
+title: The second prize (master degree) of the LZU UAIS LAB academic annual conference
 event: Academic Conference
 event_url: http://ieeebibm.org/BIBM2022/
 location: Feiyun building406, Lanzhou University, China
