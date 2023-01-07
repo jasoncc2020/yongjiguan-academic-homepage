@@ -31,7 +31,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://yongjiguan.github.io/files/2017-1.pdf
+url_pdf: files/ChangTNSRE2021.pdf
 # url_code: 'https://pubs.acs.org/doi/10.1021/acs.jpcc.7b07474'
 # url_dataset: 'https://pubs.acs.org/doi/10.1021/acs.jpcc.7b07474'
 # url_poster: 'https://pubs.acs.org/doi/10.1021/acs.jpcc.7b07474'
