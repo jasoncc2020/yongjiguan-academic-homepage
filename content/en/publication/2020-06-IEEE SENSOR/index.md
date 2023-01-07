@@ -31,7 +31,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://yongjiguan.github.io/files/2019-2.pdf
+url_pdf: https://github.com/jasoncc2020/yongjiguan-academic-homepage/tree/master/static/files/ChangTNSRE2021.pdf
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
