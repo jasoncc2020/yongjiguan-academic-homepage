@@ -28,7 +28,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   * [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition)
-  * [Multimedia Tools and Applications]([https://www.editorialmanager.com](https://www.sciencedirect.com/journal/multimedia-tools-and-applications)
+  * [Multimedia Tools and Applications](https://www.sciencedirect.com/journal/multimedia-tools-and-applications)
   * [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
   * [IEEE ACCESS](https://iopscience.iop.org/journal/1741-2552)
   * [IEEE Sensors Journal](https://iopscience.iop.org/journal/1741-2552)
