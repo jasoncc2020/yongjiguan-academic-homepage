@@ -3,11 +3,11 @@ title: "Fusing Joint Features of EEG Brain Functional Connectivity Networks for 
 authors:
 - C. Li, T. Liu, L. Shi, C. Yuan, C. Lei, and J. Zhang
 - ISBI2023
-date: "2022-10-20"
+date: "2023-1-20"
 doi: "10.1016/j.compbiomed.2022.106119"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-10-20"
+publishDate: "2023-1-20"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,8 +16,8 @@ publishDate: "2022-10-20"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Computers in Biology and Medicine, 2022"
-publication_short: "Computers in Biology and Medicine, "
+publication: "ISBI2023"
+publication_short: "ISBI2023, "
 
 abstract: 
 
