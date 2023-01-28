@@ -1,5 +1,5 @@
 ---
-title: 'Paper accept: Neurocomputing'
+title: 'Paper accept: ISBI2023 and CNS Neurosci Ther'
 subtitle: ''
 summary:  Recently, two of our papers were accepted by ISBI2023 and CNS Neurosci. Ther., continue to work hard
 authors:
