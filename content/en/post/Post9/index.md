@@ -7,8 +7,8 @@ authors:
 tags:
 - Academic News
 categories: []
-date: 2023-1-28
-lastmod: 2023-1-28
+date: 2023-01-28
+lastmod: 2023-01-28
 featured: false
 draft: false
 
