@@ -1,7 +1,7 @@
 ---
 title: 'Paper accept: ISBI2023 and CNS Neurosci Ther'
 subtitle: ''
-summary:  Recently, two of our papers were accepted by ISBI2023 and CNS Neurosci. Ther., continue to work hard
+summary:  最近，两篇论文 ISBI2023 和 CNS Neurosci. Ther.被接收，2023年，继续努力！
 authors:
 - yongji
 tags:
@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-Recently, two of our papers were accepted by ISBI2023 and CNS Neurosci. Ther., continue to work hard. 
+最近，两篇论文 ISBI2023 和 CNS Neurosci. Ther.被接收，2023年，继续努力！
 
 {{< gallery >}}
 
