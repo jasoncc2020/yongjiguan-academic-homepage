@@ -2,7 +2,7 @@
 title: IEEE ISBI2023 conference Post presentation
 event: Academic Conference
 event_url: http://ieeebibm.org/BIBM2022/
-location: Feiyun building406, Lanzhou University, China
+location: Cartagena de Indias.Colombia
 summary: Talking about the Motor-imagery BCI classification.
 abstract: "Incoming."
 
