@@ -1,7 +1,7 @@
 ---
-title: 'Paper accept: IJCAI2023-AMI and CNS Neurosci Ther'
+title: 'Paper accept: IJCAI2023AMI and CNS Neurosci Ther'
 subtitle: ''
-summary:  Recently, two of our papers were accepted by IJCAI-AMI and CNS Neurosci. Ther., continue to work hard
+summary:  Recently, two of our papers were accepted by IJCAI workshop and CNS Neurosci. Ther., continue to work hard
 authors:
 - yongji
 tags:
