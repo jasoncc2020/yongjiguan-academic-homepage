@@ -1,14 +1,14 @@
 ---
-title: 'Paper accept: IJCAI-workshp and CNS Neurosci Ther'
+title: 'Paper accept: ISBI2023 and CNS Neurosci Ther'
 subtitle: ''
-summary:  最近，两篇论文 IJCAI-workshp和 CNS Neurosci. Ther.被接收，2023年，继续努力！
+summary:  Recently, two of our papers were accepted by IJCAI-AMI and CNS Neurosci. Ther., continue to work hard
 authors:
 - yongji
 tags:
 - Academic News
 categories: []
-date: 2023-08-20
-lastmod: 2023-08-20
+date: 2023-08-28
+lastmod: 2023-08-28
 featured: false
 draft: false
 
@@ -37,7 +37,7 @@ gallery_item:
   image: 2014-2.png
 ---
 
-最近，两篇论文 IJCAI-workshp 和 CNS Neurosci. Ther.被接收，2023年，继续努力！
+Recently, two of our papers were accepted by ISBI2023 and CNS Neurosci. Ther., continue to work hard. 
 
 {{< gallery >}}
 
