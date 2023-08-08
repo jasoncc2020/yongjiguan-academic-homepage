@@ -34,6 +34,7 @@ date_format = "Jan 2006"
   * [IEEE ACCESS](https://iopscience.iop.org/journal/1741-2552)
   * [Neuroscience](https://iopscience.iop.org/journal/1741-2552)
   * [IEEE Transactions on Computational Social System](https://iopscience.iop.org/journal/1741-2552)
+  * [Structural Control and Health Monitoring](https://www.hindawi.com/journals/schm/)
   """
 
 [[item]]
