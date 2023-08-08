@@ -1,13 +1,13 @@
 ---
 title: "Multi-Bands Joint Graph Convolution EEG Functional Connectivity Network for Predicting Mental Disorders"
 authors:
-- C. Li, and J. Zhang
-- ISBI2023
-date: "2023-1-20"
+- C. Li, S. Gao and J. Zhang
+- IJCAI-workshop
+date: "2023-8-20"
 doi: "10.1016/j.compbiomed.2022.106119"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-1-20"
+publishDate: "2023-8-20"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
