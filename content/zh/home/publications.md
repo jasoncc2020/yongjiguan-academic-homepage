@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "期刊论文"
-subtitle = "**数量: 13 | 引用: 115 | h-指数: 5 | i10-指数: 4**"
+subtitle = "**数量: 18 | 引用: 142 | h-指数: 5 | i10-指数: 4**"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
