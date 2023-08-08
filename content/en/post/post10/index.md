@@ -1,5 +1,5 @@
 ---
-title: 'Paper accept: ISBI2023 and CNS Neurosci Ther'
+title: 'Paper accept: IJCAI2023-AMI and CNS Neurosci Ther'
 subtitle: ''
 summary:  Recently, two of our papers were accepted by IJCAI-AMI and CNS Neurosci. Ther., continue to work hard
 authors:
