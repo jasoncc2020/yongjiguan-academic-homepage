@@ -73,6 +73,8 @@ contact_links = [
   {icon = "whatsapp", icon_pack = "fab", name = "WhatsApp", link = "https://wa.me/1234567890"},
   {icon = "telegram", icon_pack = "fab", name = "Telegram", link = "https://t.me/yourusername"},
   {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/yourusername/"},
+  {icon = "zhihu", icon_pack = "fab", name = "知乎", link = "https://www.zhihu.com/people/yourusername"},
+  {icon = "weibo", icon_pack = "fab", name = "微博", link = "https://weibo.com/yourusername"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:live:canchengli"},
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/CanchengLi"},
   {icon = "facebook", icon_pack = "fab", name = "Chat on Facebook", link = "https://www.facebook.com/canchengli2/"},
