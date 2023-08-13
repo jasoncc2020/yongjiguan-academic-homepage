@@ -69,12 +69,17 @@ appointment_url = "https://calendly.com/canchengli"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
+  {icon = "email", icon_pack = "fas", name = "Email Me", link = "mailto:your.email@example.com"},
+  {icon = "whatsapp", icon_pack = "fab", name = "WhatsApp", link = "https://wa.me/1234567890"},
+  {icon = "telegram", icon_pack = "fab", name = "Telegram", link = "https://t.me/yourusername"},
+  {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/yourusername/"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:live:canchengli"},
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/CanchengLi"},
   {icon = "facebook", icon_pack = "fab", name = "Chat on Facebook", link = "https://www.facebook.com/canchengli2/"},
   {icon = "linkedin", icon_pack = "fab",name = "Discuss on Linkedin", link = "https://www.linkedin.com/in/cancheng-li-8935921b2/"},
   {icon = "youtube", icon_pack = "fab", name = "Youtube", link = "https://www.youtube.com/channel/UCiF5JYa6Ej4vXf1xnHpnhZw"},
   ]
+
 
 # Display a map.
 # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
