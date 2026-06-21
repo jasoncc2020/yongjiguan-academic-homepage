@@ -7,7 +7,7 @@ date: 2021-08-30
 doi: "10.1016/j.neucom.2019.12.010"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-12-13"
+publishDate: "2019-12-11"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
