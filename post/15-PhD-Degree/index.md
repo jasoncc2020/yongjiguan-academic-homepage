@@ -1,7 +1,7 @@
 ---
-title: 'Master Degree'
+title: 'Paper accepted for publication in Npj Digital Medicine'
 subtitle: ''
-summary: I complet my master dissertation defense and then receive my master in School of Information Science and Engineering, Lanzhou University, China.
+summary: 🎉 Excited to share that our study on relapse prediction in substance use disorder and TMS treatment response has been accepted for publication in npj Digital Medicine!
 authors:
 - yongji
 tags:
