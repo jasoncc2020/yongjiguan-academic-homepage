@@ -30,16 +30,12 @@ date_format = "Jan 2006"
   * [Prof. Jicong Zhang(Beihang University)]([http://www.moltemplate.org/](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm))
   * [Prof. Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Prof. Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
-  * [Prof. Chuanyue Wang(Anding Hospital, Capital medical University)](https://www.bjad.com.cn/Html/Doctors/Main/Index_193.html)
-  * [Prof. Xiping Hu(Sun Yat-sen University)](https://ise.sysu.edu.cn/teacher/teacher01/1393500.htm)
-  * [Postdoc. Jing Fang(SIAT)](https://www.siat.ac.cn/jgsz2016/jgdh2016/kybm2016/jcs2016/yjdy2016/rjkzyjs2016/zxtd_125522/)
-  * [Prof. Chuanbo Qin(Wuyi University)](https://www.wyu.edu.cn/znzzxb/info/1408/8273.htm)
-  * [Dr. Tao Liu(Imperial College London)](https://www.researchgate.net/scientific-contributions/Tao-Liu-2196996849)
-  * [Dr. Yanchao Yuan(Beihang University)](https://www.researchgate.net)
-  * [Dr. Lijiuan Shi(Beihang University)](https://www.semanticscholar.org/author/Lijuan-Shi/2152999717)
+  * [Asso. Prof. Changmng Wang (Capital Medical University)](https://ccmu.teacher.360eol.com/teacherBasic/preview?teacherId=11721)
+  * [Dr. Tao Liu(University of Oxford)](https://www.bndu.ox.ac.uk/people/tao-liu)
   * [Dr. Chang Lei (Tsinghua University)](https://www.ymhlab.com/%E7%A9%BA%E7%99%BD%E9%A0%81-4) 
-  * [Dr. Tao Wang (TianJin University)](https://www.researchgate.net/profile/Tao-Wang-211) 
   """
+
+
   
   [[item]]
   organization = "(previously and currently working)"
