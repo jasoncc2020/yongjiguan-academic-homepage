@@ -1,102 +1,110 @@
 ---
-# Display name
+# 姓名
 name: 李灿城
-avatar_image: "/hero/GYJ-full-2.jpg"
-# Username (this should match the folder name)
-authors:
-- admin
-# resume download button
-btn:
-- url : "files/cv.pdf"
-  label : "个人简历下载"
 
-# Is this the primary user of the site?
+# 个人头像
+avatar_image: "/hero/GYJ-full-2.jpg"
+
+# 用户名
+authors:
+- Cancheng
+
+# 简历下载按钮
+btn:
+- url: "files/cv.pdf"
+  label: "下载个人简历"
+
+# 是否为网站主要用户
 superuser: true
 
-# Role/position
-role: 博士候选人
+# 职位/学历
+role: 生物医学工程博士
 
-# Organizations/Affiliations
+# 工作单位
 organizations:
 - name: 北京航空航天大学
-  url: "https://www.imperial.ac.uk/"
+  url: "https://www.buaa.edu.cn/"
 
-# Short bio (displayed in user profile at end of posts)
-bio: 李灿城目前为计算精神病学方向的博士生，他的主要研究方向为计算神经科学。
+# 个人简介
+bio: 李灿城获北京航空航天大学生物医学工程博士学位，研究方向包括计算神经科学、神经科学人工智能及精神障碍异质性研究。
 
-# Should the user's education and interests be displayed?
+# 显示教育经历和研究方向
 display_education: true
 
+# 研究方向
 interests:
-- 计算神经科学
-- 生物信号处理与分析
-- 脑功能连接与逆问题求解
-- 机器学习与模式识别
+- "[计算神经科学](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:computational_neuroscience)"
+- "[神经科学人工智能](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:ai_for_neuroscience)"
+- "[精神障碍异质性](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:heterogeneity_of_mental_diseases)"
 
-
+# 教育经历
 education:
   courses:
-  - course: 工学博士，生物医学工程
-    institution: 北京航空航天大学大学
+  - course: 生物医学工程博士
+    institution: 北京航空航天大学
     year: 2024
-  - course: 工程硕士，电子与通信工程
+
+  - course: 电子与通信工程硕士
     institution: 兰州大学
     year: 2020
-  - course: 工学学士，电子通信工程
+
+  - course: 电子信息工程学士
     institution: 五邑大学
     year: 2017
 
-# Social/academia Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# 社交与学术主页
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: "/#contact"
+
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/A0rD7rjImBxyn7e
+  link: "https://twitter.com/A0rD7rjImBxyn7e"
+
 - icon: publons
   icon_pack: ai
-  link: https://publons.com/researcher/3078077/cancheng-li/ 
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  link: "https://publons.com/researcher/3078077/cancheng-li/"
+
+- icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.com/citations?user=N1NI_k0AAAAJ&hl=en&oi=ao
+  link: "https://scholar.google.com/citations?user=N1NI_k0AAAAJ&hl=en&oi=ao"
+
 - icon: github
   icon_pack: fab
-  link: https://github.com/jasoncc2020/
+  link: "https://github.com/jasoncc2020/"
+
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/cancheng-li-8935921b2/
+  link: "https://www.linkedin.com/in/cancheng-li-8935921b2/"
+
 - icon: orcid
   icon_pack: ai
-  link: https://orcid.org/0000-0002-1952-4547
+  link: "https://orcid.org/0000-0002-1952-4547"
+
 - icon: researchgate
   icon_pack: ai
-  link: https://www.researchgate.net/profile/Cancheng_Li
+  link: "https://www.researchgate.net/profile/Cancheng_Li"
+
 - icon: facebook
   icon_pack: fab
-  link: https://m.facebook.com/
+  link: "https://m.facebook.com/"
+
 - icon: info-circle
   icon_pack: fas
-  link: https://www.semanticscholar.org/author/Cancheng-Li/95251781  
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#  icon_pack: ai
-#  link: files/cv.pdf
+  link: "https://www.semanticscholar.org/author/Cancheng-Li/95251781"
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
+
 user_groups:
 - Researchers
 - Visitors
 ---
 
+李灿城获[北京航空航天大学](https://www.buaa.edu.cn/)生物医学工程博士学位，师从国家青年千人计划入选者[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)。他曾作为客座研究生在[中国科学院深圳先进技术研究院](http://www.siat.ac.cn/)开展联合培养与合作研究。
 
-大家好，我现在是北京航空航天大学生物与医学工程学院在读三年级博士生，导师是张冀聪教授。2017-2020年我在兰州大学信息科学与工程学院[普适计算与智能感知实验室（UAIS Lab）](http://www.uais.edu.com)获得硕士学位,导师是彭宏教授和胡斌教授。曾作为客座学生在中国科学院深圳先进技术研究院联合培养，导师是胡希平研究员。主要研究兴趣为计算神经科学、脑连接逆问题求解、机器学习与模式识别。
+他的研究方向主要包括[计算神经科学](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:computational_neuroscience)、[神经科学人工智能](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:ai_for_neuroscience)及[精神障碍异质性](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:heterogeneity_of_mental_diseases)，具体涉及生物医学信号处理、脑网络与脑连接建模，以及非侵入式神经调控疗效评估等。
 
+近五年，他在 *npj Digital Medicine*、*Neurocomputing*、*CNS Neuroscience & Therapeutics*、IJCAI 和 IEEE ISBI 等期刊及会议发表论文20余篇。
+
+他现担任 *Frontiers in Neuroscience* 和 *Frontiers in Neurology* 客座副主编（Guest Associate Editor），并受邀担任 *IEEE Transactions on Affective Computing*、*IEEE Journal of Biomedical and Health Informatics*、*IEEE Transactions on Cognitive and Developmental Systems*、*Neurocomputing* 等20余本医工交叉领域国际期刊的审稿人。此外，他还担任 IEEE Health 2023、IEEE Health 2024 和 IEEE ISBI 2025 程序委员会委员。
