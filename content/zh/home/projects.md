@@ -22,29 +22,16 @@ subtitle = ""
   filter_default = 0
   
   [[content.filter_button]]
-    name = "所有课题"
+    name = "All"
     tag = "*"
 
   [[content.filter_button]]
-    name = "精神脑功能连接"
-    tag = "精神脑功能连接"
-
-  [[content.filter_button]]
-    name = "精神障碍诊断"
-    tag = "精神障碍诊断"
+    name = "Mental disorder Brain Connectivity"
+    tag = "Mental disorder Brain Connectivity"
   
   [[content.filter_button]]
-    name = "深度学习分割任务"
-    tag = "深度学习分割任务"
-
-  [[content.filter_button]]
-    name = "癫痫自动检测"
-    tag = "癫痫自动检测"
-    
-
-  [[content.filter_button]]
-    name = "其他课题"
-    tag = "其他课题"
+    name = "Others"
+    tag = "Other Projects"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
