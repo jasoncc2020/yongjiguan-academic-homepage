@@ -1,9 +1,9 @@
 ---
-title: 基于步态的青少年无干扰诊断分析
-summary: 探索抑郁症的有效工具
+title: 大脑扰动的EEG功能连接对于海洛因成瘾减少渴求
+summary: 探索成瘾复发生物标志物的有效工具
 tags:
 - 精神障碍诊断
-date: "2019-03-01"
+date: "2024-03-01"
 
 # Optional external URL for project (replaces project detail page).
 external_link: 
