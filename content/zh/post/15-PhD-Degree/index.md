@@ -1,7 +1,7 @@
 ---
-title: '硕士研究生毕业'
+title: 'Paper accepted for publication in Npj Digital Medicine'
 subtitle: ''
-summary: 我完成了硕士论文答辩，在兰州大学信息科学与工程学院获得硕士学位！
+summary: 🎉 Excited to share that our study on relapse prediction in substance use disorder and TMS treatment response has been accepted for publication in npj Digital Medicine!
 authors:
 - yongji
 tags:
@@ -40,9 +40,6 @@ gallery_item:
   image: 2019-3.png
 ---
 
-我完成了[兰州大学信息科学与工程学院](http://www.lzu.edu.cn/)研究生课程与硕士论文答辩.
-
-On this happy day, I would like to thank my supervisors (Professor Peng Hong and Professor Hu Bin) who answered my questions and Associate Researcher Hu Xiping from Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, my family who silently supported me, and all who helped me friends and classmates.
 
 ## Graduation Photoes
 
