@@ -1,9 +1,9 @@
 ---
-title: The gait-based undisturbed diagnostic analysis of adolescents
-summary: Efficient tool to explore the depression disorder
+title: EEG Functional Connectivity Associated with Brain Perturbation and Craving Reduction in Heroin Addiction
+summary: Effective tools for exploring biomarkers of addiction relapse
 tags:
 - Mental disorder Diagnosis
-date: "2019-03-01"
+date: "2024-03-01"
 
 # Optional external URL for project (replaces project detail page).
 external_link: 
