@@ -26,23 +26,9 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
     tag = "*"
 
   [[content.filter_button]]
-    name = "Psychiatry Brain Connectivity"
-    tag = "Psychiatry Brain Connectivity"
+    name = "Mental disorder Brain Connectivity"
+    tag = "Mental disorder Brain Connectivity"
   
-  [[content.filter_button]]
-    name = "Mental disorder Diagnosis"
-    tag = "Mental disorder Diagnosis"  
-    
-  [[content.filter_button]]
-    name = "Deep Learning in Segementation"
-    tag = "Deep Learning in Segementation"    
-   
-  [[content.filter_button]]
-    name = "Epilepsy Detection"
-    tag = "Epilepsy Detection"
-    
-
-    
   [[content.filter_button]]
     name = "Others"
     tag = "Other Projects"
