@@ -1,52 +1,65 @@
 +++
 # Links widget.
-widget = "links"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 45  # Order that this section will appear.
+widget = "links"
+headless = true
+active = true
+weight = 45
 
-title = "学术服务"
-subtitle = ""
+title = "学术服务与领导力"
+subtitle = "助人亦是助己"
 
-# Date format
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Links.
-#   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
-#   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[item]]
+  organization = "客座副主编"
+  organization_url = ""
+  title = "Guest Associate Editor"
+  url = ""
+  certificate_url = ""
+  date_start = "2023-01-01"
+  date_end = ""
+  description = """
+  * [Frontiers in Neuroscience](https://www.frontiersin.org/journals/neuroscience)
+  * [Frontiers in Neurology](https://www.frontiersin.org/journals/neurology)
+  """
 
 [[item]]
-  organization = "期刊会议论文审稿"
+  organization = "期刊与会议审稿"
   organization_url = ""
-  title = "期刊论文审稿"
+  title = "期刊审稿"
   url = ""
   certificate_url = ""
   date_start = "2018-01-01"
   date_end = ""
   description = """
-  * [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition)
-  * [Multimedia Tools and Applications](https://www.sciencedirect.com/journal/multimedia-tools-and-applications)
-  * [ISA Transactions](https://www.sciencedirect.com/journal/isa-transactions)
-  * [IEEE Sensors Journal](https://iopscience.iop.org/journal/1741-2552)
-  * [IEEE ACCESS](https://iopscience.iop.org/journal/1741-2552)
-  * [Neuroscience](https://iopscience.iop.org/journal/1741-2552)
-  * [IEEE Transactions on Computational Social System](https://iopscience.iop.org/journal/1741-2552)
-  * [Structural Control and Health Monitoring](https://www.hindawi.com/journals/schm/)
+  受邀担任20余本国际期刊审稿人，包括：
+  * Engineering Applications of Artificial Intelligence (EAAI)
+  * IEEE Transactions on Biomedical Engineering (IEEE TBME)
+  * IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE TNSRE)
+  * IEEE Internet of Things Journal (IEEE IoTJ)
+  * IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
+  * Pattern Recognition (PR)
+  * IEEE Transactions on Affective Computing (IEEE TAFFC)
+  * IEEE Transactions on Cognitive and Developmental Systems (IEEE TCDS)
+  * Neurocomputing
+  * Computers in Biology and Medicine
+  * Machine Intelligence Research
+  * Journal of Neural Engineering (JNE)
+  * 等
   """
 
 [[item]]
-  organization = "期刊会议论文审稿"
+  organization = "期刊与会议审稿"
   organization_url = ""
-  title = "会议论文审稿"
+  title = "会议审稿"
   url = ""
   certificate_url = ""
-  date_start = "2018-01-01"
+  date_start = "2022-01-01"
   date_end = ""
   description = """
-  * [BIBE](http://www.icamem.org/)
+  * IEEE HealthCom (2023、2024、2025、2026)
+  * [IEEE BIBE](http://www.icamem.org/) (2022)
+  * IEEE ISBI (2024)
+  * 等
   """
-
 +++
