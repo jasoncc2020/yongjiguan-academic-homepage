@@ -1,5 +1,5 @@
 ---
-title: "Individualized Prediction of Heroin Cue-Induced Craving Using Task-Based EEG Functional Connectivity"
+title: "(Npj Digital Medicine 2026) Individualized Prediction of Heroin Cue-Induced Craving Using Task-Based EEG Functional Connectivity"
 
 authors:
 - Cancheng Li
