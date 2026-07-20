@@ -1,5 +1,5 @@
 ---
-title: "Multi-Bands Joint Graph Convolution EEG Functional Connectivity Network for Predicting Mental Disorders"
+title: "(IJCAI2023-AMI) Multi-Bands Joint Graph Convolution EEG Functional Connectivity Network for Predicting Mental Disorders"
 authors:
 - C. Li, S. Gao and J. Zhang
 - IJCAI-workshop
