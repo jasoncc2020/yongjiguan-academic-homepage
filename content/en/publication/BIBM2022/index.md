@@ -2,8 +2,8 @@
 title: "A Novel Automatic Classification Detection for Epileptic Seizure Based on Dictionary Learning and Sparse Representation"
 
 authors:
-- Hong Peng#
-- Cancheng Li#
+- Cancheng Li
+- Hong Peng
 - Jinlong Chao
 - Tao Wang
 - Chengjian Zhao
