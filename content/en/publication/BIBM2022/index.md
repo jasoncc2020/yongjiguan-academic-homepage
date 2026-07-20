@@ -1,5 +1,5 @@
 ---
-title: "A Novel Automatic Classification Detection for Epileptic Seizure Based on Dictionary Learning and Sparse Representation"
+title: "(Neurocomputing 2021) A Novel Automatic Classification Detection for Epileptic Seizure Based on Dictionary Learning and Sparse Representation"
 
 authors:
 - Cancheng Li
