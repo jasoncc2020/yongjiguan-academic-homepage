@@ -33,16 +33,16 @@ display_education: true
 
 # Research interests
 interests:
-- "[Computational Neuroscience](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:computational_neuroscience)"
-- "[AI for Neuroscience](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:ai_for_neuroscience)"
-- "[Heterogeneity of Mental Disorders](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:heterogeneity_of_mental_diseases)"
+- "Computational Neuroscience"
+- "AI for Neuroscience"
+- "Heterogeneity of Mental Disorders"
 
 # Education
 education:
   courses:
   - course: Ph.D. in Biomedical Engineering
     institution: Beihang University
-    year: 2024
+    year: 2026
 
   - course: M.Eng. in Electronics and Communication Engineering
     institution: Lanzhou University
@@ -103,10 +103,9 @@ user_groups:
 - Visitors
 ---
 
-Cancheng Li received his Ph.D. in Biomedical Engineering from [Beihang University](https://www.buaa.edu.cn/), where he was supervised by [Professor Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm), a recipient of China’s National Young Thousand Talents Program. He also conducted collaborative research as a visiting graduate student at the [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](http://www.siat.ac.cn/).
+Cancheng Li is a Ph.D. candidate in Biomedical Engineering at [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Professor Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm). He has also conducted collaborative research at the [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](http://www.siat.ac.cn/).
 
-His research focuses on [computational neuroscience](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:computational_neuroscience), [artificial intelligence for neuroscience](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:ai_for_neuroscience), and the investigation of [heterogeneity in mental disorders](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:heterogeneity_of_mental_diseases). His work involves biomedical signal processing, brain network and connectivity modeling, and the evaluation of therapeutic outcomes following non-invasive neuromodulation.
+His research interests include computational neuroscience, artificial intelligence for neuroscience, and heterogeneity in mental disorders. He has published more than 20 papers in journals and conference proceedings, including *npj Digital Medicine*, *Neurocomputing*, IJCAI, and IEEE ISBI.
 
-Over the past five years, he has authored or co-authored more than 20 papers published in journals and conference proceedings, including *npj Digital Medicine*, *Neurocomputing*, *CNS Neuroscience & Therapeutics*, IJCAI, and IEEE ISBI.
+He has served as a Guest Associate Editor for *Frontiers in Neuroscience* and *Frontiers in Neurology* and has reviewed manuscripts for more than 20 international journals, including *IEEE Transactions on Affective Computing*, *IEEE Journal of Biomedical and Health Informatics*, *IEEE Transactions on Cognitive and Developmental Systems*, and *Neurocomputing*. He has also served as a Program Committee member for IEEE Health 2023, IEEE Health 2024, and IEEE ISBI 2025.
 
-He has served as a Guest Associate Editor for *Frontiers in Neuroscience* and *Frontiers in Neurology*. He has also been invited to review manuscripts for more than 20 international journals in biomedical engineering and related interdisciplinary fields, including *IEEE Transactions on Affective Computing*, *IEEE Journal of Biomedical and Health Informatics*, *IEEE Transactions on Cognitive and Developmental Systems*, and *Neurocomputing*. In addition, he has served as a Program Committee member for IEEE Health 2023, IEEE Health 2024, and IEEE ISBI 2025.
