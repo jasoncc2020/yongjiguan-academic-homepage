@@ -101,10 +101,11 @@ user_groups:
 - Visitors
 ---
 
-李灿城获[北京航空航天大学](https://www.buaa.edu.cn/)生物医学工程博士学位，师从国家青年千人计划入选者[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)。他曾作为客座研究生在[中国科学院深圳先进技术研究院](http://www.siat.ac.cn/)开展联合培养与合作研究。
+李灿成现为[北京航空航天大学](https://www.buaa.edu.cn/)生物医学工程专业博士研究生，师从[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)。他还曾在[中国科学院深圳先进技术研究院](http://www.siat.ac.cn/)联合培养。
 
-他的研究方向主要包括[计算神经科学](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:computational_neuroscience)、[神经科学人工智能](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:ai_for_neuroscience)及[精神障碍异质性](https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=label:heterogeneity_of_mental_diseases)，具体涉及生物医学信号处理、脑网络与脑连接建模，以及非侵入式神经调控疗效评估等。
+他的研究兴趣包括计算神经科学、面向神经科学的人工智能，以及精神障碍异质性研究。他已在期刊和国际会议上发表论文20余篇，代表性发表平台包括 *npj Digital Medicine*、*Neurocomputing*、IJCAI 和 IEEE ISBI。他曾担任 *Frontiers in Neuroscience* 和 *Frontiers in Neurology* 客座副主编，并受邀为20余本国际期刊审稿，包括 *IEEE Transactions on Affective Computing*、*IEEE Journal of Biomedical and Health Informatics*、*IEEE Transactions on Cognitive and Developmental Systems* 和 *Neurocomputing*。此外，他还曾担任 IEEE Health 2023、IEEE Health 2024 和 IEEE ISBI 2025 程序委员会委员。
 
-近五年，他在 *npj Digital Medicine*、*Neurocomputing*、*CNS Neuroscience & Therapeutics*、IJCAI 和 IEEE ISBI 等期刊及会议发表论文20余篇。
 
-他现担任 *Frontiers in Neuroscience* 和 *Frontiers in Neurology* 客座副主编（Guest Associate Editor），并受邀担任 *IEEE Transactions on Affective Computing*、*IEEE Journal of Biomedical and Health Informatics*、*IEEE Transactions on Cognitive and Developmental Systems*、*Neurocomputing* 等20余本医工交叉领域国际期刊的审稿人。此外，他还担任 IEEE Health 2023、IEEE Health 2024 和 IEEE ISBI 2025 程序委员会委员。
+
+
+
