@@ -21,45 +21,44 @@ date_format = "Jan 2006"
   description = """
   * [Frontiers in Neuroscience](https://www.frontiersin.org/journals/neuroscience)
   * [Frontiers in Neurology](https://www.frontiersin.org/journals/neurology)
-  """
-
+   """
 [[item]]
-  organization = "期刊与会议审稿"
+  organization = "Journal & Conference Review"
   organization_url = ""
-  title = "期刊审稿"
+  title = "Journal Review"
   url = ""
   certificate_url = ""
   date_start = "2018-01-01"
   date_end = ""
   description = """
-  受邀担任20余本国际期刊审稿人，包括：
-  * Engineering Applications of Artificial Intelligence (EAAI)
-  * IEEE Transactions on Biomedical Engineering (IEEE TBME)
-  * IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE TNSRE)
-  * IEEE Internet of Things Journal (IEEE IoTJ)
-  * IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
-  * Pattern Recognition (PR)
+  Served for over 20 international journals, including:
+  * IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
   * IEEE Transactions on Affective Computing (IEEE TAFFC)
-  * IEEE Transactions on Cognitive and Developmental Systems (IEEE TCDS)
+  * IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
+  * IEEE Transactions on Biomedical Engineering (IEEE TBME)
+  * IEEE Internet of Things Journal (IEEE IoTJ)
+  * IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE TNSRE)
+  * Engineering Applications of Artificial Intelligence (EAAI)
+  * IEEE Transactions on Computational Social Systems (IEEE TCDS)
+  * Pattern Recognition (PR)
   * Neurocomputing
   * Computers in Biology and Medicine
   * Machine Intelligence Research
   * Journal of Neural Engineering (JNE)
-  * 等
+  * etc.
   """
-
 [[item]]
-  organization = "期刊与会议审稿"
+  organization = "Journal & Conference Review"
   organization_url = ""
-  title = "会议审稿"
+  title = "Conference Review"
   url = ""
   certificate_url = ""
   date_start = "2022-01-01"
   date_end = ""
   description = """
-  * IEEE HealthCom (2023、2024、2025、2026)
-  * [IEEE BIBE](http://www.icamem.org/) (2022)
+  * IEEE Healthcom (2023, 2024, 2025, 2026)
+  * IEEE BIBE (2022)
   * IEEE ISBI (2024)
-  * 等
+  * etc.
   """
 +++
