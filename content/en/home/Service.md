@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Served for over 20 international journals, including:
-  * IEEE Transactions on Neural Networks and Learning Systems
+  * IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
   * IEEE Transactions on Affective Computing (IEEE TAFFC)
   * IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
   * IEEE Transactions on Biomedical Engineering (IEEE TBME)
