@@ -65,9 +65,6 @@
         </svg>
         <canvas aria-hidden="true"></canvas>
       </div>
-      <figcaption>
-        <span>{{ if $zh }}皮层激活 · 示意{{ else }}Cortical activity · illustration{{ end }}</span>
-      </figcaption>
     </figure>
 
     <figure class="cortical-brain functional-brain" data-functional-brain>
@@ -75,10 +72,6 @@
         <img class="cortical-brain-fallback" src="{{ "brain-connectome-fallback.svg?v=axial-1" | relURL }}" alt="" aria-hidden="true" width="220" height="280">
         <svg class="connectome-svg" viewBox="0 0 220 280" aria-hidden="true"></svg>
       </div>
-      <figcaption>
-        <span class="connectome-title">{{ if $zh }}Schaefer 200{{ else }}Schaefer 200{{ end }}</span>
-        <span>{{ if $zh }}动态功能连接 · 示意{{ else }}Dynamic connectivity · illustration{{ end }}</span>
-      </figcaption>
     </figure>
     </aside>
   </div>
@@ -156,19 +149,14 @@
   .cortical-brain canvas { filter: drop-shadow(0 7px 9px rgba(70,74,89,.12)); }
   .cortical-brain.brain-ready canvas, .brain-ready .connectome-svg { opacity: 1; }
   .brain-ready .cortical-brain-fallback { display: none; }
-  .cortical-brain figcaption { margin-top: 5px; color: #76818e; font-size: 10px; line-height: 1.55; text-align: center; }
-  .functional-brain figcaption > span { display: block; }
-  .connectome-title { font-size: 11px; color: #586a80; font-weight: 500; }
   .brain-contour { stroke: #60656b; }
   .brain-fold { stroke: #bfc3c8; }
   .hemisphere-label { fill: #424a54; font: 12px sans-serif; }
-  body.dark .cortical-brain figcaption { color: #aab6c6; }
-  body.dark .connectome-title { color: #d5dfea; }
   body.dark .brain-contour { stroke: #b8c1cf; }
   body.dark .brain-fold { stroke: #626c7b; }
   body.dark .hemisphere-label { fill: #d5dfea; }
   @media (max-width: 991px) { .brain-visuals { max-width: 400px; margin-bottom: 28px; } }
-  @media (max-width: 479px) { .brain-visuals { gap: 12px; max-width: 340px; } .cortical-brain figcaption { font-size: 9px; } }
+  @media (max-width: 479px) { .brain-visuals { gap: 12px; max-width: 340px; } }
   @media (prefers-reduced-motion: reduce) { .cortical-brain canvas, .connectome-svg { transition: none; } }
 </style>
 <script defer src="{{ "brain-hero.js?v=profile-axial-1" | relURL }}"></script>
