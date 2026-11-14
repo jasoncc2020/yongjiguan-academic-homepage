@@ -103,9 +103,6 @@ user_groups:
 - Visitors
 ---
 
-Cancheng Li is a Ph.D. candidate in Biomedical Engineering at [Beihang University](https://www.buaa.edu.cn/), under the supervision of [Professor Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm). He has also conducted collaborative research at the [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](http://www.siat.ac.cn/).
+Cancheng Li is a Ph.D. candidate at [Beihang University](https://www.buaa.edu.cn/), supervised by [Professor Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm). His research focuses on computational neuroscience, AI for neuroscience, and heterogeneity in mental disorders.
 
-His research interests include computational neuroscience, artificial intelligence for neuroscience, and heterogeneity in mental disorders. He has published more than 20 papers in journals and conference proceedings, including *npj Digital Medicine*, *Neurocomputing*, IJCAI, and IEEE ISBI.
-
-He has served as a Guest Associate Editor for *Frontiers in Neuroscience* and *Frontiers in Neurology* and has reviewed manuscripts for more than 20 international journals, including *IEEE Transactions on Affective Computing*, *IEEE Journal of Biomedical and Health Informatics*, *IEEE Transactions on Cognitive and Developmental Systems*, and *Neurocomputing*. He has also served as a Program Committee member for IEEE Health 2023, IEEE Health 2024, and IEEE ISBI 2025.
-
+He has published over 20 papers, including in *npj Digital Medicine*, *Neurocomputing*, IJCAI, and IEEE ISBI.
