@@ -3,6 +3,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import schaefer from './brain-schaefer200.json';
+import outline from './brain-axial-outline.json';
 
 // Anatomical geometry is CC0. Activity is an illustrative, synthetic pattern.
 const host = document.querySelector('[data-cortical-brain]');
@@ -55,6 +56,7 @@ async function initBrain(host) {
     if (!width || !height) return;
     renderer.setSize(width, height, false);
     camera.aspect = width / height;
+    camera.position.z = 6.7 * Math.max(1, 1 / camera.aspect);
     camera.updateProjectionMatrix();
     paint();
   }
@@ -118,135 +120,121 @@ async function initBrain(host) {
 }
 
 function initConnectome(host) {
-  const canvas = host.querySelector('canvas');
+  const svg = host.querySelector('.connectome-svg');
+  if (!svg) return; // Older cached markup keeps its static fallback during deployment.
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let renderer, frame = 0, previous = 0, elapsed = 0, visible = true, failed = false;
-  try {
-    renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'low-power' });
-    renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 1.6));
-    renderer.setClearColor(0, 0);
-    renderer.outputColorSpace = THREE.SRGBColorSpace;
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(34, 1, 0.01, 30);
-    camera.position.set(0, 0, 6.4);
-    const network = new THREE.Group();
-    scene.add(network);
-    scene.add(new THREE.HemisphereLight(0xffffff, 0x7b8ba0, 2.0));
-    const light = new THREE.DirectionalLight(0xffffff, 2.0);
-    light.position.set(-2, 3, 5);
-    scene.add(light);
-    const palette = { Vis: '#9470b4', SomMot: '#438ec2', DorsAttn: '#4caa74', SalVentAttn: '#c56bc5', Limbic: '#c8a947', Cont: '#e58d42', Default: '#d95c6a' };
-    // Exact atlas centroids: RAS millimetres -> right/up/back Three.js axes.
-    const coords = schaefer.nodes.map(n => new THREE.Vector3(n.mni[0], n.mni[2], -n.mni[1]));
-    const bounds = new THREE.Box3().setFromPoints(coords);
-    const center = bounds.getCenter(new THREE.Vector3());
-    const size = bounds.getSize(new THREE.Vector3());
-    coords.forEach(p => p.sub(center).multiplyScalar(3.7 / Math.max(size.x, size.y, size.z)));
-    const colors = schaefer.nodes.map(n => new THREE.Color(palette[n.network]));
-    const spheres = new THREE.InstancedMesh(new THREE.SphereGeometry(1, 10, 8), new THREE.MeshStandardMaterial({ roughness: 0.48, metalness: 0.05 }), 200);
-    const transform = new THREE.Object3D();
-    coords.forEach((p, i) => spheres.setColorAt(i, colors[i]));
-    network.add(spheres);
-
-    // A sparse, deterministic illustrative graph, not empirical FC estimates.
-    // Preserve every atlas node; connect within-network neighbors and a small
-    // set of long-range / interhemispheric bridges for a readable animation.
-    const edgeSet = new Set(), edges = [];
-    function edge(a, b) {
-      const key = [Math.min(a,b), Math.max(a,b)].join('-');
-      if (a === b || edgeSet.has(key)) return;
-      edgeSet.add(key); edges.push([a,b]);
-    }
-    coords.forEach((p, i) => {
-      const same = coords.map((q,j) => ({ j, d:p.distanceToSquared(q) }))
-        .filter(x => x.j !== i && schaefer.nodes[x.j].network === schaefer.nodes[i].network)
-        .sort((a,b) => a.d-b.d);
-      same.slice(0, 2).forEach(x => edge(i,x.j));
-      if (i % 4 === 0) {
-        const opposite = same.find(x => schaefer.nodes[x.j].mni[0] * schaefer.nodes[i].mni[0] < 0);
-        if (opposite) edge(i,opposite.j);
-      }
-      if (i % 5 === 0) edge(i, (i * 47 + 67) % 200);
-    });
-    const positions = [], lineColors = [], phases = [], along = [];
-    edges.forEach(([a,b], e) => {
-      const middle = coords[a].clone().add(coords[b]).multiplyScalar(0.38);
-      const curve = new THREE.QuadraticBezierCurve3(coords[a], middle, coords[b]);
-      const color = colors[a].clone().lerp(colors[b], .5);
-      for (let segment = 0; segment < 8; segment++) {
-        for (const t of [segment / 8, (segment + 1) / 8]) {
-          const p = curve.getPoint(t);
-          positions.push(p.x,p.y,p.z);
-          lineColors.push(color.r,color.g,color.b);
-          phases.push((e * 2.399963) % (2*Math.PI));
-          along.push(t);
-        }
-      }
-    });
-    const geometry = new THREE.BufferGeometry();
-    geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
-    geometry.setAttribute('color',new THREE.Float32BufferAttribute(lineColors,3));
-    geometry.setAttribute('phase',new THREE.Float32BufferAttribute(phases,1));
-    geometry.setAttribute('along',new THREE.Float32BufferAttribute(along,1));
-    const clock = { value: 0 };
-    const lines = new THREE.LineSegments(geometry,new THREE.ShaderMaterial({
-      transparent: true, depthWrite: false, vertexColors: true, uniforms: { clock },
-      vertexShader: `attribute float phase; attribute float along;
-        varying vec3 tint; varying float wave; varying float path;
-        void main(){ tint=color; wave=phase; path=along;
-          gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
-      fragmentShader: `uniform float clock; varying vec3 tint; varying float wave; varying float path;
-        void main(){
-          float strength=pow(0.5+0.5*sin(clock*0.78+wave),3.0);
-          float pulse=pow(0.5+0.5*cos(path*6.28318-clock*1.7+wave),10.0);
-          gl_FragColor=vec4(mix(tint,vec3(1.0),pulse*0.22),0.035+strength*(0.32+0.34*pulse));
-          #include <colorspace_fragment>
-        }`
-    }));
-    network.add(lines);
-    function paint() {
-      network.rotation.set(0.20 + Math.sin(elapsed * .2) * .055, -.52 + elapsed * .13, .015);
-      clock.value = elapsed;
-      coords.forEach((p,i) => {
-        transform.position.copy(p);
-        transform.scale.setScalar(.027 + .009 * (0.5+0.5*Math.sin(elapsed*1.2+i*.72)));
-        transform.updateMatrix(); spheres.setMatrixAt(i,transform.matrix);
-      });
-      spheres.instanceMatrix.needsUpdate = true;
-      renderer.render(scene,camera);
-    }
-    function tick(now) {
-      if (previous) elapsed += Math.min((now-previous)/1000,.08);
-      previous = now; paint(); frame = requestAnimationFrame(tick);
-    }
-    function sync() {
-      cancelAnimationFrame(frame); previous=0;
-      if (failed) return;
-      paint();
-      const playing=visible && !document.hidden && !reduced.matches;
-      host.dataset.motion=playing?'playing':'static';
-      if (playing) frame=requestAnimationFrame(tick);
-    }
-    function resize() {
-      if (failed) return;
-      const { width,height } = canvas.getBoundingClientRect();
-      if (!width || !height) return;
-      renderer.setSize(width,height,false); camera.aspect=width/height;
-      camera.updateProjectionMatrix(); paint();
-    }
-    host.dataset.nodes=String(coords.length);
-    host.dataset.edges=String(edges.length);
-    resize(); host.classList.add('brain-ready');
-    reduced.addEventListener('change',sync);
-    document.addEventListener('visibilitychange',sync);
-    new ResizeObserver(resize).observe(canvas);
-    new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();},{threshold:.05}).observe(host);
-    canvas.addEventListener('webglcontextlost',event=>{event.preventDefault();failed=true;cancelAnimationFrame(frame);host.classList.remove('brain-ready');renderer.dispose();});
-    sync();
-  } catch(error) {
-    failed=true;cancelAnimationFrame(frame);
-    host.classList.remove('brain-ready');
-    if(renderer) renderer.dispose();
-    console.warn('Connectome illustration uses its static fallback.',error);
+  const ns = 'http://www.w3.org/2000/svg';
+  let frame = 0, previous = 0, elapsed = 0, visible = true, epoch = -1;
+  let renderedEdges = [];
+  const palette = { Vis: '#c585cf', SomMot: '#73a8d7', DorsAttn: '#83c86d', SalVentAttn: '#e78dbf', Limbic: '#dacf68', Cont: '#f3a176', Default: '#e27c86' };
+  const points = schaefer.nodes.map(n => [110 + n.mni[0] * 1.25, 24 + (75 - n.mni[1]) * 1.25]);
+  function element(tag, attributes, parent) {
+    const el = document.createElementNS(ns, tag);
+    Object.entries(attributes).forEach(([key, value]) => el.setAttribute(key, String(value)));
+    parent.appendChild(el); return el;
   }
+  const anatomy = element('g', { 'class': 'connectome-anatomy' }, svg);
+  outline.paths.forEach(p => element('path', { d: p.d, fill: 'none', 'class': p.outer ? 'brain-contour' : 'brain-fold', 'stroke-width': p.width, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, anatomy));
+  element('text', { x: 12, y: 31, 'class': 'hemisphere-label' }, svg).textContent = 'L';
+  element('text', { x: 199, y: 31, 'class': 'hemisphere-label' }, svg).textContent = 'R';
+  const edgeLayer = element('g', { 'class': 'connectome-edges' }, svg);
+  const nodeLayer = element('g', { 'class': 'connectome-nodes' }, svg);
+  const circles = schaefer.nodes.map((n, i) => {
+    const circle = element('circle', { cx: points[i][0], cy: points[i][1], r: .9, fill: palette[n.network], opacity: .3, 'data-parcel': n.id }, nodeLayer);
+    element('title', {}, circle).textContent = n.name;
+    return circle;
+  });
+
+  // Each time window selects NEW pairs from the same 200 actual atlas nodes.
+  // These weights are synthetic illustrations, not measured correlations.
+  function connections(windowIndex) {
+    let seed = (1949 + windowIndex * 3571) >>> 0;
+    function random() {
+      seed += 0x6D2B79F5;
+      let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+      t ^= t + Math.imul(t ^ t >>> 7, 61 | t);
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    }
+    const groups = {};
+    schaefer.nodes.forEach((n, i) => {
+      const key = `${n.network}-${n.mni[0] < 0 ? 'L' : 'R'}`;
+      (groups[key] ||= []).push(i);
+    });
+    const hubs = [];
+    Object.values(groups).forEach(indices => {
+      for (let i = indices.length - 1; i > 0; i--) {
+        const j = Math.floor(random() * (i + 1));
+        [indices[i], indices[j]] = [indices[j], indices[i]];
+      }
+      hubs.push(...indices.slice(0, 3));
+    });
+    const edges = new Map();
+    function add(a, b) {
+      if (a === b || Math.hypot(points[a][0] - points[b][0], points[a][1] - points[b][1]) < 19) return;
+      const [source, target] = a < b ? [a, b] : [b, a];
+      const key = `${source + 1}-${target + 1}`;
+      if (!edges.has(key)) edges.set(key, { source, target, weight: (random() < .17 ? -1 : 1) * (.40 + random() * .56) });
+    }
+    hubs.forEach(a => {
+      const opposite = hubs.filter(b => schaefer.nodes[a].mni[0] * schaefer.nodes[b].mni[0] < 0);
+      add(a, opposite[Math.floor(random() * opposite.length)]);
+    });
+    for (let attempt = 0; edges.size < 64 && attempt < 2000; attempt++) {
+      add(hubs[Math.floor(random() * hubs.length)], hubs[Math.floor(random() * hubs.length)]);
+    }
+    return edges;
+  }
+  function newWindow(index) {
+    const current = connections(index), next = connections(index + 1);
+    const keys = new Set([...current.keys(), ...next.keys()]);
+    edgeLayer.replaceChildren();
+    renderedEdges = [...keys].map(key => {
+      const pair = current.get(key) || next.get(key);
+      const a = points[pair.source], b = points[pair.target];
+      const line = element('line', { x1: a[0], y1: a[1], x2: b[0], y2: b[1], 'stroke-linecap': 'round', 'data-pair': key }, edgeLayer);
+      return { ...pair, line, from: current.get(key)?.weight || 0, to: next.get(key)?.weight || 0 };
+    });
+    epoch = index;
+  }
+  function paint() {
+    const t = elapsed / 3.2;
+    const index = Math.floor(t);
+    if (index !== epoch) newWindow(index);
+    const fraction = t - index;
+    const blend = fraction * fraction * (3 - 2 * fraction);
+    const activity = new Float32Array(200);
+    renderedEdges.forEach((edge, i) => {
+      const weight = (edge.from * (1 - blend) + edge.to * blend) * (.95 + .05 * Math.sin(elapsed * 1.6 + i));
+      const magnitude = Math.abs(weight);
+      const alpha = magnitude < .16 ? 0 : Math.min(.92, .18 + magnitude * .76);
+      // Warm red positive / cool blue negative, matching a glass-brain plot.
+      edge.line.setAttribute('stroke', weight >= 0 ? `hsl(${14 - magnitude * 15}, ${72 + magnitude * 12}%, ${64 - magnitude * 29}%)` : `hsl(202, 64%, ${72 - magnitude * 20}%)`);
+      edge.line.setAttribute('stroke-width', String(.75 + magnitude * 3.0));
+      edge.line.setAttribute('stroke-opacity', String(alpha));
+      activity[edge.source] = Math.max(activity[edge.source], magnitude);
+      activity[edge.target] = Math.max(activity[edge.target], magnitude);
+    });
+    circles.forEach((circle, i) => {
+      const strength = Math.min(1, activity[i] / .45);
+      circle.setAttribute('r', String(.85 + 3.3 * strength));
+      circle.setAttribute('opacity', String(.24 + .76 * strength));
+    });
+  }
+  function tick(now) {
+    if (previous) elapsed += Math.min((now - previous) / 1000, .08);
+    previous = now; paint(); frame = requestAnimationFrame(tick);
+  }
+  function sync() {
+    cancelAnimationFrame(frame); previous = 0; paint();
+    const playing = visible && !document.hidden && !reduced.matches;
+    host.dataset.motion = playing ? 'playing' : 'static';
+    if (playing) frame = requestAnimationFrame(tick);
+  }
+  host.dataset.nodes = String(schaefer.nodes.length);
+  host.dataset.view = 'axial';
+  host.classList.add('brain-ready');
+  reduced.addEventListener('change', sync);
+  document.addEventListener('visibilitychange', sync);
+  new IntersectionObserver(entries => { visible = entries[0].isIntersecting; sync(); }, { threshold: .05 }).observe(host);
+  sync();
 }
