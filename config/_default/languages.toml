@@ -31,7 +31,7 @@
 
   [[zh.menu.main]]
   name = "发表论文"
-  url = "#featured"
+  url = "#publications"
   weight = 20
 
   [[zh.menu.main]]
@@ -44,10 +44,6 @@
   url = "#teaching"
   weight = 40
 
-  [[zh.menu.main]]
-  name = "科研课题"
-  url = "#projects"
-  weight = 50
 
   [[zh.menu.main]]
   name = "学术新闻"
