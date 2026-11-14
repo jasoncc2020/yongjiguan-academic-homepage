@@ -2,14 +2,20 @@
 <div class="row">
   <div class="col-12 academic-services">
     <h1 class="academic-services__heading">{{ $page.Title }}</h1>
-    {{ range $page.Params.service }}
-    <section class="academic-services__group">
-      <h2>{{ .title }}</h2>
-      {{ with .intro }}<p>{{ . }}</p>{{ end }}
-      <ul>
-        {{ range .entries }}<li>{{ . }}</li>{{ end }}
-      </ul>
-    </section>
-    {{ end }}
+    <div class="academic-services__columns">
+      {{ range slice (first 1 $page.Params.service) (after 1 $page.Params.service) }}
+      <div class="academic-services__column">
+        {{ range . }}
+        <section class="academic-services__group">
+          <h2>{{ .title }}</h2>
+          {{ with .intro }}<p>{{ . }}</p>{{ end }}
+          <ul>
+            {{ range .entries }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        </section>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
   </div>
 </div>
