@@ -21,13 +21,13 @@ date_format = "Jan 2006"
 [[item]]
   organization = "List"
   organization_url = ""
-  title = "感谢我的所有学术合作者"
+  title = "学术合作者"
   url = ""
   certificate_url = ""
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [Prof. Jicong Zhang(Beihang University)]([http://www.moltemplate.org/](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm))
+  * [Prof. Jicong Zhang(Beihang University)](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm)
   * [Prof. Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Prof. Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Asso. Prof. Changmng Wang (Capital Medical University)](https://ccmu.teacher.360eol.com/teacherBasic/preview?teacherId=11721)
@@ -38,13 +38,13 @@ date_format = "Jan 2006"
   [[item]]
   organization = "友情链接"
   organization_url = ""
-  title = "工作过的实验室"
+  title = "实验室与研究团队"
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
   date_end = ""
   description = """
-  * [普适计算与机器智能实验室 UAIS(Lanzhou University)](http://uais.lzu.edu.cn/))
+  * [普适计算与机器智能实验室 UAIS(Lanzhou University)](http://uais.lzu.edu.cn/)
   * [中国科学院深圳先进技术研究院 SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
   """
 

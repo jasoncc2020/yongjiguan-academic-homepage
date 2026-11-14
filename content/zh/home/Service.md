@@ -12,6 +12,7 @@ subtitle = ""
   intro = "为 20 余本国际期刊审稿，包括："
   entries = [
     "IEEE Transactions on Neural Networks and Learning Systems",
+    "IEEE Transactions on Fuzzy Systems",
     "IEEE Transactions on Affective Computing",
     "IEEE Journal of Biomedical and Health Informatics",
     "IEEE Transactions on Biomedical Engineering",
