@@ -4588,7 +4588,7 @@ readers do not read off random characters that represent icons */
 
 /* Publication figures reuse the original project artwork without cropping. */
 #publications { background: #fff; }
-#publications .section-heading { margin-bottom: 2.5rem; }
+#publications .section-heading { margin-bottom: 22px; text-align: left !important; }
 .publication-card {
   display: grid;
   grid-template-columns: minmax(0, 43fr) minmax(0, 57fr);
@@ -4644,7 +4644,6 @@ readers do not read off random characters that represent icons */
 .dark .publication-card__authors { color: #c4cad5; }
 .dark .publication-card__authors strong, .dark .publication-card__links a { color: #94c9ff; }
 @media (max-width: 767px) {
-  #publications .section-heading { margin-bottom: 1.5rem; }
   .publication-card { grid-template-columns: 1fr; gap: 22px; width: calc(100% - 30px); padding: 24px 0 30px; margin: 0 15px 12px; }
   .publication-card h3 { font-size: 19px; margin-bottom: 12px; }
   .publication-card__authors { font-size: 16px; margin-bottom: 14px; }
@@ -4655,7 +4654,7 @@ readers do not read off random characters that represent icons */
 
 /* Compact dated news, matching the publication section's restrained styling. */
 #posts { background: #fff; padding: 55px 0; }
-.news-heading { margin: 0 0 22px; font-size: 28px; line-height: 1.35; font-weight: 700; }
+.news-heading { margin: 0 0 22px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; line-height: 1.35; font-weight: 700; }
 .news-list { list-style: none; margin: 0; padding: 0; }
 .news-list__item { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 20px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid #e9edf2; }
 .news-list__item:last-child { border-bottom: 0; }
@@ -4669,7 +4668,6 @@ readers do not read off random characters that represent icons */
 .dark .publication-card__recognition { background: #493b22; color: #ffd78b; }
 @media (max-width: 575px) {
   #posts { padding: 38px 0; }
-  .news-heading { font-size: 25px; margin-bottom: 16px; }
   .news-list__item { grid-template-columns: 1fr; gap: 5px; padding: 14px 0; }
   .news-list time { font-size: 14px; }
   .news-list__summary { font-size: 16px; }
@@ -4678,7 +4676,7 @@ readers do not read off random characters that represent icons */
 
 /* Work Experience immediately follows the introduction. */
 #experience { padding: 48px 0; background: #fff; border: 0; }
-.work-heading { margin: 0 0 24px; font-size: 30px; font-weight: 700; line-height: 1.35; }
+.work-heading { margin: 0 0 22px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; font-weight: 700; line-height: 1.35; }
 .work-history { list-style: none; margin: 0; padding: 0; }
 .work-history__item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; padding: 25px 28px; margin: 0 0 16px; background: #fff; border: 1px solid #dce7f1; border-left: 4px solid #285f9e; border-radius: 6px; }
 .work-history__item:last-child { margin-bottom: 0; }
@@ -4704,12 +4702,12 @@ readers do not read off random characters that represent icons */
 .dark .work-history__dates { color: #94c9ff; }
 .dark .work-history__location, .dark .academic-services__group p { color: #c4cad5; }
 .dark #Service { background: #272935; }
-.dark .academic-services__heading { border-color: #8b96a6; }
+.dark .academic-services__heading, .dark .news-heading, .dark .work-heading { border-color: #8b96a6; }
 .dark .news-list__summary { color: #e1e5ed; }
 @media (max-width: 767px) {
   #experience, #Service { padding: 36px 0; }
   .academic-services__columns { grid-template-columns: 1fr; gap: 24px; }
-  .work-heading, .academic-services__heading { font-size: 25px; }
+  .work-heading, .news-heading, .academic-services__heading { font-size: 25px; }
   .work-history__item { grid-template-columns: 1fr; gap: 14px; padding: 20px; }
   .work-history__item h2 { font-size: 20px; }
   .work-history__organization { font-size: 17px; }
@@ -4761,16 +4759,16 @@ readers do not read off random characters that represent icons */
 }
 
 
-/* Visitor map heading matches the compact, underlined Links section. */
+/* Standard widget headings match the compact, underlined Links section. */
 #visitor-map { padding: 40px 0; background: #fff; }
 #visitor-map .section-heading { margin-bottom: 22px; text-align: left !important; }
-#visitor-map .section-heading h1 { display: block; margin: 0 0 22px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; font-weight: 700; line-height: 1.35; text-transform: none; letter-spacing: normal; }
-#visitor-map .section-heading h1::before, #visitor-map .section-heading h1::after { content: none; }
-#visitor-map .section-heading p { margin: 0; color: #6b7280; font-size: 16px; line-height: 1.5; text-transform: none; }
+#publications .section-heading h1, #visitor-map .section-heading h1 { display: block; margin: 0 0 22px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; font-weight: 700; line-height: 1.35; text-transform: none; letter-spacing: normal; }
+#publications .section-heading h1::before, #publications .section-heading h1::after, #visitor-map .section-heading h1::before, #visitor-map .section-heading h1::after { content: none; }
+#publications .section-heading p, #visitor-map .section-heading p { margin: 0; color: #6b7280; font-size: 16px; line-height: 1.5; text-transform: none; }
 .dark #visitor-map { background: #272935; }
-.dark #visitor-map .section-heading h1 { border-color: #8b96a6; }
-.dark #visitor-map .section-heading p { color: #c4cad5; }
+.dark #publications .section-heading h1, .dark #visitor-map .section-heading h1 { border-color: #8b96a6; }
+.dark #publications .section-heading p, .dark #visitor-map .section-heading p { color: #c4cad5; }
 @media (max-width: 767px) {
   #visitor-map { padding: 36px 0; }
-  #visitor-map .section-heading h1 { font-size: 25px; }
+  #publications .section-heading h1, #visitor-map .section-heading h1 { font-size: 25px; }
 }
