@@ -1,0 +1,14 @@
+{{ $page := .page }}
+<div class="row">
+  <div class="col-12 resource-links">
+    <h1 class="resource-links__heading">{{ $page.Title }}</h1>
+    <div class="resource-links__columns">
+      {{ range $page.Params.item }}
+      <section class="resource-links__group">
+        <h2>{{ .title }}</h2>
+        {{ .description | markdownify }}
+      </section>
+      {{ end }}
+    </div>
+  </div>
+</div>
