@@ -14,15 +14,15 @@
   {{ with $figure }}
   {{ $preview := . }}
   {{ if gt .Width 960 }}{{ $preview = .Resize "960x" }}{{ end }}
-  <a class="publication-card__figure" href="{{ $paper.RelPermalink }}" aria-label="{{ $title }}">
+  <div class="publication-card__figure">
     <span class="publication-card__badge">{{ $venue }} {{ $year }}</span>
     <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
          loading="lazy" decoding="async" alt="{{ $card.figure_alt | default $title }}">
-  </a>
+  </div>
   {{ end }}
   <div class="publication-card__body">
     {{ if not $figure }}<span class="publication-card__badge publication-card__badge--inline">{{ $venue }} {{ $year }}</span>{{ end }}
-    <h3><a href="{{ .RelPermalink }}">{{ $title }}</a></h3>
+    <h3>{{ $title }}</h3>
     {{ $authors := $card.authors | default (delimit .Params.authors ", ") }}
     {{ $authors = $authors | htmlEscape }}
     {{ $authors = replace $authors "Cancheng Li" "<strong>Cancheng Li</strong>" }}
@@ -31,27 +31,23 @@
     <div class="publication-card__meta">
       <span><strong>{{ $venue }}</strong>, {{ $year }}.</span>
       <div class="publication-card__links">
-        {{ with $card.links }}
-          {{ range . }}
-            {{ $href := .url }}{{ if eq $href "self" }}{{ $href = $paper.RelPermalink }}{{ end }}
-            <a href="{{ $href }}">{{ if eq site.Language.Lang "zh" }}{{ .name_zh | default .name }}{{ else }}{{ .name }}{{ end }}</a>
+        {{ if isset $card "links" }}
+          {{ range $card.links }}
+            {{ if ne .url "self" }}
+            <a href="{{ .url }}">{{ if eq site.Language.Lang "zh" }}{{ .name_zh | default .name }}{{ else }}{{ .name }}{{ end }}</a>
+            {{ end }}
           {{ end }}
         {{ else }}
           {{ with .Params.doi }}
-          <span class="publication-card__paper">
-            <a href="https://doi.org/{{ . }}">Paper</a>
-            {{ with $paper.Params.recognition | default $card.recognition }}
-            <span class="publication-card__recognition">{{ . }}</span>
-            {{ end }}
-          </span>
+          <a href="https://doi.org/{{ . }}">Paper</a>
           {{ end }}
           {{ with .Params.url_pdf }}<a href="{{ . }}">PDF</a>{{ end }}
           {{ with .Params.url_code }}<a href="{{ . }}">Code</a>{{ end }}
-          {{ if and (not .Params.doi) (not .Params.url_pdf) (not .Params.url_code) }}
-          <a href="{{ .RelPermalink }}">{{ if eq site.Language.Lang "zh" }}论文详情{{ else }}Details{{ end }}</a>
-          {{ end }}
         {{ end }}
       </div>
     </div>
+    {{ with $paper.Params.recognition | default $card.recognition }}
+    <span class="publication-card__recognition">{{ . }}</span>
+    {{ end }}
   </div>
 </article>
