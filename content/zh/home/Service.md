@@ -1,64 +1,43 @@
 +++
-# Links widget.
-widget = "links"
+widget = "academic_services"
 headless = true
 active = true
-weight = 45
+weight = 90
 
-title = "学术服务与领导力"
-subtitle = "助人亦是助己"
+title = "学术服务"
+subtitle = ""
 
-date_format = "Jan 2006"
+[[service]]
+  title = "期刊审稿"
+  intro = "为 20 余本国际期刊审稿，包括："
+  entries = [
+    "IEEE Transactions on Neural Networks and Learning Systems",
+    "IEEE Transactions on Affective Computing",
+    "IEEE Journal of Biomedical and Health Informatics",
+    "IEEE Transactions on Biomedical Engineering",
+    "IEEE Internet of Things Journal",
+    "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+    "Engineering Applications of Artificial Intelligence",
+    "IEEE Transactions on Computational Social Systems",
+    "Pattern Recognition",
+    "Neurocomputing",
+    "Computers in Biology and Medicine",
+    "Machine Intelligence Research",
+    "Journal of Neural Engineering",
+  ]
 
-[[item]]
-  organization = "客座副主编"
-  organization_url = ""
-  title = "Guest Associate Editor"
-  url = ""
-  certificate_url = ""
-  date_start = "2023-01-01"
-  date_end = ""
-  description = """
-  * [Frontiers in Neuroscience](https://www.frontiersin.org/journals/neuroscience)
-  * [Frontiers in Neurology](https://www.frontiersin.org/journals/neurology)
-   """
-[[item]]
-  organization = "Journal & Conference Review"
-  organization_url = ""
-  title = "Journal Review"
-  url = ""
-  certificate_url = ""
-  date_start = "2018-01-01"
-  date_end = ""
-  description = """
-  Served for over 20 international journals, including:
-  * IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
-  * IEEE Transactions on Affective Computing (IEEE TAFFC)
-  * IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)
-  * IEEE Transactions on Biomedical Engineering (IEEE TBME)
-  * IEEE Internet of Things Journal (IEEE IoTJ)
-  * IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE TNSRE)
-  * Engineering Applications of Artificial Intelligence (EAAI)
-  * IEEE Transactions on Computational Social Systems (IEEE TCDS)
-  * Pattern Recognition (PR)
-  * Neurocomputing
-  * Computers in Biology and Medicine
-  * Machine Intelligence Research
-  * Journal of Neural Engineering (JNE)
-  * etc.
-  """
-[[item]]
-  organization = "Journal & Conference Review"
-  organization_url = ""
-  title = "Conference Review"
-  url = ""
-  certificate_url = ""
-  date_start = "2022-01-01"
-  date_end = ""
-  description = """
-  * IEEE Healthcom (2023, 2024, 2025, 2026)
-  * IEEE BIBE (2022)
-  * IEEE ISBI (2024)
-  * etc.
-  """
+[[service]]
+  title = "会议审稿"
+  entries = [
+    "IEEE Healthcom (2023, 2024, 2025, 2026)",
+    "IEEE BIBE (2022)",
+    "IEEE ISBI (2024)",
+  ]
+
+[[service]]
+  title = "客座副主编"
+  entries = [
+    "Frontiers in Neuroscience",
+    "Frontiers in Neurology",
+  ]
 +++
