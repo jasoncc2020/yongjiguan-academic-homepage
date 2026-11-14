@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Links"
-subtitle = "Stand on the shoulders of giants"
+subtitle = ""
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -21,13 +21,13 @@ date_format = "Jan 2006"
 [[item]]
   organization = "List"
   organization_url = ""
-  title = "Thanks to all my academic collaborators"
+  title = "Academic Collaborators"
   url = ""
   certificate_url = ""
   date_start = "2020-07-08"
   date_end = ""
   description = """
-  * [Prof. Jicong Zhang(Beihang University)]([http://www.moltemplate.org/](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm))
+  * [Prof. Jicong Zhang(Beihang University)](https://shi.buaa.edu.cn/zhangjicong/zh_CN/index.htm)
   * [Prof. Bin Hu (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Prof. Hong Peng (Lanzhou University)](http://uais.lzu.edu.cn/?p=902)
   * [Asso. Prof. Changmng Wang (Capital Medical University)](https://ccmu.teacher.360eol.com/teacherBasic/preview?teacherId=11721)
@@ -40,13 +40,13 @@ date_format = "Jan 2006"
   [[item]]
   organization = "(previously and currently working)"
   organization_url = ""
-  title = "Laboratory"
+  title = "Laboratories"
   url = ""
   certificate_url = ""
   date_start = "2020-07-03"
   date_end = ""
   description = """
-  * [UAIS(Lanzhou University)](http://uais.lzu.edu.cn/))
+  * [UAIS(Lanzhou University)](http://uais.lzu.edu.cn/)
   * [SITA LAB(Shenzhen institute of advanced technology, Chinese academy of science)](https://www.siat.ac.cn/ptjs2016/sysypt2016/openlabs/rjkz/)
   """
   

@@ -12,6 +12,7 @@ subtitle = ""
   intro = "Reviewer for more than 20 international journals, including:"
   entries = [
     "IEEE Transactions on Neural Networks and Learning Systems",
+    "IEEE Transactions on Fuzzy Systems",
     "IEEE Transactions on Affective Computing",
     "IEEE Journal of Biomedical and Health Informatics",
     "IEEE Transactions on Biomedical Engineering",
