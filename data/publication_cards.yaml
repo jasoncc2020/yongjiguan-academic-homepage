@@ -1,0 +1,48 @@
+# Optional presentation overrides, keyed by the publication bundle directory.
+# New papers use their own featured image and front matter by default.
+# The old project bundles remain here only as sources for the existing figures.
+npjdigitalmed:
+  venue: npj Digital Medicine
+  year: 2026
+  figure_page:
+    en: project/project2
+    zh: project/project2
+  figure_alt: EEG functional connectivity and craving prediction study overview
+ijcai-ami:
+  venue: IJCAI-AMI
+  year: 2023
+  authors: C. Li, S. Gao and J. Zhang
+  figure_page:
+    en: project/Battery
+    zh: project/Project0
+  figure_alt: Brain network nodes, connections and functional modules
+  # The legacy entry contains an unrelated copied DOI.
+  links:
+    - name: Details
+      name_zh: 论文详情
+      url: self
+isbi2023:
+  venue: IEEE ISBI
+  year: 2023
+  authors: C. Li, T. Liu, L. Shi, C. Yuan, C. Lei, and J. Zhang
+  figure_page:
+    en: project/Battery
+    zh: project/Project0
+  figure_alt: Brain network nodes, connections and functional modules
+  links:
+    - name: Details
+      name_zh: 论文详情
+      url: self
+2022-jne:
+  venue: IEEE TNSRE
+  year: 2021
+  authors: Q. Chang, C. Li, Q. Tian, Q. Bo, J. Zhang, Y. Xiong and C. Wang
+  figure_alt: Mismatch negativity brain networks and graph neural network classification
+  # Do not reuse the unrelated DOI and PDF from the legacy template.
+  links:
+    - name: Details
+      name_zh: 论文详情
+      url: self
+bibm2022:
+  venue: Neurocomputing
+  year: 2021
