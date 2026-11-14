@@ -4,6 +4,7 @@
 npjdigitalmed:
   venue: npj Digital Medicine
   year: 2026
+  recognition: Featured Paper
   figure_page:
     en: project/project2
     zh: project/project2
@@ -46,3 +47,4 @@ isbi2023:
 bibm2022:
   venue: Neurocomputing
   year: 2021
+  figure_alt: Sparse representation of a seizure test signal using non-seizure and seizure training dictionaries
