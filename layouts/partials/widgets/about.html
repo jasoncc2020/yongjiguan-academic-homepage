@@ -50,6 +50,37 @@
       </li>
       {{ end }}
     </ul>
+    {{ $zh := eq site.Language.Lang "zh" }}
+    <aside class="brain-visuals" aria-label="{{ if $zh }}脑科学动态示意{{ else }}Brain science visualizations{{ end }}">
+    <figure class="cortical-brain" data-cortical-brain
+      data-model="{{ "brain-cortex.glb" | relURL }}">
+      <div class="cortical-brain-stage" role="img" aria-label="{{ if $zh }}旋转的大脑与橙红色皮层激活示意{{ else }}Rotating anatomical brain with illustrative orange-red cortical activity{{ end }}">
+        <svg class="cortical-brain-fallback" viewBox="0 0 320 280" aria-hidden="true">
+          <defs><radialGradient id="cortex-silver"><stop stop-color="#e4e7eb"/><stop offset="1" stop-color="#9ba5b3"/></radialGradient></defs>
+          <path d="M159 48C126 24 85 37 73 61C37 68 24 100 31 124C14 156 37 185 60 190C74 219 111 226 144 211L158 202L175 211C207 228 240 211 251 190C287 186 302 154 287 126C299 94 276 66 250 62C230 33 193 29 170 46Z" fill="url(#cortex-silver)" stroke="#768596" stroke-width="3"/>
+          <g fill="none" stroke="#748090" stroke-width="6" stroke-linecap="round">
+            <path d="M159 53Q149 98 158 139T158 200M122 58Q85 47 83 82T58 111M136 87Q105 70 106 112T77 144M65 92Q47 128 62 143M134 127Q106 143 118 168T134 196M76 172Q94 204 111 193M192 57Q227 49 239 80T270 108M178 92Q210 72 215 107T250 139M186 128Q210 145 199 169T180 197M244 169Q225 201 210 193"/>
+          </g>
+          <g fill="none" stroke="#f47c48" stroke-width="7" stroke-linecap="round"><path d="M106 111Q112 137 88 144M215 107Q217 130 243 136M198 169Q195 184 183 194"/></g>
+        </svg>
+        <canvas aria-hidden="true"></canvas>
+      </div>
+      <figcaption>
+        <span>{{ if $zh }}皮层激活 · 示意{{ else }}Cortical activity · illustration{{ end }}</span>
+      </figcaption>
+    </figure>
+
+    <figure class="cortical-brain functional-brain" data-functional-brain>
+      <div class="cortical-brain-stage connectome-stage" role="img" aria-label="{{ if $zh }}Schaefer 200 脑区的俯视功能连接图，红蓝连线随时间不断变化，连接为示意{{ else }}Axial glass-brain view of 200 Schaefer parcels with continuously changing illustrative red and blue connections{{ end }}">
+        <img class="cortical-brain-fallback" src="{{ "brain-connectome-fallback.svg?v=axial-1" | relURL }}" alt="" aria-hidden="true" width="220" height="280">
+        <svg class="connectome-svg" viewBox="0 0 220 280" aria-hidden="true"></svg>
+      </div>
+      <figcaption>
+        <span class="connectome-title">{{ if $zh }}Schaefer 200{{ else }}Schaefer 200{{ end }}</span>
+        <span>{{ if $zh }}动态功能连接 · 示意{{ else }}Dynamic connectivity · illustration{{ end }}</span>
+      </figcaption>
+    </figure>
+    </aside>
   </div>
   <div class="col-lg-7" itemprop="description">
 
@@ -67,46 +98,7 @@
     </div>
 
 
-    {{ $zh := eq site.Language.Lang "zh" }}
-    <aside class="brain-visuals" aria-label="{{ if $zh }}脑科学动态示意{{ else }}Brain science visualizations{{ end }}">
-    <figure class="cortical-brain" data-cortical-brain
-      data-model="{{ "brain-cortex.glb" | relURL }}">
-      <div class="cortical-brain-stage" role="img" aria-label="{{ if $zh }}旋转的大脑与橙红色皮层激活示意{{ else }}Rotating anatomical brain with illustrative orange-red cortical activity{{ end }}">
-        <svg class="cortical-brain-fallback" viewBox="0 0 320 280" aria-hidden="true">
-          <defs><radialGradient id="cortex-silver"><stop stop-color="#e4e7eb"/><stop offset="1" stop-color="#9ba5b3"/></radialGradient></defs>
-          <path d="M159 48C126 24 85 37 73 61C37 68 24 100 31 124C14 156 37 185 60 190C74 219 111 226 144 211L158 202L175 211C207 228 240 211 251 190C287 186 302 154 287 126C299 94 276 66 250 62C230 33 193 29 170 46Z" fill="url(#cortex-silver)" stroke="#768596" stroke-width="3"/>
-          <g fill="none" stroke="#748090" stroke-width="6" stroke-linecap="round">
-            <path d="M159 53Q149 98 158 139T158 200M122 58Q85 47 83 82T58 111M136 87Q105 70 106 112T77 144M65 92Q47 128 62 143M134 127Q106 143 118 168T134 196M76 172Q94 204 111 193M192 57Q227 49 239 80T270 108M178 92Q210 72 215 107T250 139M186 128Q210 145 199 169T180 197M244 169Q225 201 210 193"/>
-          </g>
-          <g fill="none" stroke="#f47c48" stroke-width="7" stroke-linecap="round"><path d="M106 111Q112 137 88 144M215 107Q217 130 243 136M198 169Q195 184 183 194"/></g>
-        </svg>
-        <canvas aria-hidden="true"></canvas>
-      </div>
-      <figcaption>
-        <span>{{ if $zh }}皮层动态 · 示意动画{{ else }}Cortical dynamics · illustration{{ end }}</span>
-      </figcaption>
-    </figure>
 
-    <figure class="cortical-brain functional-brain" data-functional-brain>
-      <div class="cortical-brain-stage connectome-stage" role="img" aria-label="{{ if $zh }}基于 Schaefer 200 脑区中心的旋转功能连接网络，连接为动态示意{{ else }}Rotating network of 200 Schaefer atlas centroids with illustrative dynamic functional connections{{ end }}">
-        <img class="cortical-brain-fallback" src="{{ "brain-connectome-fallback.svg" | relURL }}" alt="" aria-hidden="true" width="320" height="280">
-        <canvas aria-hidden="true"></canvas>
-      </div>
-      <figcaption>
-        <span class="connectome-title">{{ if $zh }}Schaefer 200 · 功能脑连接{{ else }}Schaefer 200 · functional connectivity{{ end }}</span>
-        <span class="connectome-legend" aria-label="{{ if $zh }}七个功能网络{{ else }}Seven functional networks{{ end }}">
-          <span title="Visual" style="--network-color:#9470b4">VIS</span>
-          <span title="Somatomotor" style="--network-color:#438ec2">SMN</span>
-          <span title="Dorsal attention" style="--network-color:#4caa74">DAN</span>
-          <span title="Salience / ventral attention" style="--network-color:#c56bc5">VAN</span>
-          <span title="Limbic" style="--network-color:#c8a947">LIM</span>
-          <span title="Frontoparietal control" style="--network-color:#e58d42">FPN</span>
-          <span title="Default mode" style="--network-color:#d95c6a">DMN</span>
-        </span>
-        <span>{{ if $zh }}200 个脑区 · 7 个网络 · 连接为示意{{ else }}200 regions · 7 networks · illustrative connections{{ end }}</span>
-      </figcaption>
-    </figure>
-    </aside>
 
     <link itemprop="url" href="{{ .Permalink }}">
 
@@ -156,31 +148,27 @@
 </div>
 
 <style>
-  .about-with-brain { position: relative; }
-  .brain-visuals { float: right; width: 240px; max-width: 46%; margin: 8px 0 18px 22px; }
-  .brain-visuals .cortical-brain { width: 100%; max-width: none; margin: 0; padding: 0; }
-  .brain-visuals .functional-brain { margin-top: 24px; }
-  .cortical-brain-stage { position: relative; width: 100%; aspect-ratio: 1.04; }
-  .cortical-brain canvas, .cortical-brain-fallback { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
-  .cortical-brain canvas { opacity: 0; filter: drop-shadow(0 12px 15px rgba(70,74,89,.14)); transition: opacity .5s; }
-  .cortical-brain.brain-ready canvas { opacity: 1; }
+  .brain-visuals { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: start; gap: 18px; width: 100%; max-width: 430px; margin: 20px auto 12px; }
+  .brain-visuals .cortical-brain { min-width: 0; width: 100%; margin: 0; padding: 0; }
+  .cortical-brain-stage { position: relative; width: 100%; aspect-ratio: 220 / 280; }
+  .cortical-brain canvas, .cortical-brain-fallback, .connectome-svg { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+  .cortical-brain canvas, .connectome-svg { opacity: 0; transition: opacity .4s; }
+  .cortical-brain canvas { filter: drop-shadow(0 7px 9px rgba(70,74,89,.12)); }
+  .cortical-brain.brain-ready canvas, .brain-ready .connectome-svg { opacity: 1; }
   .brain-ready .cortical-brain-fallback { display: none; }
-  .cortical-brain figcaption { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px 10px; font-size: 11px; line-height: 1.5; color: #76818e; text-align: center; }
-  body.dark .cortical-brain figcaption { color: #bcc7d5; }
-  .connectome-stage { aspect-ratio: 1.1; }
-  .functional-brain figcaption { gap: 7px; flex-direction: column; }
-  .connectome-title { font-size: 12px; color: #586a80; }
+  .cortical-brain figcaption { margin-top: 5px; color: #76818e; font-size: 10px; line-height: 1.55; text-align: center; }
+  .functional-brain figcaption > span { display: block; }
+  .connectome-title { font-size: 11px; color: #586a80; font-weight: 500; }
+  .brain-contour { stroke: #60656b; }
+  .brain-fold { stroke: #bfc3c8; }
+  .hemisphere-label { fill: #424a54; font: 12px sans-serif; }
+  body.dark .cortical-brain figcaption { color: #aab6c6; }
   body.dark .connectome-title { color: #d5dfea; }
-  .connectome-legend { display: flex; gap: 7px; flex-wrap: wrap; justify-content: center; font-size: 9px; }
-  .connectome-legend > span { display: inline-flex; align-items: center; gap: 3px; }
-  .connectome-legend > span::before { content: ""; display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--network-color); }
-  @media (min-width: 1800px) {
-    .about-with-brain { min-height: calc(min(400px, calc((100vw - 1200px) / 2 - 48px)) * 1.9 + 160px); }
-    .brain-visuals { position: absolute; top: 38px; left: calc(100% + 24px); float: none; width: min(400px, calc((100vw - 1200px) / 2 - 48px)); max-width: none; margin: 0; }
-  }
-  @media (max-width: 767px) {
-    .brain-visuals { float: none; width: 270px; max-width: 100%; margin: 12px auto 24px; }
-  }
-  @media (prefers-reduced-motion: reduce) { .cortical-brain canvas { transition: none; } }
+  body.dark .brain-contour { stroke: #b8c1cf; }
+  body.dark .brain-fold { stroke: #626c7b; }
+  body.dark .hemisphere-label { fill: #d5dfea; }
+  @media (max-width: 991px) { .brain-visuals { max-width: 400px; margin-bottom: 28px; } }
+  @media (max-width: 479px) { .brain-visuals { gap: 12px; max-width: 340px; } .cortical-brain figcaption { font-size: 9px; } }
+  @media (prefers-reduced-motion: reduce) { .cortical-brain canvas, .connectome-svg { transition: none; } }
 </style>
-<script defer src="{{ "brain-hero.js?v=schaefer200-1" | relURL }}"></script>
+<script defer src="{{ "brain-hero.js?v=profile-axial-1" | relURL }}"></script>
