@@ -4735,3 +4735,27 @@ readers do not read off random characters that represent icons */
   .resource-links__heading { font-size: 25px; }
   .resource-links__columns { grid-template-columns: 1fr; gap: 24px; }
 }
+
+
+/* A single, continuously scrolling row of the existing gallery photos. */
+#gallery { padding: 40px 0; background: #fff; }
+.photo-gallery { --gallery-height: 300px; --gallery-gap: 12px; }
+.photo-gallery__heading { margin: 0 0 22px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; font-weight: 700; line-height: 1.35; }
+.photo-gallery__viewport { overflow-x: auto; overflow-y: hidden; border-radius: 6px; background: #f4f6f9; overscroll-behavior-x: contain; scrollbar-width: none; -ms-overflow-style: none; }
+.photo-gallery__viewport::-webkit-scrollbar { display: none; }
+.photo-gallery__track { display: flex; width: max-content; }
+.photo-gallery__strip { display: flex; flex: none; align-items: center; gap: var(--gallery-gap); padding-right: var(--gallery-gap); }
+.photo-gallery__tile { display: block; flex: none; height: var(--gallery-height); overflow: hidden; background: #eef1f5; border-radius: 5px; }
+.photo-gallery__tile img { display: block; height: var(--gallery-height); width: auto; max-width: none; margin: 0; object-fit: cover; user-select: none; }
+.photo-gallery__viewport:focus-visible, .photo-gallery__tile:focus-visible { outline: 3px solid #285f9e; outline-offset: -3px; }
+.dark #gallery { background: #272935; }
+.dark .photo-gallery__heading { border-color: #8b96a6; }
+.dark .photo-gallery__viewport, .dark .photo-gallery__tile { background: #343b49; }
+@media (max-width: 767px) {
+  #gallery { padding: 36px 0; }
+  .photo-gallery { --gallery-height: 220px; --gallery-gap: 10px; }
+  .photo-gallery__heading { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .photo-gallery__strip--loop { display: none; }
+}
