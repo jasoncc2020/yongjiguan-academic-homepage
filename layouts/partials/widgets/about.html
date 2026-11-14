@@ -55,14 +55,7 @@
     <figure class="cortical-brain" data-cortical-brain
       data-model="{{ "brain-cortex.glb" | relURL }}">
       <div class="cortical-brain-stage" role="img" aria-label="{{ if $zh }}旋转的大脑与橙红色皮层激活示意{{ else }}Rotating anatomical brain with illustrative orange-red cortical activity{{ end }}">
-        <svg class="cortical-brain-fallback" viewBox="0 0 320 280" aria-hidden="true">
-          <defs><radialGradient id="cortex-silver"><stop stop-color="#e4e7eb"/><stop offset="1" stop-color="#9ba5b3"/></radialGradient></defs>
-          <path d="M159 48C126 24 85 37 73 61C37 68 24 100 31 124C14 156 37 185 60 190C74 219 111 226 144 211L158 202L175 211C207 228 240 211 251 190C287 186 302 154 287 126C299 94 276 66 250 62C230 33 193 29 170 46Z" fill="url(#cortex-silver)" stroke="#768596" stroke-width="3"/>
-          <g fill="none" stroke="#748090" stroke-width="6" stroke-linecap="round">
-            <path d="M159 53Q149 98 158 139T158 200M122 58Q85 47 83 82T58 111M136 87Q105 70 106 112T77 144M65 92Q47 128 62 143M134 127Q106 143 118 168T134 196M76 172Q94 204 111 193M192 57Q227 49 239 80T270 108M178 92Q210 72 215 107T250 139M186 128Q210 145 199 169T180 197M244 169Q225 201 210 193"/>
-          </g>
-          <g fill="none" stroke="#f47c48" stroke-width="7" stroke-linecap="round"><path d="M106 111Q112 137 88 144M215 107Q217 130 243 136M198 169Q195 184 183 194"/></g>
-        </svg>
+        {{ partial "brain-cortex-poster.html" . }}
         <canvas aria-hidden="true"></canvas>
       </div>
     </figure>
@@ -148,7 +141,8 @@
   .cortical-brain canvas, .connectome-svg { opacity: 0; transition: opacity .4s; }
   .cortical-brain canvas { filter: drop-shadow(0 7px 9px rgba(70,74,89,.12)); }
   .cortical-brain.brain-ready canvas, .brain-ready .connectome-svg { opacity: 1; }
-  .brain-ready .cortical-brain-fallback { display: none; }
+  .cortical-brain-fallback { opacity: 1; transition: opacity .4s; pointer-events: none; }
+  .brain-ready .cortical-brain-fallback { opacity: 0; }
   .brain-contour { stroke: #60656b; }
   .brain-fold { stroke: #bfc3c8; }
   .hemisphere-label { fill: #424a54; font: 12px sans-serif; }
@@ -157,6 +151,6 @@
   body.dark .hemisphere-label { fill: #d5dfea; }
   @media (max-width: 991px) { .brain-visuals { max-width: 400px; margin-bottom: 28px; } }
   @media (max-width: 479px) { .brain-visuals { gap: 12px; max-width: 340px; } }
-  @media (prefers-reduced-motion: reduce) { .cortical-brain canvas, .connectome-svg { transition: none; } }
+  @media (prefers-reduced-motion: reduce) { .cortical-brain canvas, .cortical-brain-fallback, .connectome-svg { transition: none; } }
 </style>
 <script defer src="{{ "brain-hero.js?v=profile-axial-1" | relURL }}"></script>
