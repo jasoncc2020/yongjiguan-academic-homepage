@@ -1,0 +1,50 @@
+{{ $paper := . }}
+{{ $key := lower (path.Base .File.Dir) }}
+{{ $card := index site.Data.publication_cards $key | default dict }}
+{{ $title := replaceRE "^\\([^)]*\\)\\s*" "" .Title }}
+{{ $venue := $card.venue | default .Params.publication_short | default .Params.publication }}
+{{ $year := $card.year | default (.Date.Format "2006") }}
+{{ $figure := .Resources.GetMatch "featured*" }}
+{{ with $card.figure_page }}
+  {{ with site.GetPage (index . site.Language.Lang) }}
+    {{ $figure = .Resources.GetMatch "featured*" }}
+  {{ end }}
+{{ end }}
+<article class="publication-card{{ if not $figure }} publication-card--text{{ end }}" aria-label="{{ $title }}">
+  {{ with $figure }}
+  {{ $preview := . }}
+  {{ if gt .Width 960 }}{{ $preview = .Resize "960x" }}{{ end }}
+  <a class="publication-card__figure" href="{{ $paper.RelPermalink }}" aria-label="{{ $title }}">
+    <span class="publication-card__badge">{{ $venue }} {{ $year }}</span>
+    <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
+         loading="lazy" decoding="async" alt="{{ $card.figure_alt | default $title }}">
+  </a>
+  {{ end }}
+  <div class="publication-card__body">
+    {{ if not $figure }}<span class="publication-card__badge publication-card__badge--inline">{{ $venue }} {{ $year }}</span>{{ end }}
+    <h3><a href="{{ .RelPermalink }}">{{ $title }}</a></h3>
+    {{ $authors := $card.authors | default (delimit .Params.authors ", ") }}
+    {{ $authors = $authors | htmlEscape }}
+    {{ $authors = replace $authors "Cancheng Li" "<strong>Cancheng Li</strong>" }}
+    {{ $authors = replace $authors "C. Li" "<strong>C. Li</strong>" }}
+    <p class="publication-card__authors">{{ $authors | safeHTML }}</p>
+    <div class="publication-card__meta">
+      <span><strong>{{ $venue }}</strong>, {{ $year }}.</span>
+      <div class="publication-card__links">
+        {{ with $card.links }}
+          {{ range . }}
+            {{ $href := .url }}{{ if eq $href "self" }}{{ $href = $paper.RelPermalink }}{{ end }}
+            <a href="{{ $href }}">{{ if eq site.Language.Lang "zh" }}{{ .name_zh | default .name }}{{ else }}{{ .name }}{{ end }}</a>
+          {{ end }}
+        {{ else }}
+          {{ with .Params.doi }}<a href="https://doi.org/{{ . }}">Paper</a>{{ end }}
+          {{ with .Params.url_pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+          {{ with .Params.url_code }}<a href="{{ . }}">Code</a>{{ end }}
+          {{ if and (not .Params.doi) (not .Params.url_pdf) (not .Params.url_code) }}
+          <a href="{{ .RelPermalink }}">{{ if eq site.Language.Lang "zh" }}论文详情{{ else }}Details{{ end }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</article>
