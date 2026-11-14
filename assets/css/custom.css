@@ -4677,7 +4677,7 @@ readers do not read off random characters that represent icons */
 
 
 /* Work Experience immediately follows the introduction. */
-#experience { padding: 48px 0; background: #f3f8fd; border-top: 1px solid #e2edf7; border-bottom: 1px solid #e2edf7; }
+#experience { padding: 48px 0; background: #fff; border: 0; }
 .work-heading { margin: 0 0 24px; font-size: 30px; font-weight: 700; line-height: 1.35; }
 .work-history { list-style: none; margin: 0; padding: 0; }
 .work-history__item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; padding: 25px 28px; margin: 0 0 16px; background: #fff; border: 1px solid #dce7f1; border-left: 4px solid #285f9e; border-radius: 6px; }
@@ -4699,7 +4699,7 @@ readers do not read off random characters that represent icons */
 .academic-services__group p { margin: 0 0 10px; color: #6b7280; font-size: 16px; }
 .academic-services__group ul { margin: 0; padding-left: 24px; list-style-type: square; }
 .academic-services__group li { margin: 4px 0; font-size: 16px; line-height: 1.5; }
-.dark #experience { background: #232d3b; border-color: #3d4b5f; }
+.dark #experience { background: #272935; }
 .dark .work-history__item { background: #2c3645; border-color: #455870; border-left-color: #94c9ff; }
 .dark .work-history__dates { color: #94c9ff; }
 .dark .work-history__location, .dark .academic-services__group p { color: #c4cad5; }
