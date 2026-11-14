@@ -34,7 +34,7 @@ jobs:
       - name: Build the English and Chinese website
         env:
           HUGO_ENV: production
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --gc --minify --baseURL "https://cancheng.org/"
       - name: Upload the website
         uses: actions/upload-pages-artifact@v3
         with:
