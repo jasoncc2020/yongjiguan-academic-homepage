@@ -4759,3 +4759,18 @@ readers do not read off random characters that represent icons */
 @media (prefers-reduced-motion: reduce) {
   .photo-gallery__strip--loop { display: none; }
 }
+
+
+/* Visitor map heading matches the compact, underlined Links section. */
+#visitor-map { padding: 40px 0; background: #fff; }
+#visitor-map .section-heading { margin-bottom: 22px; text-align: left !important; }
+#visitor-map .section-heading h1 { display: block; margin: 0 0 22px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; font-weight: 700; line-height: 1.35; text-transform: none; letter-spacing: normal; }
+#visitor-map .section-heading h1::before, #visitor-map .section-heading h1::after { content: none; }
+#visitor-map .section-heading p { margin: 0; color: #6b7280; font-size: 16px; line-height: 1.5; text-transform: none; }
+.dark #visitor-map { background: #272935; }
+.dark #visitor-map .section-heading h1 { border-color: #8b96a6; }
+.dark #visitor-map .section-heading p { color: #c4cad5; }
+@media (max-width: 767px) {
+  #visitor-map { padding: 36px 0; }
+  #visitor-map .section-heading h1 { font-size: 25px; }
+}
