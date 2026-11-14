@@ -1,10 +1,26 @@
-<div style="width: 100%; margin: 0 auto; text-align: center; overflow: hidden;">
-  <a href="https://info.flagcounter.com/zc84"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="View detailed visitor statistics">
-    <img src="https://s01.flagcounter.com/map/zc84/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_1/"
-         alt="World map showing visitor locations and page views"
-         style="display: inline-block; width: 100%; max-width: 600px; height: auto; border: 0;">
-  </a>
-</div>
+{{- /* Shared MapMyVisitors counter registered for https://cancheng.org/. */ -}}
+{{- $mapKey := "qT0Q-5aN21SlYyxzvgChvPG6Y4Q9msdkL9uuGVEEq5s" -}}
+{{- $statsURL := "https://mapmyvisitors.com/web/1c9h6" -}}
+{{- $zh := eq .Site.Language.Lang "zh" -}}
+<figure style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center;">
+  <div style="width: 100%; overflow: hidden;">
+    <script type="text/javascript" id="mapmyvisitors" defer
+            src="https://mapmyvisitors.com/map.js?d={{ $mapKey }}&amp;cl=ffffff&amp;w=a&amp;t=tt&amp;cmn=ff5353"></script>
+    <noscript>
+      <a href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">
+        <img src="https://mapmyvisitors.com/map.png?d={{ $mapKey }}&amp;cl=ffffff"
+             alt="{{ if $zh }}以红点标记访客大致位置的世界地图{{ else }}World map with red dots marking approximate visitor locations{{ end }}"
+             style="display: block; width: 100%; height: auto; border: 0;">
+      </a>
+    </noscript>
+  </div>
+  <figcaption style="margin-top: 12px; font-size: 0.8rem; line-height: 1.6; color: inherit;">
+    {{- if $zh -}}
+      红点表示访客的大致位置。
+      <a href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">查看各地访问人数</a>
+    {{- else -}}
+      Red dots show approximate visitor locations.
+      <a href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">View visitor counts by location</a>
+    {{- end -}}
+  </figcaption>
+</figure>
