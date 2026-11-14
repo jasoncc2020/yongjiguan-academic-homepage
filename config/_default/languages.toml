@@ -54,8 +54,3 @@
   name = "常用链接"
   url = "#links"
   weight = 80
-
-  [[zh.menu.main]]
-  name = "联系方式"
-  url = "#contact"
-  weight = 90
