@@ -42,7 +42,7 @@ education:
   courses:
   - course: 生物医学工程博士
     institution: 北京航空航天大学
-    year: 2024
+    year: 2026
 
   - course: 电子与通信工程硕士
     institution: 兰州大学
