@@ -24,38 +24,38 @@
   latitude = "36.04915"
   longitude = "103.85614"
   
+
   [[zh.menu.main]]
   name = "个人简介"
   url = "#about"
   weight = 10
 
   [[zh.menu.main]]
-  name = "发表论文"
-  url = "#publications"
+  name = "工作经验"
+  url = "#experience"
+  weight = 15
+
+  [[zh.menu.main]]
+  name = "学术动态"
+  url = "#posts"
   weight = 20
 
   [[zh.menu.main]]
-  name = "学术报告"
-  url = "#talks"
-  weight = 30
-
-  [[zh.menu.main]]
-  name = "教学课程"
-  url = "#teaching"
-  weight = 40
-
-
-  [[zh.menu.main]]
-  name = "学术新闻"
-  url = "#posts"
+  name = "发表论文"
+  url = "#publications"
   weight = 60
+
+  [[zh.menu.main]]
+  name = "学术服务"
+  url = "#Service"
+  weight = 70
 
   [[zh.menu.main]]
   name = "常用链接"
   url = "#links"
-  weight = 70
+  weight = 80
 
   [[zh.menu.main]]
   name = "联系方式"
   url = "#contact"
-  weight = 80
+  weight = 90
