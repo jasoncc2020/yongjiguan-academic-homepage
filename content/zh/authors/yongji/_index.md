@@ -101,11 +101,6 @@ user_groups:
 - Visitors
 ---
 
-李灿成现为[北京航空航天大学](https://www.buaa.edu.cn/)生物医学工程专业博士研究生，师从[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)。他还曾在[中国科学院深圳先进技术研究院](http://www.siat.ac.cn/)联合培养。
+李灿城是[北京航空航天大学](https://www.buaa.edu.cn/)博士研究生，师从[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)。研究方向包括计算神经科学、神经科学人工智能与精神障碍异质性。
 
-他的研究兴趣包括计算神经科学、面向神经科学的人工智能，以及精神障碍异质性研究。他已在期刊和国际会议上发表论文20余篇，代表性发表平台包括 *npj Digital Medicine*、*Neurocomputing*、IJCAI 和 IEEE ISBI。他曾担任 *Frontiers in Neuroscience* 和 *Frontiers in Neurology* 客座副主编，并受邀为20余本国际期刊审稿，包括 *IEEE Transactions on Affective Computing*、*IEEE Journal of Biomedical and Health Informatics*、*IEEE Transactions on Cognitive and Developmental Systems* 和 *Neurocomputing*。此外，他还曾担任 IEEE Health 2023、IEEE Health 2024 和 IEEE ISBI 2025 程序委员会委员。
-
-
-
-
-
+已发表论文20余篇，代表性成果发表于 *npj Digital Medicine*、*Neurocomputing*、IJCAI 和 IEEE ISBI。
