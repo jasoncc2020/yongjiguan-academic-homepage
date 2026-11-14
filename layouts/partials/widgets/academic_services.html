@@ -1,0 +1,15 @@
+{{ $page := .page }}
+<div class="row">
+  <div class="col-12 academic-services">
+    <h1 class="academic-services__heading">{{ $page.Title }}</h1>
+    {{ range $page.Params.service }}
+    <section class="academic-services__group">
+      <h2>{{ .title }}</h2>
+      {{ with .intro }}<p>{{ . }}</p>{{ end }}
+      <ul>
+        {{ range .entries }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </div>
+</div>

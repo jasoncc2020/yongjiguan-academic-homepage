@@ -1,0 +1,24 @@
+{{ $page := .page }}
+<div class="row">
+  <div class="col-12">
+    <h1 class="work-heading">{{ $page.Title }}</h1>
+    {{ with $page.Content }}<div>{{ . }}</div>{{ end }}
+    <ol class="work-history">
+      {{ range sort $page.Params.experience ".date_start" "desc" }}
+      <li class="work-history__item">
+        <div class="work-history__main">
+          <h2>{{ .title | markdownify | emojify }}</h2>
+          <p class="work-history__organization">{{ .company }}</p>
+          {{ with .location }}<p class="work-history__location">{{ . }}</p>{{ end }}
+          {{ with .description }}<div class="work-history__description">{{ . | markdownify }}</div>{{ end }}
+        </div>
+        <p class="work-history__dates">
+          <time datetime="{{ .date_start }}">{{ (time .date_start).Format ($page.Params.date_format | default "Jan 2006") }}</time>
+          <span aria-hidden="true">–</span>
+          {{ if .date_end }}<time datetime="{{ .date_end }}">{{ (time .date_end).Format ($page.Params.date_format | default "Jan 2006") }}</time>{{ else }}{{ i18n "present" | default "Present" }}{{ end }}
+        </p>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</div>
