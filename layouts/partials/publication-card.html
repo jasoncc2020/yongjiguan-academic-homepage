@@ -37,7 +37,14 @@
             <a href="{{ $href }}">{{ if eq site.Language.Lang "zh" }}{{ .name_zh | default .name }}{{ else }}{{ .name }}{{ end }}</a>
           {{ end }}
         {{ else }}
-          {{ with .Params.doi }}<a href="https://doi.org/{{ . }}">Paper</a>{{ end }}
+          {{ with .Params.doi }}
+          <span class="publication-card__paper">
+            <a href="https://doi.org/{{ . }}">Paper</a>
+            {{ with $paper.Params.recognition | default $card.recognition }}
+            <span class="publication-card__recognition">{{ . }}</span>
+            {{ end }}
+          </span>
+          {{ end }}
           {{ with .Params.url_pdf }}<a href="{{ . }}">PDF</a>{{ end }}
           {{ with .Params.url_code }}<a href="{{ . }}">Code</a>{{ end }}
           {{ if and (not .Params.doi) (not .Params.url_pdf) (not .Params.url_code) }}
