@@ -1,0 +1,33 @@
+{{ $page := .page }}
+{{ $resourcePage := $page }}
+{{ $albumPath := "gallery/*" }}
+{{ if eq $page.Parent.Type "widget_page" }}
+  {{ $resourcePage = $page.Parent }}
+  {{ $albumPath = printf "%s/gallery/*" (path.Base (path.Split $page.Path).Dir) }}
+{{ end }}
+{{ $photos := ($resourcePage.Resources.ByType "image").Match $albumPath }}
+{{ $zh := eq site.Language.Lang "zh" }}
+<div class="row">
+  <div class="col-12 photo-gallery" data-photo-gallery>
+    <h1 class="photo-gallery__heading">{{ $page.Title }}</h1>
+    <div class="photo-gallery__viewport" tabindex="0" role="region"
+         aria-label="{{ if $zh }}照片相册，可横向滑动，点击照片放大{{ else }}Photo gallery. Scroll horizontally or select a photo to enlarge it.{{ end }}">
+      <div class="photo-gallery__track">
+        <div class="photo-gallery__strip">
+          {{ range $index, $photo := $photos }}
+          {{ $preview := $photo }}
+          {{ if gt $photo.Height 600 }}{{ $preview = $photo.Resize "x600 q82" }}{{ end }}
+          <a class="photo-gallery__tile" href="{{ $photo.RelPermalink }}" data-fancybox="homepage-gallery"
+             aria-label="{{ if $zh }}放大照片 {{ else }}Enlarge photo {{ end }}{{ add $index 1 }}">
+            <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
+                 alt="{{ if $zh }}相册照片 {{ else }}Gallery photo {{ end }}{{ add $index 1 }}"
+                 loading="eager" decoding="async" draggable="false">
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ $script := resources.Get "js/gallery-carousel.js" | minify | fingerprint "md5" }}
+<script defer src="{{ $script.RelPermalink }}"></script>
