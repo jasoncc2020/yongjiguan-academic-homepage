@@ -4661,18 +4661,13 @@ readers do not read off random characters that represent icons */
 .news-list__item { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 20px; align-items: baseline; padding: 16px 0; border-bottom: 1px solid #e9edf2; }
 .news-list__item:last-child { border-bottom: 0; }
 .news-list time { color: #285f9e; font-size: 16px; font-weight: 700; white-space: nowrap; }
-.news-list__summary { font-size: 17px; line-height: 1.65; }
-.news-list__summary a { color: #343a40; text-decoration: none; }
-.news-list__summary a:hover { color: #285f9e; text-decoration: underline; text-underline-offset: 3px; }
-.news-more { display: inline-block; margin-top: 15px; font-size: 16px; }
+.news-list__summary { color: #343a40; font-size: 17px; line-height: 1.65; }
 .publication-card__links { align-items: flex-start; }
 .publication-card__paper { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
 .publication-card__recognition { padding: 3px 8px; border-radius: 4px; background: #fff3d8; color: #8a5100; font-size: 12px; font-weight: 700; line-height: 1.4; white-space: nowrap; }
 .dark #posts { background: #272935; }
 .dark .news-list__item { border-color: #454957; }
 .dark .news-list time { color: #94c9ff; }
-.dark .news-list__summary a { color: #e1e5ed; }
-.dark .news-list__summary a:hover { color: #94c9ff; }
 .dark .publication-card__recognition { background: #493b22; color: #ffd78b; }
 @media (max-width: 575px) {
   #posts { padding: 38px 0; }
@@ -4680,4 +4675,42 @@ readers do not read off random characters that represent icons */
   .news-list__item { grid-template-columns: 1fr; gap: 5px; padding: 14px 0; }
   .news-list time { font-size: 14px; }
   .news-list__summary { font-size: 16px; }
+}
+
+
+/* Work Experience immediately follows the introduction. */
+#experience { padding: 48px 0; background: #f3f8fd; border-top: 1px solid #e2edf7; border-bottom: 1px solid #e2edf7; }
+.work-heading { margin: 0 0 24px; font-size: 30px; font-weight: 700; line-height: 1.35; }
+.work-history { list-style: none; margin: 0; padding: 0; }
+.work-history__item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; padding: 25px 28px; margin: 0 0 16px; background: #fff; border: 1px solid #dce7f1; border-left: 4px solid #285f9e; border-radius: 6px; }
+.work-history__item:last-child { margin-bottom: 0; }
+.work-history__item h2 { margin: 0 0 8px; font-size: 22px; font-weight: 700; line-height: 1.4; }
+.work-history__organization { margin: 0 0 7px; font-size: 18px; line-height: 1.55; }
+.work-history__location { margin: 0; color: #6b7280; font-size: 15px; }
+.work-history__description:empty { display: none; }
+.work-history__dates { display: flex; gap: 7px; align-items: baseline; margin: 0; padding-top: 2px; color: #285f9e; font-size: 16px; font-weight: 600; white-space: nowrap; }
+
+/* Simple service categories and lists, following the reference layout. */
+#Service { padding: 55px 0; background: #fff; }
+.academic-services__heading { margin: 0 0 25px; padding-bottom: 12px; border-bottom: 2px solid #343a40; font-size: 28px; font-weight: 700; line-height: 1.35; }
+.academic-services__group { margin: 0 0 28px; }
+.academic-services__group:last-child { margin-bottom: 0; }
+.academic-services__group h2 { margin: 0 0 12px; font-size: 19px; line-height: 1.4; font-weight: 700; }
+.academic-services__group p { margin: 0 0 10px; color: #6b7280; font-size: 16px; }
+.academic-services__group ul { margin: 0; padding-left: 24px; list-style-type: square; }
+.academic-services__group li { margin: 5px 0; font-size: 16px; line-height: 1.55; }
+.dark #experience { background: #232d3b; border-color: #3d4b5f; }
+.dark .work-history__item { background: #2c3645; border-color: #455870; border-left-color: #94c9ff; }
+.dark .work-history__dates { color: #94c9ff; }
+.dark .work-history__location, .dark .academic-services__group p { color: #c4cad5; }
+.dark #Service { background: #272935; }
+.dark .academic-services__heading { border-color: #8b96a6; }
+.dark .news-list__summary { color: #e1e5ed; }
+@media (max-width: 767px) {
+  #experience, #Service { padding: 36px 0; }
+  .work-heading, .academic-services__heading { font-size: 25px; }
+  .work-history__item { grid-template-columns: 1fr; gap: 14px; padding: 20px; }
+  .work-history__item h2 { font-size: 20px; }
+  .work-history__organization { font-size: 17px; }
+  .work-history__dates { font-size: 15px; flex-wrap: wrap; white-space: normal; }
 }
