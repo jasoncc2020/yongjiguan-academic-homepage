@@ -18,10 +18,7 @@ ijcai-ami:
     zh: project/Project0
   figure_alt: Brain network nodes, connections and functional modules
   # The legacy entry contains an unrelated copied DOI.
-  links:
-    - name: Details
-      name_zh: 论文详情
-      url: self
+  links: []
 isbi2023:
   venue: IEEE ISBI
   year: 2023
@@ -30,20 +27,16 @@ isbi2023:
     en: project/Battery
     zh: project/Project0
   figure_alt: Brain network nodes, connections and functional modules
-  links:
-    - name: Details
-      name_zh: 论文详情
-      url: self
+  links: []
 2022-jne:
   venue: IEEE TNSRE
   year: 2021
   authors: Q. Chang, C. Li, Q. Tian, Q. Bo, J. Zhang, Y. Xiong and C. Wang
   figure_alt: Mismatch negativity brain networks and graph neural network classification
-  # Do not reuse the unrelated DOI and PDF from the legacy template.
+  # Verified against the published IEEE TNSRE article.
   links:
-    - name: Details
-      name_zh: 论文详情
-      url: self
+    - name: Paper
+      url: https://doi.org/10.1109/TNSRE.2021.3105669
 bibm2022:
   venue: Neurocomputing
   year: 2021
