@@ -13,10 +13,7 @@ ijcai-ami:
   venue: IJCAI-AMI
   year: 2023
   authors: C. Li, S. Gao and J. Zhang
-  figure_page:
-    en: project/Battery
-    zh: project/Project0
-  figure_alt: Brain network nodes, connections and functional modules
+  figure_alt: Multi-band brain functional connectivity networks and predicted versus true scores
   # The legacy entry contains an unrelated copied DOI.
   links: []
 isbi2023:
