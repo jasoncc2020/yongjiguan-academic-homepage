@@ -2,17 +2,19 @@
 {{- $mapKey := "qT0Q-5aN21SlYyxzvgChvPG6Y4Q9msdkL9uuGVEEq5s" -}}
 {{- $statsURL := "https://mapmyvisitors.com/web/1c9h6" -}}
 {{- $zh := eq .Site.Language.Lang "zh" -}}
-<figure style="width: 100%; max-width: 800px; margin: 0 auto; text-align: center;">
-  <div style="width: 100%; overflow: hidden;">
-    <script type="text/javascript" id="mapmyvisitors" defer
-            src="https://mapmyvisitors.com/map.js?d={{ $mapKey }}&amp;cl=ffffff&amp;w=a&amp;t=tt&amp;cmn=ff5353"></script>
-    <noscript>
-      <a href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">
-        <img src="https://mapmyvisitors.com/map.png?d={{ $mapKey }}&amp;cl=ffffff"
-             alt="{{ if $zh }}以红点标记访客大致位置的世界地图{{ else }}World map with red dots marking approximate visitor locations{{ end }}"
-             style="display: block; width: 100%; height: auto; border: 0;">
-      </a>
-    </noscript>
+<figure class="visitor-map-widget" data-visitor-map>
+  {{/* The official image embed both records visits and displays the map.
+       Keep it eager: counting must not depend on scrolling to the footer.
+       Do not also load map.js, which would duplicate tracking requests and
+       requires code.jquery.com before it can report a visit. */}}
+  <a class="visitor-map-image" href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">
+    <img src="https://mapmyvisitors.com/map.png?d={{ $mapKey }}&amp;cl=ffffff&amp;w=800&amp;t=tt&amp;cmn=ff5353"
+         width="800" height="404" loading="eager" decoding="async"
+         alt="{{ if $zh }}以红点标记访客大致位置的世界地图及访问总次数{{ else }}World map with red dots marking approximate visitor locations and total pageviews{{ end }}">
+  </a>
+  <div class="visitor-map-unavailable" role="status" hidden>
+    <p>{{ if $zh }}当前网络暂时无法加载访客地图，本次访问可能未被统计。{{ else }}The visitor map is unavailable on this connection. This visit may not have been recorded.{{ end }}</p>
+    <button type="button">{{ if $zh }}重新加载地图{{ else }}Retry map{{ end }}</button>
   </div>
   <figcaption style="margin-top: 12px; font-size: 0.8rem; line-height: 1.6; color: inherit;">
     {{- if $zh -}}
@@ -24,3 +26,53 @@
     {{- end -}}
   </figcaption>
 </figure>
+<style>
+  .visitor-map-widget { width: 100%; max-width: 800px; margin: 0 auto; text-align: center; }
+  .visitor-map-image, .visitor-map-image img { display: block; width: 100%; height: auto; border: 0; }
+  .visitor-map-widget [hidden] { display: none !important; }
+  .visitor-map-unavailable { padding: 28px 20px; border: 1px solid #dce3eb; border-radius: 6px; background: #f6f8fb; font-size: 15px; line-height: 1.6; }
+  .visitor-map-unavailable p { margin: 0 0 12px; }
+  .visitor-map-unavailable button { padding: 6px 14px; border: 1px solid #2b65a0; border-radius: 4px; background: transparent; color: #2b65a0; font: inherit; cursor: pointer; }
+  .dark .visitor-map-unavailable { border-color: #596373; background: #303744; }
+  .dark .visitor-map-unavailable button { border-color: #8dc0f2; color: #8dc0f2; }
+</style>
+<script>
+(function () {
+  var root = document.querySelector('[data-visitor-map]');
+  if (!root) return;
+  var image = root.querySelector('img');
+  var link = root.querySelector('.visitor-map-image');
+  var notice = root.querySelector('.visitor-map-unavailable');
+  var retry = notice.querySelector('button');
+  var source = image.getAttribute('src');
+  var timer;
+  function loaded() {
+    clearTimeout(timer);
+    link.hidden = false;
+    notice.hidden = true;
+  }
+  function failed() {
+    clearTimeout(timer);
+    link.hidden = true;
+    notice.hidden = false;
+  }
+  function waitForImage() {
+    clearTimeout(timer);
+    timer = setTimeout(failed, 15000);
+  }
+  image.addEventListener('load', loaded);
+  image.addEventListener('error', failed);
+  retry.addEventListener('click', function () {
+    link.hidden = false;
+    notice.hidden = true;
+    waitForImage();
+    image.src = source + '&retry=' + Date.now();
+  });
+  if (image.complete) {
+    if (image.naturalWidth > 0) loaded();
+    else failed();
+  } else {
+    waitForImage();
+  }
+})();
+</script>
