@@ -1,16 +1,17 @@
-{{- /* Shared MapMyVisitors counter registered for https://cancheng.org/. */ -}}
-{{- $mapKey := "qT0Q-5aN21SlYyxzvgChvPG6Y4Q9msdkL9uuGVEEq5s" -}}
-{{- $statsURL := "https://mapmyvisitors.com/web/1c9h6" -}}
+{{- /* Shared Stats4U counter for both languages. Mainland probes use a
+      separate diagnostic counter (7074157839), never this production ID. */ -}}
+{{- $counterID := "33322717" -}}
+{{- $statsURL := printf "https://www.stats4u.net/live/%s" $counterID -}}
+{{- $legacyStatsURL := "https://mapmyvisitors.com/web/1c9h6" -}}
 {{- $zh := eq .Site.Language.Lang "zh" -}}
 <figure class="visitor-map-widget" data-visitor-map>
-  {{/* The official image embed both records visits and displays the map.
+  {{/* The official Stats4U image embed records visits and displays city dots.
        Keep it eager: counting must not depend on scrolling to the footer.
-       Do not also load map.js, which would duplicate tracking requests and
-       requires code.jquery.com before it can report a visit. */}}
+       Only one counter request per page; no external script or map tiles. */}}
   <a class="visitor-map-image" href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">
-    <img src="https://mapmyvisitors.com/map.png?d={{ $mapKey }}&amp;cl=ffffff&amp;w=800&amp;t=tt&amp;cmn=ff5353"
-         width="800" height="404" loading="eager" decoding="async"
-         alt="{{ if $zh }}以红点标记访客大致位置的世界地图及访问总次数{{ else }}World map with red dots marking approximate visitor locations and total pageviews{{ end }}">
+    <img src="https://www.stats4u.net/c/{{ $counterID }}-map_w.png?pal=rose&amp;bg=none&amp;zahlen=0&amp;orte=1"
+         width="900" height="543" loading="eager" decoding="async"
+         alt="{{ if $zh }}以红点标记访客所在城市大致位置的世界地图{{ else }}World map with red dots marking approximate visitor cities{{ end }}">
   </a>
   <div class="visitor-map-unavailable" role="status" hidden>
     <p>{{ if $zh }}当前网络暂时无法加载访客地图，本次访问可能未被统计。{{ else }}The visitor map is unavailable on this connection. This visit may not have been recorded.{{ end }}</p>
@@ -20,9 +21,11 @@
     {{- if $zh -}}
       红点表示访客的大致位置。
       <a href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">查看各地访问人数</a>
+      · <a href="{{ $legacyStatsURL }}" target="_blank" rel="noopener noreferrer">旧版统计记录</a>
     {{- else -}}
       Red dots show approximate visitor locations.
       <a href="{{ $statsURL }}" target="_blank" rel="noopener noreferrer">View visitor counts by location</a>
+      · <a href="{{ $legacyStatsURL }}" target="_blank" rel="noopener noreferrer">Previous statistics</a>
     {{- end -}}
   </figcaption>
 </figure>
