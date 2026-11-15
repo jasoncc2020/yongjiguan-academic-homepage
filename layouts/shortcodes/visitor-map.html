@@ -1,6 +1,6 @@
 {{- $zh := eq .Site.Language.Lang "zh" -}}
 <figure class="visitor-map-widget" data-visitor-map data-lang="{{ if $zh }}zh{{ else }}en{{ end }}">
-  <div class="visitor-map-summary" role="status">{{ if $zh }}正在读取访客记录…{{ else }}Loading visitor records…{{ end }}</div>
+  <span class="visitor-map-summary" role="status">{{ if $zh }}正在读取访客人数…{{ else }}Loading visitor count…{{ end }}</span>
   <svg class="visitor-map-svg" viewBox="-30 -20 1060 455" role="img" aria-label="{{ if $zh }}每个独立 IP 对应一个红点的访客地图{{ else }}Visitor map with one red dot per distinct IP address{{ end }}">
     <g class="visitor-map-land" aria-hidden="true"><path d="M1000.0,280.7L1000.0,282.1L998.2,282.8L996.5,283.4L996.1,282.3L997.5,281.8L998.4,281.6L1000.0,280.7ZM994.8,284.7L995.5,284.3L996.4,285.1L996.0,286.5L994.3,286.9L992.7,286.6L992.5,285.3L993.5,284.4L994.8,284.7ZM0.6,280.6L0.2,281.9L0.0,282.1L0.0,280.7L0.6,280.6Z"/>
 <path d="M594.2,238.8L594.6,239.1L604.7,244.7L604.9,246.3L608.9,249.1L607.6,252.5L607.8,254.1L609.6,255.1L609.6,255.8L608.9,257.5L609.0,258.4L608.9,259.7L609.8,261.4L611.0,264.2L612.0,264.8L612.0,264.8L609.8,266.4L606.7,267.5L605.1,267.4L604.1,268.2L602.2,268.3L601.4,268.7L598.1,267.9L596.0,268.1L595.2,264.3L594.3,263.0L593.7,262.3L591.0,261.8L589.4,260.9L587.7,260.5L586.5,260.0L585.4,259.3L585.4,259.3L583.9,255.8L582.3,254.2L581.7,252.6L582.0,251.2L581.5,248.6L582.6,248.5L583.7,247.5L584.7,246.0L585.4,245.4L585.4,244.5L584.8,243.9L584.6,242.8L584.6,242.8L585.4,242.5L585.6,240.8L584.5,239.3L585.5,238.9L588.5,239.0L594.2,238.8Z"/>
@@ -182,33 +182,29 @@
   </svg>
   <div class="visitor-map-unlocated" hidden></div>
   <button class="visitor-map-retry" type="button" hidden>{{ if $zh }}重试{{ else }}Retry{{ end }}</button>
-  <figcaption>
-    <span class="visitor-map-key" aria-hidden="true"></span>
-    {{ if $zh }}每个红点代表一个独立 IP；同城红点错开显示，不代表精确位置。{{ else }}One dot per distinct IP. Same-city dots are offset, not precise locations.{{ end }}
-    <span class="visitor-map-links"><a href="https://www.stats4u.net/live/33322717" target="_blank" rel="noopener noreferrer">{{ if $zh }}历史统计{{ else }}Previous statistics{{ end }}</a> · <a href="https://visitors-api.cancheng.org/" target="_blank" rel="noopener noreferrer">{{ if $zh }}统计说明{{ else }}About this map{{ end }}</a></span>
-  </figcaption>
 </figure>
 <style>
 .visitor-map-widget{width:100%;max-width:900px;margin:0 auto;text-align:center}
-.visitor-map-summary{margin:16px 0 10px;font-size:15px;color:#65717c;min-height:24px}
+.visitor-map-summary{display:block;margin:16px 0 10px;font-size:15px;color:#65717c;min-height:24px}
+.visitor-map-subtitle{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 20px}
+.visitor-map-subtitle .visitor-map-summary{margin:0;font-size:inherit;font-weight:600}
 .visitor-map-svg{display:block;width:100%;height:auto;overflow:visible}
 .visitor-map-land{fill:#e7ebee;stroke:#fff;stroke-width:0.8;stroke-linejoin:round}
 .visitor-map-dot{fill:#df343c;stroke:#fff;stroke-width:.8}
-.visitor-map-widget figcaption{font-size:13px;line-height:1.8;margin-top:16px;color:#68737d}
-.visitor-map-key{display:inline-block;width:7px;height:7px;margin-right:5px;border-radius:50%;background:#df343c;vertical-align:1px}
-.visitor-map-links{display:block;margin-top:4px}
 .visitor-map-retry{border:1px solid #a3b3c2;padding:4px 14px;border-radius:4px;background:transparent;color:inherit;font:inherit;font-size:13px}
 .visitor-map-widget [hidden]{display:none!important}
 .visitor-map-unlocated{font-size:13px;color:#68737d;text-align:left;margin:0 15px;padding:12px;border-top:1px solid #e7ebee}
 .visitor-map-unlocated i{display:inline-block;width:6px;height:6px;border-radius:50%;background:#df343c;margin:4px}
-.dark .visitor-map-land{fill:#46515b;stroke:#303943}.dark .visitor-map-summary,.dark .visitor-map-widget figcaption,.dark .visitor-map-unlocated{color:#bbc6cf}
-@media(max-width:600px){.visitor-map-widget figcaption{font-size:12px}.visitor-map-summary{font-size:13px}.visitor-map-dot{r:4}}
+.dark .visitor-map-land{fill:#46515b;stroke:#303943}.dark .visitor-map-summary,.dark .visitor-map-unlocated{color:#bbc6cf}
+@media(max-width:600px){.visitor-map-dot{r:4}}
 </style>
 <script>
 (function(){
 'use strict';
 var root=document.querySelector('[data-visitor-map]');if(!root)return;
 var zh=root.getAttribute('data-lang')==='zh',layer=root.querySelector('.visitor-map-dots'),summary=root.querySelector('.visitor-map-summary'),retry=root.querySelector('.visitor-map-retry'),unlocated=root.querySelector('.visitor-map-unlocated');
+var section=root.closest('section'),subtitle=section&&section.querySelector('.section-heading p');
+if(subtitle){subtitle.classList.add('visitor-map-subtitle');subtitle.appendChild(summary);}
 var base='https://visitors-api.cancheng.org/v1/',NS='http://www.w3.org/2000/svg',started=false,busy=false;
 function arrange(groups){
  var grid=Object.create(null),dots=[],step=10;
@@ -228,7 +224,7 @@ function render(data){
  layer.replaceChildren(fragment);
  var missing=data.total-dots.length;unlocated.replaceChildren();unlocated.hidden=!missing;
  if(missing){var text=document.createElement('div');text.textContent=zh?'位置暂不可用：'+missing+' 个独立 IP':'Location unavailable: '+missing+' distinct IP'+(missing===1?'':'s');unlocated.appendChild(text);for(var n=0;n<missing;n++){var point=document.createElement('i');point.setAttribute('aria-hidden','true');unlocated.appendChild(point);}}
- summary.textContent=zh?'已记录 '+data.total+' 个独立 IP':'Recorded '+data.total+' distinct IP'+(data.total===1?'':'s');retry.hidden=true;
+ summary.textContent=zh?'访客人数：'+data.total:'Visitors: '+data.total;retry.hidden=true;
 }
 async function refresh(record){if(busy)return;busy=true;var controller=new AbortController(),timer=setTimeout(function(){controller.abort();},12000);
  try{var response=await fetch(base+(record?'visit':'map'),{method:record?'POST':'GET',mode:'cors',credentials:'omit',cache:'no-store',signal:controller.signal});if(!response.ok)throw new Error('Unavailable');var data=await response.json();render(data);started=true;
