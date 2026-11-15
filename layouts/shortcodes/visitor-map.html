@@ -185,7 +185,7 @@
   <figcaption>
     <span class="visitor-map-key" aria-hidden="true"></span>
     {{ if $zh }}每个红点代表一个独立 IP；同城红点错开显示，不代表精确位置。{{ else }}One dot per distinct IP. Same-city dots are offset, not precise locations.{{ end }}
-    <span class="visitor-map-links"><a href="https://www.stats4u.net/live/33322717" target="_blank" rel="noopener noreferrer">{{ if $zh }}历史统计{{ else }}Previous statistics{{ end }}</a> · <a href="https://visitors.cancheng.org/" target="_blank" rel="noopener noreferrer">{{ if $zh }}统计说明{{ else }}About this map{{ end }}</a></span>
+    <span class="visitor-map-links"><a href="https://www.stats4u.net/live/33322717" target="_blank" rel="noopener noreferrer">{{ if $zh }}历史统计{{ else }}Previous statistics{{ end }}</a> · <a href="https://visitors-api.cancheng.org/" target="_blank" rel="noopener noreferrer">{{ if $zh }}统计说明{{ else }}About this map{{ end }}</a></span>
   </figcaption>
 </figure>
 <style>
@@ -209,7 +209,7 @@
 'use strict';
 var root=document.querySelector('[data-visitor-map]');if(!root)return;
 var zh=root.getAttribute('data-lang')==='zh',layer=root.querySelector('.visitor-map-dots'),summary=root.querySelector('.visitor-map-summary'),retry=root.querySelector('.visitor-map-retry'),unlocated=root.querySelector('.visitor-map-unlocated');
-var base='https://visitors.cancheng.org/v1/',NS='http://www.w3.org/2000/svg',started=false,busy=false;
+var base='https://visitors-api.cancheng.org/v1/',NS='http://www.w3.org/2000/svg',started=false,busy=false;
 function arrange(groups){
  var grid=Object.create(null),dots=[],step=10;
  function available(x,y){var gx=Math.floor(x/step),gy=Math.floor(y/step);for(var dx=-1;dx<=1;dx++)for(var dy=-1;dy<=1;dy++){var cell=grid[(gx+dx)+','+(gy+dy)]||[];for(var k=0;k<cell.length;k++)if(Math.hypot(x-cell[k][0],y-cell[k][1])<9)return false;}return true;}
@@ -232,10 +232,6 @@ function render(data){
 }
 async function refresh(record){if(busy)return;busy=true;var controller=new AbortController(),timer=setTimeout(function(){controller.abort();},12000);
  try{var response=await fetch(base+(record?'visit':'map'),{method:record?'POST':'GET',mode:'cors',credentials:'omit',cache:'no-store',signal:controller.signal});if(!response.ok)throw new Error('Unavailable');var data=await response.json();render(data);started=true;
- if(record&&data.needsLocation){try{var geo;
- try{var geoResponse=await fetch('https://ipwho.is/?fields=success,ip,country_code,city,latitude,longitude',{mode:'cors',credentials:'omit',signal:controller.signal});if(!geoResponse.ok)throw new Error('Location unavailable');geo=await geoResponse.json();if(!geo.success)throw new Error('Location unavailable');}
- catch(primaryLocationError){var fallback=await fetch('https://api.ipapi.is/',{mode:'cors',credentials:'omit',signal:controller.signal});if(!fallback.ok)throw new Error('Location unavailable');var raw=await fallback.json();if(raw.error||!raw.ip||raw.lat===null||raw.lon===null)throw new Error('Location unavailable');geo={ip:raw.ip,latitude:raw.lat,longitude:raw.lon,city:raw.city,country_code:''};}
-var updated=await fetch(base+'visit',{method:'POST',mode:'cors',credentials:'omit',cache:'no-store',headers:{'Content-Type':'application/json'},body:JSON.stringify(geo),signal:controller.signal});if(!updated.ok)throw new Error('Location unavailable');render(await updated.json());}catch(locationError){retry.hidden=false;}}
 }
  catch(error){summary.textContent=zh?'暂时无法读取访客记录，请稍后重试。':'Visitor records are temporarily unavailable. Please retry.';retry.hidden=false;}
  finally{clearTimeout(timer);busy=false;}
