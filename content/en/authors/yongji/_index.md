@@ -103,6 +103,6 @@ user_groups:
 - Visitors
 ---
 
-Cancheng Li is a Ph.D. candidate at [Beihang University](https://www.buaa.edu.cn/), supervised by [Professor Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm) (a recipient of China's National Young Talent Program). He received his M.Eng. from Lanzhou University under the supervision of [Professor Bin Hu](https://grd.bitzh.edu.cn/dsgl/dsfc/jsjkxyjs/41522ba6c79043a6a25a21553fe6930e.htm) (IEEE Fellow, Editor-in-Chief of [IEEE TCSS](https://www.ieeesmc.org/publications/transactions-on-computational-social-systems/), and a nationally distinguished expert in China) and [Professor Hong Peng](https://uais.lzu.edu.cn/?p=902).
+Cancheng Li received his Ph.D. in Biomedical Engineering from [Beihang University](https://www.buaa.edu.cn/) under the supervision of [Professor Jicong Zhang](http://shi.buaa.edu.cn/zhangjicong/en/index.htm) (a recipient of China's National Young Talent Program). He received his M.Eng. from Lanzhou University under the supervision of [Professor Bin Hu](https://grd.bitzh.edu.cn/dsgl/dsfc/jsjkxyjs/41522ba6c79043a6a25a21553fe6930e.htm) (IEEE Fellow, Editor-in-Chief of [IEEE TCSS](https://www.ieeesmc.org/publications/transactions-on-computational-social-systems/), and a nationally distinguished expert in China) and [Professor Hong Peng](https://uais.lzu.edu.cn/?p=902).
 
 His research focuses on computational neuroscience, AI for neuroscience, and heterogeneity in mental disorders. He has published over 20 papers, including in *npj Digital Medicine*, *Neurocomputing*, IJCAI, and IEEE ISBI.
