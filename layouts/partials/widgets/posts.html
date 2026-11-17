@@ -74,7 +74,7 @@
     <ol class="news-list">
       {{ range $query }}
       <li class="news-list__item">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ if eq site.Language.Lang "zh" }}{{ .Date.Format "2006年1月" }}{{ else }}{{ .Date.Format "Jan 2006" }}{{ end }}</time>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ with .Params.news_date }}{{ . }}{{ else }}{{ if eq site.Language.Lang "zh" }}{{ .Date.Format "2006年1月" }}{{ else }}{{ .Date.Format "Jan 2006" }}{{ end }}{{ end }}</time>
         <div class="news-list__summary">
           <span>{{ .Params.news_summary | default .Title | emojify | markdownify | plainify }}</span>
         </div>
