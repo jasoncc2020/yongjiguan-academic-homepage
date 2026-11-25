@@ -9,11 +9,6 @@ avatar_image: "/hero/GYJ-full-2.jpg"
 authors:
 - Cancheng
 
-# Resume download button
-btn:
-- url: "files/cv.pdf"
-  label: "Download CV"
-
 # Is this the primary user of the site?
 superuser: true
 
