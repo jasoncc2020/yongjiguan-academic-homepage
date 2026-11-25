@@ -101,6 +101,6 @@ user_groups:
 - Visitors
 ---
 
-李灿城是[北京航空航天大学](https://www.buaa.edu.cn/)博士，师从[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)（国家级青年人才）。硕士毕业于兰州大学，师从[胡斌教授](https://grd.bitzh.edu.cn/dsgl/dsfc/jsjkxyjs/41522ba6c79043a6a25a21553fe6930e.htm)（IEEE Fellow、[IEEE TCSS](https://www.ieeesmc.org/publications/transactions-on-computational-social-systems/) 主编、国家特聘专家）和[彭宏教授](https://uais.lzu.edu.cn/?p=902)。
+李灿城是[北京航空航天大学](https://www.buaa.edu.cn/)博士，师从[张冀聪教授](http://shi.buaa.edu.cn/zhangjicong/en/index.htm)（国家级青年人才）。硕士毕业于兰州大学，师从[胡斌教授](https://grd.bitzh.edu.cn/dsgl/dsfc/jsjkxyjs/41522ba6c79043a6a25a21553fe6930e.htm)（IEEE Fellow）和[彭宏教授](https://uais.lzu.edu.cn/?p=902)。
 
 研究方向包括计算神经科学、神经科学人工智能与精神障碍异质性。已发表论文20余篇，代表性成果发表于 *npj Digital Medicine*、*Neurocomputing*、IJCAI 和 IEEE ISBI。
