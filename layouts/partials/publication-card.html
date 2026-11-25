@@ -4,7 +4,14 @@
 {{ $title := replaceRE "^\\([^)]*\\)\\s*" "" .Title }}
 {{ $venue := $card.venue | default .Params.publication_short | default .Params.publication }}
 {{ $year := $card.year | default (.Date.Format "2006") }}
+{{ $preparing := eq .Params.submission_status "in_preparation" }}
+{{ $badge := printf "%s %s" $venue (string $year) }}
+{{ if $preparing }}
+  {{ $badge = "In preparation" }}
+  {{ if eq site.Language.Lang "zh" }}{{ $badge = "准备投稿" }}{{ end }}
+{{ end }}
 {{ $figure := .Resources.GetMatch "featured*" }}
+{{ with .Params.figure_asset }}{{ $figure = resources.Get . }}{{ end }}
 {{ with $card.figure_page }}
   {{ with site.GetPage (index . site.Language.Lang) }}
     {{ $figure = .Resources.GetMatch "featured*" }}
@@ -15,13 +22,13 @@
   {{ $preview := . }}
   {{ if gt .Width 960 }}{{ $preview = .Resize "960x" }}{{ end }}
   <div class="publication-card__figure">
-    <span class="publication-card__badge">{{ $venue }} {{ $year }}</span>
+    <span class="publication-card__badge">{{ $badge }}</span>
     <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
-         loading="lazy" decoding="async" alt="{{ $card.figure_alt | default $title }}">
+         loading="lazy" decoding="async" alt="{{ $paper.Params.figure_alt | default $card.figure_alt | default $title }}">
   </div>
   {{ end }}
   <div class="publication-card__body">
-    {{ if not $figure }}<span class="publication-card__badge publication-card__badge--inline">{{ $venue }} {{ $year }}</span>{{ end }}
+    {{ if not $figure }}<span class="publication-card__badge publication-card__badge--inline">{{ $badge }}</span>{{ end }}
     <h3>{{ $title }}</h3>
     {{ $authors := $card.authors | default (delimit .Params.authors ", ") }}
     {{ $authors = $authors | htmlEscape }}
@@ -29,7 +36,11 @@
     {{ $authors = replace $authors "C. Li" "<strong>C. Li</strong>" }}
     <p class="publication-card__authors">{{ $authors | safeHTML }}</p>
     <div class="publication-card__meta">
+      {{ if $preparing }}
+      <span>{{ if eq site.Language.Lang "zh" }}准备投稿至{{ else }}In preparation for submission to{{ end }} <strong>{{ $venue }}</strong>.</span>
+      {{ else }}
       <span><strong>{{ $venue }}</strong>, {{ $year }}.</span>
+      {{ end }}
       <div class="publication-card__links">
         {{ if isset $card "links" }}
           {{ range $card.links }}
