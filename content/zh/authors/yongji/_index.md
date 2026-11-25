@@ -9,11 +9,6 @@ avatar_image: "/hero/GYJ-full-2.jpg"
 authors:
 - Cancheng
 
-# 简历下载按钮
-btn:
-- url: "files/cv.pdf"
-  label: "下载个人简历"
-
 # 是否为网站主要用户
 superuser: true
 
